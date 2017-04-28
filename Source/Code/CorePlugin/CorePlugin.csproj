@@ -69,7 +69,7 @@
     <Compile Include="Engine\Projectiles\Bullet.cs" />
     <Compile Include="Engine\Projectiles\Missile.cs" />
     <Compile Include="Engine\Projectiles\Rocket.cs" />
-    <Compile Include="Engine\SpriteAtlas.cs" />
+    <Compile Include="Engine\Sprite.cs" />
     <Compile Include="Engine\AdvSpriteRenderer.cs" />
     <Compile Include="Ships\Hull.cs" />
     <Compile Include="Ships\Module.cs" />

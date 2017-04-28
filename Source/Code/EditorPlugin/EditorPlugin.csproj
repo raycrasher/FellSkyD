@@ -67,7 +67,6 @@
     <Compile Include="AtlasLoader.cs" />
     <Compile Include="EditorPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShipEditor.cs" />
     <Compile Include="ShipLoader.cs" />
   </ItemGroup>
   <ItemGroup>

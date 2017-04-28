@@ -312,7 +312,7 @@
             </_x003C_Color_x003E_k__BackingField>
             <_x003C_FlipMode_x003E_k__BackingField dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
             <_x003C_Material_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-              <contentPath dataType="String">Data\Ships\shipsprites.Material.res</contentPath>
+              <contentPath dataType="String">Data\Ships\shipsprites\shipsprites.Material.res</contentPath>
             </_x003C_Material_x003E_k__BackingField>
             <_x003C_Pivot_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
             <_x003C_UVRect_x003E_k__BackingField dataType="Struct" type="Duality.Rect">
