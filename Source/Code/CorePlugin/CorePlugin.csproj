@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>$(SolutionDir)..\..\DualityLauncher.exe</StartProgram>
@@ -21,9 +21,9 @@
     <RootNamespace>FellSky</RootNamespace>
     <AssemblyName>GamePlugin.core</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,34 +55,51 @@
     <Reference Include="DualityPrimitives">
       <HintPath>..\..\..\DualityPrimitives.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Steer2d">
+      <HintPath>Dependencies\Steer2d.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ai\ShipAi.cs" />
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Engine\Background.cs" />
+    <Compile Include="Engine\CameraZoom.cs" />
+    <Compile Include="Engine\Enums.cs" />
     <Compile Include="Engine\Health.cs" />
+    <Compile Include="Gui\HudController.cs" />
+    <Compile Include="Gui\InventoryListController.cs" />
+    <Compile Include="Gui\RefitWindowController.cs" />
     <Compile Include="Engine\ParticleEffect.cs" />
     <Compile Include="Engine\ParticleEmitter.cs" />
     <Compile Include="Engine\Projectiles\Beam.cs" />
     <Compile Include="Engine\Projectiles\Bullet.cs" />
+    <Compile Include="Engine\FollowBehavior.cs" />
     <Compile Include="Engine\Projectiles\Missile.cs" />
     <Compile Include="Engine\Projectiles\Rocket.cs" />
     <Compile Include="Engine\Sprite.cs" />
     <Compile Include="Engine\AdvSpriteRenderer.cs" />
+    <Compile Include="Ships\Hardpoint.cs" />
     <Compile Include="Ships\Hull.cs" />
     <Compile Include="Ships\Module.cs" />
+    <Compile Include="Engine\PlayerShipController.cs" />
     <Compile Include="Ships\Ship.cs" />
     <Compile Include="Ships\ShipWeapon.cs" />
     <Compile Include="Ships\Thruster.cs" />
+    <Compile Include="Utilities.cs" />
     <Compile Include="YourCustomComponentType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "$(SolutionDir)../../Plugins"
 copy "$(TargetPath)" "$(SolutionDir)../../Plugins"

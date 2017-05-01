@@ -16,10 +16,12 @@ namespace FellSky.Ships
         None=0, Base=1, Trim=2
     }
 
+    [Duality.Editor.EditorHintCategory("Ship")]
     public class Hull : Component
     {
         public string SpriteId { get; set; }
         public HullColorType ColorType { get; set; }
+        public ColorRgba Color { get; set; }
 
         public void OnCollision(Component sender, RigidBodyCollisionEventArgs rgc)
         {

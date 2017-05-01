@@ -11,6 +11,7 @@ using Duality.Components.Renderers;
 
 namespace FellSky.Engine
 {
+    [Duality.Editor.EditorHintCategory("Graphics")]
     [RequiredComponent(typeof(Transform))]
     public class AdvSpriteRenderer : Renderer
     {
@@ -22,6 +23,7 @@ namespace FellSky.Engine
         public SpriteRenderer.FlipMode FlipMode { get; set; }
         public float VertexZOffset { get; set; }
         public bool AlignToPixelGrid { get; set; }
+        public Vector2 Scale { get; set; } = Vector2.One;
 
         [DontSerialize]
         //private VertexC1P3T4A1[] vertices = new VertexC1P3T4A1[4];
@@ -31,9 +33,9 @@ namespace FellSky.Engine
 
         private Rect GetTargetRect()
         {
-            var center = -UVRect.Size / 2 + Pivot;
+            var center = -(UVRect.Size * Scale) / 2 + Pivot * Scale;
 
-            var destRect = new Rect(center.X, center.Y, UVRect.W, UVRect.H);
+            var destRect = new Rect(center.X, center.Y, UVRect.W * Scale.X, UVRect.H * Scale.Y);
             return destRect.Transformed(this.GameObj.Transform.Scale, this.GameObj.Transform.Scale);
         }
 

@@ -4,6 +4,7 @@ using Duality.Components.Physics;
 using Duality.Components.Renderers;
 using Duality.Drawing;
 using Duality.Editor;
+using Duality.Resources;
 using FellSky.Engine;
 using FellSky.Ships;
 using System;
@@ -32,6 +33,11 @@ namespace FellSky.Editor
                 var ship = obj.AddComponent<Ship>();
                 var rigidbody = obj.AddComponent<RigidBody>();
                 var name = Path.GetFileNameWithoutExtension(dialog.FileName);
+                rigidbody.IgnoreGravity = true;
+                rigidbody.LinearDamping = 0.9f;
+                rigidbody.AngularDamping = 0.9f;
+
+                float zIndex = 10;
                 using(var stream = new StreamReader(dialog.FileName))
                 {
                     stream.ReadLine(); // header
@@ -48,17 +54,55 @@ namespace FellSky.Editor
                                     new Vector2(float.Parse(items[2]), float.Parse(items[3])),  // position
                                     float.Parse(items[4]),                                       // rot
                                     new Vector2(float.Parse(items[5]), float.Parse(items[6])),  // scale
-                                    new ColorRgba(byte.Parse(items[7]), byte.Parse(items[8]), byte.Parse(items[9]), byte.Parse(items[10])),   // color
-                                    int.Parse(items[11]) // color type
+                                    new ColorRgba(byte.Parse(items[7]), byte.Parse(items[8]), byte.Parse(items[9]), 255),   // color
+                                    int.Parse(items[11]), // color type
+                                    zIndex
+                                    );
+                                break;
+                            case "Thruster":
+                                part = CreateThruster(
+                                    obj,
+                                    items[1],
+                                    new Vector2(float.Parse(items[2]), float.Parse(items[3])),
+                                    float.Parse(items[4]),
+                                    new Vector2(float.Parse(items[5]), float.Parse(items[6])),
+                                    new ColorRgba(byte.Parse(items[7]), byte.Parse(items[8]), byte.Parse(items[9]), 255),
+                                    bool.Parse(items[11]),
+                                    zIndex
                                     );
                                 break;
                         }
+                        zIndex -= 0.01f;
                     }
                 }
             }
         }
 
-        private GameObject CreateHull(GameObject parent, string spriteId, Vector2 position, float rotation, Vector2 scale, ColorRgba color, int type)
+        private GameObject CreateThruster(GameObject parent, string id, Vector2 position, float rotation, Vector2 scale, ColorRgba color, bool shutdownOnIdle, float zIndex)
+        {
+            scale.X = Math.Abs(scale.X);
+            scale.Y = Math.Abs(scale.Y);
+
+            var prefab = ContentProvider.RequestContent<Prefab>($@"Data\Ships\fx\{id}.Prefab.res");
+            if (prefab == null)
+                return null;
+            var obj = prefab.Res.Instantiate(new Vector3(position, 0), rotation);
+            obj.Parent = parent;
+            var renderer = obj.GetComponent<AdvSpriteRenderer>();
+            renderer.Color = color;
+            
+            var thruster = obj.GetComponent<Thruster>();
+            thruster.ScaleIdle = shutdownOnIdle ? scale * new Vector2(0.5f, 0.9f) : scale * new Vector2(0, 0.8f);
+            thruster.ScaleThrust = scale;
+            thruster.ScaleBoost = scale * new Vector2(2, 1.4f);
+            thruster.Thrust = 100;
+            renderer.Scale = thruster.ScaleThrust;
+            renderer.VertexZOffset = zIndex;
+            obj.BreakPrefabLink();
+            return obj;
+        }
+
+        private GameObject CreateHull(GameObject parent, string spriteId, Vector2 position, float rotation, Vector2 scale, ColorRgba color, int colortype, float zIndex)
         {
             var obj = new GameObject();
             obj.Name = spriteId;
@@ -69,7 +113,20 @@ namespace FellSky.Editor
             var renderer = obj.AddComponent<AdvSpriteRenderer>();
             var rb = parent.GetComponent<RigidBody>();
             var hull = obj.AddComponent<Hull>();
+            hull.Color = color;
+            switch (colortype){
+                case 0:
+                    hull.ColorType = HullColorType.None;
+                    break;
+                case 1:
+                    hull.ColorType = HullColorType.Base;
+                    break;
+                case 2:
+                    hull.ColorType = HullColorType.Trim;
+                    break;
+            }
             var sprite = ContentProvider.RequestContent<Sprite>($@"Data\Ships\shipsprites\{spriteId}.sprite.res");
+            renderer.VertexZOffset = zIndex;
 
             if (sprite.IsAvailable)
             {
@@ -120,7 +177,7 @@ namespace FellSky.Editor
             shape.Friction = circle.Friction;
             shape.IsSensor = circle.IsSensor;
             shape.Position = tmpPos;
-            shape.Radius = circle.Radius * xform.Scale;
+            shape.Radius = circle.Radius * xform.Scale * PhysicsUnit.LengthToDuality;
             
             return shape;
         }

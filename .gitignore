@@ -2,7 +2,7 @@ Backup/
 Source/Code/.vs/
 Source/Code/CorePlugin/bin
 Source/Code/CorePlugin/obj
-Source/Code/EditorPlugin/obj
+Source/Code/EditorPlugin/bin
 Source/Code/EditorPlugin/obj
 logfile.txt
 logfile_editor.txt
@@ -10,3 +10,4 @@ logfile_editor_prev.txt
 perflog.txt
 perflog_editor.txt
 Plugins/GamePlugin*
+Source/Code/packages
