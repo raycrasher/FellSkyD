@@ -55,10 +55,11 @@
     <Reference Include="DualityPrimitives">
       <HintPath>..\..\..\DualityPrimitives.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Steer2d">
-      <HintPath>Dependencies\Steer2d.dll</HintPath>
+    <Reference Include="FarseerDuality, Version=4.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\FarseerDuality.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Numerics" />
@@ -68,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ai\ShipAi.cs" />
+    <Compile Include="Ai\Steering.cs" />
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Engine\Background.cs" />
     <Compile Include="Engine\CameraZoom.cs" />

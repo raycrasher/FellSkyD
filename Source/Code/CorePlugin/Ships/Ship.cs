@@ -76,6 +76,7 @@ namespace FellSky.Ships
         public ColorRgba BaseColor { get; set; } = new ColorRgba(255, 50, 0, 255);
         public ColorRgba TrimColor { get; set; } = new ColorRgba(0, 50, 255, 255);
         public Vector2 Acceleration { get; private set; }
+        public Vector2 CurrentDirection => GameObj.Transform.GetWorldVector(Vector2.UnitX);
 
         #endregion
 
@@ -117,7 +118,11 @@ namespace FellSky.Ships
                 MathF.Clamp(local.X, -ManeuverSpeed, ForwardSpeed),
                 MathF.Clamp(local.Y, -ManeuverSpeed, ManeuverSpeed));
 
-           
+            var maxForceLength = Math.Max(ForwardSpeed, ManeuverSpeed);
+
+            if (force.LengthSquared > maxForceLength * maxForceLength)
+                force = force.Normalized * maxForceLength;
+
             if (IsBoosting) force *= BoostMultiplier;
 
             if (force.LengthSquared > 0)
