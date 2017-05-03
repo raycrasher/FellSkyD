@@ -71,10 +71,13 @@
     <Compile Include="Ai\ShipAi.cs" />
     <Compile Include="Ai\Steering.cs" />
     <Compile Include="CorePlugin.cs" />
+    <Compile Include="Economy\Inventory.cs" />
+    <Compile Include="Economy\ItemType.cs" />
     <Compile Include="Engine\Background.cs" />
     <Compile Include="Engine\CameraZoom.cs" />
     <Compile Include="Engine\Enums.cs" />
     <Compile Include="Engine\Health.cs" />
+    <Compile Include="Engine\Projectiles\Projectile.cs" />
     <Compile Include="Gui\HudController.cs" />
     <Compile Include="Gui\InventoryListController.cs" />
     <Compile Include="Gui\RefitWindowController.cs" />
@@ -87,6 +90,7 @@
     <Compile Include="Engine\Projectiles\Rocket.cs" />
     <Compile Include="Engine\Sprite.cs" />
     <Compile Include="Engine\AdvSpriteRenderer.cs" />
+    <Compile Include="Ships\Ammo.cs" />
     <Compile Include="Ships\Hardpoint.cs" />
     <Compile Include="Ships\Hull.cs" />
     <Compile Include="Ships\Module.cs" />
@@ -100,6 +104,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Space\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

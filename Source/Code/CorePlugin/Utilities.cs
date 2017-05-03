@@ -24,16 +24,24 @@ namespace FellSky
             {
                 return 0;
             }
-
             angle *= Signal(v1, v2);
 
             return (float)angle;
         }
-
-        private static int Signal(Vector2 v1, Vector2 v2)
+        
+        public static IEnumerable<T> OneOf<T>(T item)
         {
+            yield return item;
+        }
+
+        private static int Signal(Vector2 v1, Vector2 v2){
             return (v1.Y * v2.X - v2.Y * v1.X) > 0 ? 1 : -1;
         }        
+        public static IEnumerable<T> FromList<T>(params T[] items)
+        {
+            foreach (var i in items)
+                yield return i;
+        }
     }
 
     public static class Interpolate
@@ -49,4 +57,5 @@ namespace FellSky
             return ((current * (slowFactor - 1)) + target) / slowFactor;
         }
     }
+
 }
