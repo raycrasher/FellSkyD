@@ -15,7 +15,16 @@ namespace FellSky
             return x * x * x * (x * (x * 6 - 15) + 10);
         }
 
-        
+        public static IEnumerable<T> OneOf<T>(T item)
+        {
+            yield return item;
+        }
+
+        public static IEnumerable<T> FromList<T>(params T[] items)
+        {
+            foreach (var i in items)
+                yield return i;
+        }
     }
 
     public static class Interpolate
@@ -31,4 +40,5 @@ namespace FellSky
             return ((current * (slowFactor - 1)) + target) / slowFactor;
         }
     }
+
 }
