@@ -31,9 +31,6 @@
             <R dataType="Byte">255</R>
           </_x003C_Color_x003E_k__BackingField>
           <_x003C_FlipMode_x003E_k__BackingField dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
-          <_x003C_Material_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-            <contentPath dataType="String">Data\Ships\fx\effects.Material.res</contentPath>
-          </_x003C_Material_x003E_k__BackingField>
           <_x003C_Pivot_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
             <X dataType="Float">-50</X>
             <Y dataType="Float">0</Y>
@@ -42,19 +39,27 @@
             <X dataType="Float">1</X>
             <Y dataType="Float">1</Y>
           </_x003C_Scale_x003E_k__BackingField>
-          <_x003C_UVRect_x003E_k__BackingField dataType="Struct" type="Duality.Rect">
-            <H dataType="Float">64</H>
-            <W dataType="Float">114</W>
-            <X dataType="Float">140</X>
-            <Y dataType="Float">0</Y>
-          </_x003C_UVRect_x003E_k__BackingField>
+          <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+            <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
+          </_x003C_Sprite_x003E_k__BackingField>
           <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">0.1</_x003C_VertexZOffset_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">809514138</gameobj>
           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
         </item>
         <item dataType="Struct" type="FellSky.Ships.Thruster" id="2090338954">
-          <_emitters />
+          <_boostAmount dataType="Float">0</_boostAmount>
+          <_isThrusting dataType="Bool">false</_isThrusting>
+          <_ship />
+          <_sprite dataType="ObjectRef">959648531</_sprite>
+          <_thrustAmount dataType="Float">0</_thrustAmount>
+          <_x003C_FlickerFactor_x003E_k__BackingField dataType="Float">0.02</_x003C_FlickerFactor_x003E_k__BackingField>
+          <_x003C_RampDownTime_x003E_k__BackingField dataType="Float">0.4</_x003C_RampDownTime_x003E_k__BackingField>
+          <_x003C_RampUpTime_x003E_k__BackingField dataType="Float">0.4</_x003C_RampUpTime_x003E_k__BackingField>
+          <_x003C_ScaleBoost_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
+          <_x003C_ScaleIdle_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
+          <_x003C_ScaleThrust_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
+          <_x003C_Thrust_x003E_k__BackingField dataType="Float">1</_x003C_Thrust_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">809514138</gameobj>
         </item>

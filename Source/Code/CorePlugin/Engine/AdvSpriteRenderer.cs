@@ -15,11 +15,12 @@ namespace FellSky.Engine
     [RequiredComponent(typeof(Transform))]
     public class AdvSpriteRenderer : Renderer
     {
-        public ContentRef<Material> Material { get; set; }
+        public ContentRef<Sprite> Sprite { get; set; }
+        //public ContentRef<Material> Material { get; set; }
         public ColorRgba Color { get; set; } = ColorRgba.White;
         public Vector2 Pivot { get; set; } = Vector2.Zero;
         //public float Attribute { get; set; } = 0;
-        public Rect UVRect { get; set; }
+        //public Rect UVRect { get; set; }
         public SpriteRenderer.FlipMode FlipMode { get; set; }
         public float VertexZOffset { get; set; }
         public bool AlignToPixelGrid { get; set; }
@@ -33,15 +34,19 @@ namespace FellSky.Engine
 
         private Rect GetTargetRect()
         {
-            var center = -(UVRect.Size * Scale) / 2 + Pivot * Scale;
-
-            var destRect = new Rect(center.X, center.Y, UVRect.W * Scale.X, UVRect.H * Scale.Y);
+            var uvRect = Sprite.Res?.UVRect ?? new Rect(-10,-10,20,20);
+            var center = -(uvRect.Size * Scale) / 2 + Pivot * Scale;            
+            var destRect = new Rect(center.X, center.Y, uvRect.W * Scale.X, uvRect.H * Scale.Y);
             return destRect.Transformed(this.GameObj.Transform.Scale, this.GameObj.Transform.Scale);
         }
 
         public override void Draw(IDrawDevice device)
         {
-            var mainTex = Material.Res?.MainTexture.Res;
+            if (!Sprite.IsAvailable)
+                return;
+            var material = Sprite.Res.Material.Res; 
+            var mainTex = material?.MainTexture.Res;
+            var uvRect = Sprite.Res.UVRect;
             Vector2 uvTexSize, uvRatio;
             if (mainTex != null) {
                 uvTexSize = mainTex.Size;
@@ -85,10 +90,10 @@ namespace FellSky.Engine
             MathF.TransformDotVec(ref edge3, ref xDot, ref yDot);
             MathF.TransformDotVec(ref edge4, ref xDot, ref yDot);
 
-            float left = uvRatio.X * UVRect.X / uvTexSize.X;
-            float right = uvRatio.X * UVRect.RightX / uvTexSize.X;
-            float top = uvRatio.Y * UVRect.Y / uvTexSize.Y;
-            float bottom = uvRatio.Y * UVRect.BottomY / uvTexSize.Y;
+            float left = uvRatio.X * uvRect.X / uvTexSize.X;
+            float right = uvRatio.X * uvRect.RightX / uvTexSize.X;
+            float top = uvRatio.Y * uvRect.Y / uvTexSize.Y;
+            float bottom = uvRatio.Y * uvRect.BottomY / uvTexSize.Y;
 
             vertices[0].Pos.X = posTemp.X + edge1.X;
             vertices[0].Pos.Y = posTemp.Y + edge1.Y;
@@ -151,9 +156,9 @@ namespace FellSky.Engine
                 }
             }
 
-            if (this.Material != null)
+            if (material != null)
             {
-                device.AddVertices(Material, VertexMode.Quads, vertices);
+                device.AddVertices(material, VertexMode.Quads, vertices);
             }
         }
     }

@@ -130,8 +130,7 @@ namespace FellSky.Editor
 
             if (sprite.IsAvailable)
             {
-                renderer.UVRect = sprite.Res.UVRect;
-                renderer.Material = sprite.Res.Material.Res;
+                renderer.Sprite = sprite;
 
                 if (scale.X < 0)
                     renderer.FlipMode |= SpriteRenderer.FlipMode.Horizontal;

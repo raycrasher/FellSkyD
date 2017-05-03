@@ -1,0 +1,2 @@
+thruster1 = 0 53 135 48
+thruster2 = 0 0 152 52
