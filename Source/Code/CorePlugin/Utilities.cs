@@ -34,9 +34,11 @@ namespace FellSky
             yield return item;
         }
 
-        private static int Signal(Vector2 v1, Vector2 v2){
+        private static int Signal(Vector2 v1, Vector2 v2)
+        {
             return (v1.Y * v2.X - v2.Y * v1.X) > 0 ? 1 : -1;
         }        
+
         public static IEnumerable<T> FromList<T>(params T[] items)
         {
             foreach (var i in items)
