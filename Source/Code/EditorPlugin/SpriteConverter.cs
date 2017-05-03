@@ -38,7 +38,7 @@ namespace FellSky.Editor
                     renderer.Sprite = sprite;
                     results.Add(renderer);
                 }
-                convert.SuggestResultName(sprite, sprite.Name);
+                convert.SuggestResultName(renderer, sprite.Name);
                 convert.MarkObjectHandled(sprite);
             }
             convert.AddResult(results);
