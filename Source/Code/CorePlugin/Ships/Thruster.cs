@@ -19,7 +19,7 @@ namespace FellSky.Ships
         public float RampDownTime { get; set; } = 0.4f;
         public float FlickerFactor { get; set; } = 0.02f;
 
-        private float _thrustAmount, _boostAmount;
+        private float _thrustAmount = 0, _boostAmount = 0;
 
         private AdvSpriteRenderer _sprite;
         private Ship _ship;
@@ -73,16 +73,17 @@ namespace FellSky.Ships
                 var angle = Utilities.FindAngleBetweenTwoVectors(_ship.ThrustVector, -xform.Right.Xy);
                 if (Math.Abs(angle) < MathF.DegToRad(15))
                     _isThrusting = true;
-                else if(Math.Abs(angle) > MathF.DegToRad(50))
+                else if(Math.Abs(angle) > MathF.DegToRad(180))
                     _isThrusting = false;
                 
             }
-
-            var deltaTime = Time.SPFMult * Time.TimeMult;
+            //RampUpTime = 0.4;
+            //RampDownTime = 0.4f;
+            var deltaTime = Time.TimeMult * Time.SPFMult;
             if (_isThrusting)
-                _thrustAmount = MathF.Clamp(_thrustAmount + 1 / RampUpTime * deltaTime, 0, 1);
+                _thrustAmount = MathF.Clamp(_thrustAmount + (1 / RampUpTime) * deltaTime, 0, 1);
             else
-                _thrustAmount = MathF.Clamp(_thrustAmount - 1 / RampDownTime * deltaTime, 0, 1);
+                _thrustAmount = MathF.Clamp(_thrustAmount - (1 / RampDownTime) * deltaTime, 0, 1);
 
             if (_ship.IsBoosting)
                 _boostAmount = MathF.Clamp(_boostAmount + 1 / RampUpTime * deltaTime, 0, 1);
@@ -90,11 +91,11 @@ namespace FellSky.Ships
                 _boostAmount = MathF.Clamp(_boostAmount - 1 / RampDownTime * deltaTime, 0, 1);
 
             float flicker = 0;
-            
-            flicker = MathF.Sin(MathF.DegToRad((GetHashCode() + Time.GameTimer.Milliseconds*4) % 360)) * FlickerFactor;
-            
+
+            var time = MathF.DegToRad((GetHashCode() + Time.GameTimer.Milliseconds));
+            flicker = 1 + (MathF.Sin(time * 1.5f % MathF.Pi) * FlickerFactor);
             var thrust = Vector2.Lerp(ScaleThrust, ScaleBoost, _boostAmount);
-            _sprite.Scale = Vector2.Lerp(ScaleIdle, thrust, _thrustAmount + flicker);
+            _sprite.Scale = Vector2.Lerp(ScaleIdle, thrust, _thrustAmount) * flicker;
         }
     }
 }

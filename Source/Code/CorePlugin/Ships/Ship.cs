@@ -19,6 +19,8 @@ namespace FellSky.Ships
         private List<Module> _modules;
         [DontSerialize]
         private List<ShipWeapon> _weapons;
+        private ColorRgba _baseColor = new ColorRgba(222,180,180);
+        private ColorRgba _trimColor = new ColorRgba(249, 216, 155);
 
 
         #region Properties
@@ -73,8 +75,21 @@ namespace FellSky.Ships
 
         public bool RespondsToControl { get; set; } = true;
 
-        public ColorRgba BaseColor { get; set; } = new ColorRgba(255, 50, 0, 255);
-        public ColorRgba TrimColor { get; set; } = new ColorRgba(0, 50, 255, 255);
+        public ColorRgba BaseColor {
+            get => _baseColor;
+            set {
+                _baseColor = value;
+                SetHullColor(HullColorType.Base, value);
+            }
+        }
+        public ColorRgba TrimColor {
+            get => _trimColor;
+            set
+            {
+                _trimColor = value;
+                SetHullColor(HullColorType.Trim, value);
+            }
+        }
         public Vector2 Acceleration { get; private set; }
         public Vector2 CurrentDirection => GameObj.Transform.GetWorldVector(Vector2.UnitX);
 
@@ -85,19 +100,15 @@ namespace FellSky.Ships
             if(context == InitContext.Activate)
             {
                 _rigidBody = GameObj.GetComponent<RigidBody>();
-                foreach(var hull in GameObj.GetComponentsDeep<Hull>())
-                {
-                    switch (hull.ColorType)
-                    {
-                        case HullColorType.Base:
-                            hull.GameObj.GetComponent<AdvSpriteRenderer>().Color = hull.Color * BaseColor;
-                            break;
-                        case HullColorType.Trim:
-                            hull.GameObj.GetComponent<AdvSpriteRenderer>().Color = hull.Color * TrimColor;
-                            break;
-                    }
-                }
+                SetHullColor(HullColorType.Base, BaseColor);
+                SetHullColor(HullColorType.Trim, TrimColor);
             }
+        }
+
+        private void SetHullColor(HullColorType type, ColorRgba color)
+        {
+            foreach (var hull in GameObj.GetComponentsDeep<Hull>().Where(h=>h.ColorType == type))
+                hull.GameObj.GetComponent<AdvSpriteRenderer>().Color = hull.Color * color;
         }
 
         public void OnShutdown(ShutdownContext context)
