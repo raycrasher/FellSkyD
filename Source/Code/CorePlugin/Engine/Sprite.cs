@@ -14,5 +14,6 @@ namespace FellSky.Engine
         public ContentRef<Material> Material { get; set; }
         public Rect UVRect { get; set; }
         public ShapeInfo Shape { get; set; }
+        public string EditorCategory { get; set; }
     }
 }
