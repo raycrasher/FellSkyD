@@ -99,7 +99,6 @@
     <Compile Include="Ships\ShipWeapon.cs" />
     <Compile Include="Ships\Thruster.cs" />
     <Compile Include="Utilities.cs" />
-    <Compile Include="YourCustomComponentType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
