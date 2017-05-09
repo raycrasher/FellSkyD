@@ -82,6 +82,7 @@
     <Compile Include="SpriteViewer.Designer.cs">
       <DependentUpon>SpriteViewer.cs</DependentUpon>
     </Compile>
+    <Compile Include="SpriteOperations.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CorePlugin\CorePlugin.csproj">

@@ -31,8 +31,29 @@ namespace FellSky.Editor
             MenuModelItem viewItem = main.MainMenu.RequestItem(GeneralRes.MenuName_View);
             viewItem.AddItem(new MenuModelItem
             {
-                Name = "Sprite Editor",
+                Name = "Sprite Viewer",
                 ActionHandler = (o, e) => RequestSpriteEditorView()
+            });
+            var spriteMenu = new MenuModelItem
+            {
+                Name = "Sprite"
+            };
+            main.MainMenu.AddItem(spriteMenu);
+            spriteMenu.AddItem(new MenuModelItem {
+                Name = "Mirror Y",
+                ActionHandler = (o, e) => SpriteOperations.MirrorY(),
+                ShortcutKeys = Keys.Control | Keys.M
+            });
+            spriteMenu.AddItem(new MenuModelItem {
+                Name = "Increase Depth",
+                ActionHandler = (o, e) => SpriteOperations.ChangeDepth(+1),
+                ShortcutKeys = Keys.Control | Keys.PageDown
+            });
+            spriteMenu.AddItem(new MenuModelItem
+            {
+                Name = "Decrease Depth",
+                ActionHandler = (o, e) => SpriteOperations.ChangeDepth(-1),
+                ShortcutKeys = Keys.Control | Keys.PageUp
             });
         }
 
