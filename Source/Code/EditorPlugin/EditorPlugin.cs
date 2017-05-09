@@ -28,6 +28,11 @@ namespace FellSky.Editor
         protected override void InitPlugin(MainForm main)
         {
             base.InitPlugin(main);
+            InitMenuItems(main);
+        }
+
+        private void InitMenuItems(MainForm main)
+        {
             MenuModelItem viewItem = main.MainMenu.RequestItem(GeneralRes.MenuName_View);
             viewItem.AddItem(new MenuModelItem
             {
@@ -39,12 +44,14 @@ namespace FellSky.Editor
                 Name = "Sprite"
             };
             main.MainMenu.AddItem(spriteMenu);
-            spriteMenu.AddItem(new MenuModelItem {
+            spriteMenu.AddItem(new MenuModelItem
+            {
                 Name = "Mirror Y",
                 ActionHandler = (o, e) => SpriteOperations.MirrorY(),
                 ShortcutKeys = Keys.Control | Keys.M
             });
-            spriteMenu.AddItem(new MenuModelItem {
+            spriteMenu.AddItem(new MenuModelItem
+            {
                 Name = "Increase Depth",
                 ActionHandler = (o, e) => SpriteOperations.ChangeDepth(+1),
                 ShortcutKeys = Keys.Control | Keys.PageDown
@@ -55,38 +62,39 @@ namespace FellSky.Editor
                 ActionHandler = (o, e) => SpriteOperations.ChangeDepth(-1),
                 ShortcutKeys = Keys.Control | Keys.PageUp
             });
+
         }
 
         public SpriteViewer RequestSpriteEditorView()
         {
-            if (this._spriteViewer == null || this._spriteViewer.IsDisposed)
+            if (_spriteViewer == null || _spriteViewer.IsDisposed)
             {
-                this._spriteViewer = new SpriteViewer();
-                this._spriteViewer.FormClosed += delegate (object sender, FormClosedEventArgs e) { this._spriteViewer = null; };
+                _spriteViewer = new SpriteViewer();
+                _spriteViewer.FormClosed += delegate (object sender, FormClosedEventArgs e) { _spriteViewer = null; };
             }
 
-            if (!this._isLoading)
+            if (!_isLoading)
             {
-                this._spriteViewer.Show(DualityEditorApp.MainForm.MainDockPanel);
-                if (this._spriteViewer.Pane != null)
+                _spriteViewer.Show(DualityEditorApp.MainForm.MainDockPanel);
+                if (_spriteViewer.Pane != null)
                 {
-                    this._spriteViewer.Pane.Activate();
-                    this._spriteViewer.Focus();
+                    _spriteViewer.Pane.Activate();
+                    _spriteViewer.Focus();
                 }
             }
 
-            return this._spriteViewer;
+            return _spriteViewer;
         }
 
         protected override IDockContent DeserializeDockContent(Type dockContentType)
         {
-            this._isLoading = true;
+            _isLoading = true;
             IDockContent result;
             if (dockContentType == typeof(SpriteViewer))
-                result = this.RequestSpriteEditorView();
+                result = RequestSpriteEditorView();
             else
                 result = base.DeserializeDockContent(dockContentType);
-            this._isLoading = false;
+            _isLoading = false;
             return result;
         }
     }
