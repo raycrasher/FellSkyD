@@ -12,3 +12,5 @@ perflog_editor.txt
 Plugins/GamePlugin*
 Source/Code/packages
 WorkingFolder
+EditorUserData.xml
+DesignTimeData.dat
