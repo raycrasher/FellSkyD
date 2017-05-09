@@ -14,5 +14,15 @@
             The thrust vector for the ship, in worldspace.
             </summary>
         </member>
+        <member name="P:FellSky.Ships.Turret.TraverseArc">
+            <summary>
+            The traverse arc, in degrees
+            </summary>
+        </member>
+        <member name="P:FellSky.Ships.Turret.TraverseSpeed">
+            <summary>
+            The traverse speed, in degrees/second
+            </summary>
+        </member>
     </members>
 </doc>

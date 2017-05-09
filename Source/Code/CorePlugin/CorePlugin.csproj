@@ -98,6 +98,7 @@
     <Compile Include="Ships\Ship.cs" />
     <Compile Include="Ships\ShipWeapon.cs" />
     <Compile Include="Ships\Thruster.cs" />
+    <Compile Include="Ships\Turret.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
