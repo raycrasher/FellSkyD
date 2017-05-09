@@ -27,10 +27,16 @@ namespace FellSky.Engine
         {
             if (ControlledShip == null)
                 return;
-            ControlWeapons();
+            ControlThrust();
+            ControlWapons();
         }
 
-        private void ControlWeapons()
+        private void ControlWapons()
+        {
+            
+        }
+
+        private void ControlThrust()
         {
             Vector2 speed = Vector2.Zero;
             var keyboard = DualityApp.Keyboard;

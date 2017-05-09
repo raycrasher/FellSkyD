@@ -8189,8 +8189,22 @@
                           <Z dataType="Float">0</Z>
                         </val>
                       </item>
+                      <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                        <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="1867215336">
+                          <_items dataType="Array" type="System.Int32[]" id="4026307032"></_items>
+                          <_size dataType="Int">0</_size>
+                        </childIndex>
+                        <componentType dataType="ObjectRef">3867885668</componentType>
+                        <prop dataType="MemberInfo" id="4226990194" value="P:FellSky.Ships.Ship:BaseColor" />
+                        <val dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">234</B>
+                          <G dataType="Byte">150</G>
+                          <R dataType="Byte">116</R>
+                        </val>
+                      </item>
                     </_items>
-                    <_size dataType="Int">1</_size>
+                    <_size dataType="Int">2</_size>
                   </changes>
                   <obj dataType="ObjectRef">2086690294</obj>
                   <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
@@ -8843,7 +8857,6 @@
       <prefabLink />
     </item>
     <item dataType="ObjectRef">2889645055</item>
-    <item dataType="ObjectRef">440819743</item>
     <item dataType="ObjectRef">851846668</item>
     <item dataType="ObjectRef">686750761</item>
     <item dataType="ObjectRef">990515445</item>
@@ -9015,6 +9028,7 @@
     <item dataType="ObjectRef">3638294458</item>
     <item dataType="ObjectRef">2481924284</item>
     <item dataType="ObjectRef">3282946134</item>
+    <item dataType="ObjectRef">440819743</item>
     <item dataType="ObjectRef">1649957229</item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />

@@ -43,6 +43,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdamsLair.WinForms, Version=1.1.12.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="Duality">
       <HintPath>..\..\..\Duality.dll</HintPath>
     </Reference>
@@ -53,6 +54,7 @@
       <HintPath>..\..\..\DualityEditor.exe</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
@@ -74,6 +76,12 @@
     <Compile Include="ShipLoader.cs" />
     <Compile Include="SpriteConverter.cs" />
     <Compile Include="SpritePreviewGenerator.cs" />
+    <Compile Include="SpriteViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpriteViewer.Designer.cs">
+      <DependentUpon>SpriteViewer.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CorePlugin\CorePlugin.csproj">
@@ -83,6 +91,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SpriteViewer.resx">
+      <DependentUpon>SpriteViewer.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
