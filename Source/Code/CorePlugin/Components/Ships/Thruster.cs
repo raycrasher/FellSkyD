@@ -70,10 +70,11 @@ namespace FellSky.Components.Ships
 
             if (_ship.ThrustVector.LengthSquared > 0)
             {
-                var angle = Utilities.FindAngleBetweenTwoVectors(_ship.ThrustVector, -xform.Right.Xy);
-                if (Math.Abs(angle) < MathF.DegToRad(15))
+                //var angle = MathF.NormalizeAngle(Vector2.AngleBetween(_ship.ThrustVector, xform.GetWorldVector(Vector2.UnitX)));  //Utilities.FindAngleBetweenTwoVectors(_ship.ThrustVector, xform.GetWorldVector(Vector2.UnitX)) % MathF.Pi;
+                var dot = Vector2.Dot(_ship.ThrustVector.Normalized, -xform.Right.Xy);
+                if (dot > 0.7f)
                     _isThrusting = true;
-                else if(Math.Abs(angle) > MathF.DegToRad(180))
+                else if(dot <- 0.2f)
                     _isThrusting = false;
                 
             }
