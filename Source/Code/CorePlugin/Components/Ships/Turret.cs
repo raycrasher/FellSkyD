@@ -23,34 +23,22 @@ namespace FellSky.Components.Ships
         public float Facing => GameObj.Transform.Angle;
         public Transform Target { get; set; }
 
-        public bool Is360Traverse => TraverseArc >= 360;
+        public bool IsOmnidirectional => TraverseArc >= 360;
         public bool IsFixed => TraverseArc <= 0;
 
         public void OnUpdate()
         {
-            if (IsFixed)
+            var speed = Time.TimeMult * MathF.DegToRad(TraverseSpeed);
+            float deltaAngle = 0;
+            var desiredRotation = (Target.Pos.Xy - GameObj.Transform.Pos.Xy).Angle - MathF.PiOver2;
+            var currentAngle = GameObj.Transform.Angle;
+            if (IsOmnidirectional)
             {
-                GameObj.Transform.RelativeAngle = 0;
-                return;
+                var a = MathF.NormalizeAngle(desiredRotation - currentAngle);
+                deltaAngle = MathF.Clamp(a, -speed, speed);
+                GameObj.Transform.TurnBy(deltaAngle);
             }
-            var xform = GameObj.Transform;
-            var offset = Target.Pos.Xy - xform.Pos.Xy;
-            var facing = xform.GetWorldVector(Vector2.UnitX);
-
-            var targetAngle = Utilities.FindAngleBetweenTwoVectors(facing, offset);
-            xform.TurnBy(MathF.Sign(targetAngle) * MathF.DegToRad(TraverseSpeed) * Time.TimeMult);
-
-            if (!Is360Traverse)
-            {
-                var angle = xform.RelativeAngle % MathF.Pi;
-                var min = -MathF.DegToRad(TraverseArc);
-                var max = MathF.DegToRad(TraverseArc);
-                if (angle < min)
-                    xform.RelativeAngle = min;
-                if (angle > max)
-                    xform.RelativeAngle = max;
-            }
-                
+            
         }
         
     }

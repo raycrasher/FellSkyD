@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\Ships\ShipAi.cs" />
     <Compile Include="Common\Steering.cs" />
     <Compile Include="Resources\AmmoType.cs" />
