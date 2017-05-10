@@ -70,7 +70,7 @@
             <perspective dataType="Enum" type="Duality.Drawing.PerspectiveMode" name="Parallax" value="1" />
             <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
           </item>
-          <item dataType="Struct" type="FellSky.Engine.CameraZoom" id="1351560240">
+          <item dataType="Struct" type="FellSky.Components.CameraZoom" id="1351560240">
             <_lastZoom dataType="Float">-700</_lastZoom>
             <_targetZoom dataType="Float">-700</_targetZoom>
             <_time dataType="Float">1</_time>
@@ -82,7 +82,7 @@
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2082991466</gameobj>
           </item>
-          <item dataType="Struct" type="FellSky.Engine.FollowBehavior" id="1439928869">
+          <item dataType="Struct" type="FellSky.Components.FollowBehavior" id="1439928869">
             <_currentVelocity dataType="Struct" type="Duality.Vector2" />
             <_lastTargetPosition dataType="Struct" type="Duality.Vector3" />
             <_offsetZ dataType="Float">0</_offsetZ>
@@ -103,11 +103,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">851846668</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1001981061">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1001981061">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">851846668</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1996449110">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1996449110">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">851846668</gameobj>
                           </item>
@@ -119,8 +119,8 @@
                         <body>
                           <keys dataType="Array" type="System.Object[]" id="3107449306">
                             <item dataType="Type" id="4159762688" value="Duality.Components.Transform" />
-                            <item dataType="Type" id="2326165966" value="FellSky.Engine.AdvSpriteRenderer" />
-                            <item dataType="Type" id="1358570396" value="FellSky.Ships.Hull" />
+                            <item dataType="Type" id="2326165966" value="FellSky.Components.AdvSpriteRenderer" />
+                            <item dataType="Type" id="1358570396" value="FellSky.Components.Ships.Hull" />
                           </keys>
                           <values dataType="Array" type="System.Object[]" id="4250830522">
                             <item dataType="ObjectRef">3212161600</item>
@@ -150,11 +150,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">686750761</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="836885154">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="836885154">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">686750761</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1831353203">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1831353203">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">686750761</gameobj>
                           </item>
@@ -197,11 +197,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">990515445</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1140649838">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1140649838">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">990515445</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2135117887">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2135117887">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">990515445</gameobj>
                           </item>
@@ -244,11 +244,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1488409844</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1638544237">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1638544237">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1488409844</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2633012286">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2633012286">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1488409844</gameobj>
                           </item>
@@ -291,11 +291,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2854533302</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3004667695">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3004667695">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2854533302</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3999135744">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3999135744">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2854533302</gameobj>
                           </item>
@@ -338,11 +338,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">270384047</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="420518440">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="420518440">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">270384047</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1414986489">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1414986489">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">270384047</gameobj>
                           </item>
@@ -385,11 +385,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">802540155</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="952674548">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="952674548">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">802540155</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1947142597">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1947142597">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">802540155</gameobj>
                           </item>
@@ -432,11 +432,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3596828114</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3746962507">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3746962507">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3596828114</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="582685634">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="582685634">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3596828114</gameobj>
                           </item>
@@ -449,7 +449,7 @@
                           <keys dataType="Array" type="System.Object[]" id="2435607492">
                             <item dataType="ObjectRef">4159762688</item>
                             <item dataType="ObjectRef">2326165966</item>
-                            <item dataType="Type" id="1344130372" value="FellSky.Ships.Thruster" />
+                            <item dataType="Type" id="1344130372" value="FellSky.Components.Ships.Thruster" />
                           </keys>
                           <values dataType="Array" type="System.Object[]" id="2444899734">
                             <item dataType="ObjectRef">1662175750</item>
@@ -479,11 +479,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4258613115</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="113780212">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="113780212">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4258613115</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1244470635">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1244470635">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4258613115</gameobj>
                           </item>
@@ -526,11 +526,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">834176895</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="984311288">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="984311288">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">834176895</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2115001711">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2115001711">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">834176895</gameobj>
                           </item>
@@ -573,11 +573,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">567400217</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="717534610">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="717534610">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">567400217</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1848225033">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1848225033">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">567400217</gameobj>
                           </item>
@@ -620,11 +620,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2971110516</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3121244909">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3121244909">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2971110516</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="4251935332">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="4251935332">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2971110516</gameobj>
                           </item>
@@ -667,11 +667,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1362222032</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1512356425">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1512356425">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1362222032</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2643046848">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2643046848">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1362222032</gameobj>
                           </item>
@@ -714,11 +714,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1536533903</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1686668296">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1686668296">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1536533903</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2681136345">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2681136345">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1536533903</gameobj>
                           </item>
@@ -761,11 +761,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1252624037</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1402758430">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1402758430">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1252624037</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2397226479">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2397226479">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1252624037</gameobj>
                           </item>
@@ -808,11 +808,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3000287909</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3150422302">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3150422302">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3000287909</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4144890351">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4144890351">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3000287909</gameobj>
                           </item>
@@ -855,11 +855,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">469090584</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="619224977">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="619224977">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">469090584</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1749915400">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1749915400">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">469090584</gameobj>
                           </item>
@@ -902,11 +902,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3286576962</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3436711355">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3436711355">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3286576962</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="272434482">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="272434482">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3286576962</gameobj>
                           </item>
@@ -949,11 +949,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3294905009</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3445039402">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3445039402">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3294905009</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="280762529">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="280762529">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3294905009</gameobj>
                           </item>
@@ -996,11 +996,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2446171749</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2596306142">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2596306142">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2446171749</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="3726996565">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3726996565">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2446171749</gameobj>
                           </item>
@@ -1043,11 +1043,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4078905368</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4229039761">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4229039761">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4078905368</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1064762888">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1064762888">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4078905368</gameobj>
                           </item>
@@ -1090,11 +1090,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2309867093</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2460001486">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2460001486">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2309867093</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="3590691909">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3590691909">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2309867093</gameobj>
                           </item>
@@ -1137,11 +1137,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1153836121</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1303970514">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1303970514">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1153836121</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2434660937">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2434660937">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1153836121</gameobj>
                           </item>
@@ -1184,11 +1184,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2359501115</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2509635508">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2509635508">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2359501115</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="3640325931">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3640325931">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2359501115</gameobj>
                           </item>
@@ -1231,11 +1231,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2658584496</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2808718889">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2808718889">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2658584496</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="3939409312">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3939409312">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2658584496</gameobj>
                           </item>
@@ -1278,11 +1278,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1738691320</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1888825713">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1888825713">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1738691320</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2883293762">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2883293762">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1738691320</gameobj>
                           </item>
@@ -1325,11 +1325,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1146628117</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1296762510">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1296762510">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1146628117</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2291230559">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2291230559">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1146628117</gameobj>
                           </item>
@@ -1372,11 +1372,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3726555394</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3876689787">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3876689787">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3726555394</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="576190540">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="576190540">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3726555394</gameobj>
                           </item>
@@ -1419,11 +1419,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3634131678</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3784266071">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3784266071">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3634131678</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="483766824">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="483766824">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3634131678</gameobj>
                           </item>
@@ -1466,11 +1466,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1418495862</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1568630255">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1568630255">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1418495862</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2699320678">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2699320678">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1418495862</gameobj>
                           </item>
@@ -1513,11 +1513,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1354701902</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1504836295">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1504836295">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1354701902</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2499304344">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2499304344">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1354701902</gameobj>
                           </item>
@@ -1560,11 +1560,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1330244414</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1480378807">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1480378807">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1330244414</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2474846856">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2474846856">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1330244414</gameobj>
                           </item>
@@ -1607,11 +1607,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1374493485</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1524627878">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1524627878">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1374493485</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2519095927">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2519095927">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1374493485</gameobj>
                           </item>
@@ -1654,11 +1654,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">506793662</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="656928055">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="656928055">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">506793662</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1651396104">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1651396104">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">506793662</gameobj>
                           </item>
@@ -1701,11 +1701,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1985056265</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2135190658">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2135190658">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1985056265</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3129658707">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3129658707">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1985056265</gameobj>
                           </item>
@@ -1748,11 +1748,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3614083312</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3764217705">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3764217705">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3614083312</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="463718458">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="463718458">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3614083312</gameobj>
                           </item>
@@ -1795,11 +1795,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3814349439</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3964483832">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3964483832">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3814349439</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="800206959">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="800206959">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3814349439</gameobj>
                           </item>
@@ -1842,11 +1842,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">122220234</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="272354627">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="272354627">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">122220234</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1403045050">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1403045050">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">122220234</gameobj>
                           </item>
@@ -1889,11 +1889,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">539466946</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="689601339">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="689601339">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">539466946</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1684069388">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1684069388">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">539466946</gameobj>
                           </item>
@@ -1936,11 +1936,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1635762325</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1785896718">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1785896718">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1635762325</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2916587141">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2916587141">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1635762325</gameobj>
                           </item>
@@ -1983,11 +1983,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">795973641</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="946108034">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="946108034">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">795973641</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2076798457">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2076798457">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">795973641</gameobj>
                           </item>
@@ -2030,11 +2030,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">539623037</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="689757430">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="689757430">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">539623037</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1684225479">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1684225479">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">539623037</gameobj>
                           </item>
@@ -2077,11 +2077,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">219305725</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="369440118">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="369440118">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">219305725</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1500130541">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1500130541">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">219305725</gameobj>
                           </item>
@@ -2124,11 +2124,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2220307999</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2370442392">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2370442392">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2220307999</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="3501132815">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3501132815">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2220307999</gameobj>
                           </item>
@@ -2171,11 +2171,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1567266474</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1717400867">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1717400867">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1567266474</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2711868916">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2711868916">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1567266474</gameobj>
                           </item>
@@ -2218,11 +2218,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1685614397</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1835748790">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1835748790">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1685614397</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2830216839">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2830216839">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1685614397</gameobj>
                           </item>
@@ -2265,11 +2265,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2327824157</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2477958550">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2477958550">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2327824157</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3472426599">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3472426599">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2327824157</gameobj>
                           </item>
@@ -2312,11 +2312,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4273878355</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="129045452">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="129045452">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4273878355</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1123513501">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1123513501">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4273878355</gameobj>
                           </item>
@@ -2359,11 +2359,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1745844898</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1895979291">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1895979291">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1745844898</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2890447340">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2890447340">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1745844898</gameobj>
                           </item>
@@ -2406,11 +2406,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3061982284</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3212116677">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3212116677">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3061982284</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4206584726">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4206584726">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3061982284</gameobj>
                           </item>
@@ -2453,11 +2453,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1597364903</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1747499296">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1747499296">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1597364903</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2741967345">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2741967345">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1597364903</gameobj>
                           </item>
@@ -2500,11 +2500,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1576720082</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1726854475">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1726854475">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1576720082</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2721322524">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2721322524">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1576720082</gameobj>
                           </item>
@@ -2547,11 +2547,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2456764347</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2606898740">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2606898740">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2456764347</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3601366789">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3601366789">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2456764347</gameobj>
                           </item>
@@ -2594,11 +2594,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2223590491</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2373724884">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2373724884">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2223590491</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3368192933">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3368192933">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2223590491</gameobj>
                           </item>
@@ -2641,11 +2641,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3702347181</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3852481574">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3852481574">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3702347181</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="551982327">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="551982327">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3702347181</gameobj>
                           </item>
@@ -2688,11 +2688,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3227450374</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3377584767">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3377584767">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3227450374</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="77085520">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="77085520">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3227450374</gameobj>
                           </item>
@@ -2735,11 +2735,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3624932366</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3775066759">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3775066759">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3624932366</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="474567512">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="474567512">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3624932366</gameobj>
                           </item>
@@ -2782,11 +2782,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">612707538</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="762841931">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="762841931">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">612707538</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1757309980">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1757309980">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">612707538</gameobj>
                           </item>
@@ -2829,11 +2829,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1361280351</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1511414744">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1511414744">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1361280351</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2505882793">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2505882793">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1361280351</gameobj>
                           </item>
@@ -2876,11 +2876,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1578400921</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1728535314">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1728535314">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1578400921</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2723003363">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2723003363">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1578400921</gameobj>
                           </item>
@@ -2923,11 +2923,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3016675149</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3166809542">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3166809542">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3016675149</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4161277591">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4161277591">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3016675149</gameobj>
                           </item>
@@ -2970,11 +2970,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">653475135</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="803609528">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="803609528">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">653475135</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1798077577">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1798077577">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">653475135</gameobj>
                           </item>
@@ -3017,11 +3017,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2578303839</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2728438232">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2728438232">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2578303839</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3722906281">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3722906281">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2578303839</gameobj>
                           </item>
@@ -3064,11 +3064,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4177550301</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="32717398">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="32717398">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4177550301</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1027185447">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1027185447">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4177550301</gameobj>
                           </item>
@@ -3111,11 +3111,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">445738182</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="595872575">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="595872575">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">445738182</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1590340624">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1590340624">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">445738182</gameobj>
                           </item>
@@ -3158,11 +3158,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">233132570</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="383266963">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="383266963">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">233132570</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1377735012">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1377735012">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">233132570</gameobj>
                           </item>
@@ -3205,11 +3205,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">875560823</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1025695216">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1025695216">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">875560823</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2020163265">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2020163265">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">875560823</gameobj>
                           </item>
@@ -3252,11 +3252,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">658644939</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="808779332">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="808779332">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">658644939</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1803247381">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1803247381">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">658644939</gameobj>
                           </item>
@@ -3299,11 +3299,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3528552260</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3678686653">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3678686653">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3528552260</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="378187406">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="378187406">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3528552260</gameobj>
                           </item>
@@ -3346,11 +3346,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2063293013</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2213427406">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2213427406">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2063293013</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3207895455">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3207895455">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2063293013</gameobj>
                           </item>
@@ -3393,11 +3393,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4151157253</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="6324350">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="6324350">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4151157253</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1000792399">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1000792399">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4151157253</gameobj>
                           </item>
@@ -3440,11 +3440,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">670122145</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="820256538">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="820256538">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">670122145</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1814724587">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1814724587">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">670122145</gameobj>
                           </item>
@@ -3487,11 +3487,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">778150011</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="928284404">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="928284404">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">778150011</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1922752453">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1922752453">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">778150011</gameobj>
                           </item>
@@ -3534,11 +3534,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1450046674</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1600181067">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1600181067">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1450046674</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2594649116">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2594649116">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1450046674</gameobj>
                           </item>
@@ -3581,11 +3581,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">161242821</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="311377214">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="311377214">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">161242821</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1305845263">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1305845263">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">161242821</gameobj>
                           </item>
@@ -3628,11 +3628,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">229549530</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="379683923">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="379683923">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">229549530</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1374151972">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1374151972">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">229549530</gameobj>
                           </item>
@@ -3675,11 +3675,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">421696202</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="571830595">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="571830595">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">421696202</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1566298644">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1566298644">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">421696202</gameobj>
                           </item>
@@ -3722,11 +3722,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3115637307</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3265771700">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3265771700">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3115637307</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="101494827">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="101494827">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3115637307</gameobj>
                           </item>
@@ -3769,11 +3769,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2145363167</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2295497560">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2295497560">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2145363167</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="3426187983">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3426187983">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2145363167</gameobj>
                           </item>
@@ -3816,11 +3816,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3030218927</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3180353320">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3180353320">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3030218927</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4174821369">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4174821369">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3030218927</gameobj>
                           </item>
@@ -3863,11 +3863,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2873493564</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3023627957">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3023627957">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2873493564</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4018096006">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4018096006">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2873493564</gameobj>
                           </item>
@@ -3910,11 +3910,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">520043423</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="670177816">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="670177816">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">520043423</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1800868239">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1800868239">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">520043423</gameobj>
                           </item>
@@ -3957,11 +3957,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1048143163</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1198277556">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1198277556">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1048143163</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2328967979">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2328967979">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1048143163</gameobj>
                           </item>
@@ -4004,11 +4004,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3070257354</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3220391747">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3220391747">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3070257354</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4214859796">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4214859796">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3070257354</gameobj>
                           </item>
@@ -4051,11 +4051,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1457402492</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1607536885">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1607536885">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1457402492</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2602004934">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2602004934">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1457402492</gameobj>
                           </item>
@@ -4098,11 +4098,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">690342413</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="840476806">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="840476806">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">690342413</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1834944855">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1834944855">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">690342413</gameobj>
                           </item>
@@ -4145,11 +4145,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2324230144</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2474364537">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2474364537">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2324230144</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3468832586">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3468832586">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2324230144</gameobj>
                           </item>
@@ -4192,11 +4192,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2841096755</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2991231148">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2991231148">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2841096755</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3985699197">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3985699197">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2841096755</gameobj>
                           </item>
@@ -4239,11 +4239,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">103476425</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="253610818">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="253610818">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">103476425</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1248078867">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1248078867">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">103476425</gameobj>
                           </item>
@@ -4286,11 +4286,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">812773823</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="962908216">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="962908216">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">812773823</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1957376265">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1957376265">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">812773823</gameobj>
                           </item>
@@ -4333,11 +4333,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">959556132</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1109690525">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1109690525">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">959556132</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2104158574">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2104158574">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">959556132</gameobj>
                           </item>
@@ -4380,11 +4380,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">398287036</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="548421429">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="548421429">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">398287036</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1542889478">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1542889478">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">398287036</gameobj>
                           </item>
@@ -4427,11 +4427,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2512422411</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2662556804">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2662556804">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2512422411</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3657024853">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3657024853">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2512422411</gameobj>
                           </item>
@@ -4474,11 +4474,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">120102687</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="270237080">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="270237080">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">120102687</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1264705129">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1264705129">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">120102687</gameobj>
                           </item>
@@ -4521,11 +4521,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1057688773</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1207823166">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1207823166">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1057688773</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2202291215">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2202291215">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1057688773</gameobj>
                           </item>
@@ -4568,11 +4568,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1776514112</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1926648505">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1926648505">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1776514112</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2921116554">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2921116554">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1776514112</gameobj>
                           </item>
@@ -4615,11 +4615,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2234876262</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2385010655">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2385010655">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2234876262</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3379478704">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3379478704">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2234876262</gameobj>
                           </item>
@@ -4662,11 +4662,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3432410927</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3582545320">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3582545320">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3432410927</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="282046073">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="282046073">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3432410927</gameobj>
                           </item>
@@ -4709,11 +4709,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1808149200</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1958283593">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1958283593">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1808149200</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2952751642">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2952751642">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1808149200</gameobj>
                           </item>
@@ -4756,11 +4756,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2480111740</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2630246133">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2630246133">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2480111740</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3624714182">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3624714182">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2480111740</gameobj>
                           </item>
@@ -4803,11 +4803,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2739805590</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2889939983">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2889939983">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2739805590</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3884408032">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3884408032">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2739805590</gameobj>
                           </item>
@@ -4850,11 +4850,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3561703996</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3711838389">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3711838389">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3561703996</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="411339142">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="411339142">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3561703996</gameobj>
                           </item>
@@ -4897,11 +4897,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4160638128</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="15805225">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="15805225">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4160638128</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1010273274">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1010273274">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4160638128</gameobj>
                           </item>
@@ -4944,11 +4944,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1371408867</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1521543260">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1521543260">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1371408867</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2516011309">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2516011309">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1371408867</gameobj>
                           </item>
@@ -4991,11 +4991,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">846472435</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="996606828">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="996606828">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">846472435</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1991074877">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1991074877">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">846472435</gameobj>
                           </item>
@@ -5038,11 +5038,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1734442387</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1884576780">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1884576780">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1734442387</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2879044829">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2879044829">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1734442387</gameobj>
                           </item>
@@ -5085,11 +5085,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3989604496</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4139738889">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4139738889">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3989604496</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="839239642">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="839239642">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3989604496</gameobj>
                           </item>
@@ -5132,11 +5132,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4001636352</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4151770745">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4151770745">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4001636352</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="851271498">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="851271498">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4001636352</gameobj>
                           </item>
@@ -5179,11 +5179,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">90379170</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="240513563">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="240513563">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">90379170</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1234981612">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1234981612">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">90379170</gameobj>
                           </item>
@@ -5226,11 +5226,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1621973232</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1772107625">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1772107625">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1621973232</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2766575674">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2766575674">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1621973232</gameobj>
                           </item>
@@ -5273,11 +5273,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1297883838</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1448018231">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1448018231">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1297883838</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2442486280">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2442486280">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1297883838</gameobj>
                           </item>
@@ -5320,11 +5320,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1215120558</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1365254951">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1365254951">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1215120558</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2359723000">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2359723000">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1215120558</gameobj>
                           </item>
@@ -5367,11 +5367,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2594958661</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2745093054">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2745093054">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2594958661</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3739561103">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3739561103">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2594958661</gameobj>
                           </item>
@@ -5414,11 +5414,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3431457568</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3581591961">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3581591961">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3431457568</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="281092714">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="281092714">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3431457568</gameobj>
                           </item>
@@ -5461,11 +5461,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3940495903</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4090630296">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4090630296">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3940495903</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="790131049">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="790131049">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3940495903</gameobj>
                           </item>
@@ -5508,11 +5508,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2443238412</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2593372805">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2593372805">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2443238412</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3587840854">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3587840854">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2443238412</gameobj>
                           </item>
@@ -5555,11 +5555,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">886275633</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1036410026">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1036410026">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">886275633</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2030878075">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2030878075">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">886275633</gameobj>
                           </item>
@@ -5602,11 +5602,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3154277407</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3304411800">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3304411800">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3154277407</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3912553">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3912553">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3154277407</gameobj>
                           </item>
@@ -5649,11 +5649,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3452276377</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3602410770">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3602410770">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3452276377</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="301911523">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="301911523">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3452276377</gameobj>
                           </item>
@@ -5696,11 +5696,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3359802859</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3509937252">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3509937252">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3359802859</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="209438005">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="209438005">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3359802859</gameobj>
                           </item>
@@ -5743,11 +5743,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2606809517</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2756943910">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2756943910">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2606809517</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3751411959">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3751411959">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2606809517</gameobj>
                           </item>
@@ -5790,11 +5790,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1315190831</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1465325224">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1465325224">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1315190831</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2459793273">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2459793273">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1315190831</gameobj>
                           </item>
@@ -5837,11 +5837,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2162889478</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2313023871">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2313023871">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2162889478</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3307491920">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3307491920">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2162889478</gameobj>
                           </item>
@@ -5884,11 +5884,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">516242018</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="666376411">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="666376411">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">516242018</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1660844460">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1660844460">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">516242018</gameobj>
                           </item>
@@ -5931,11 +5931,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2442658634</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2592793027">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2592793027">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2442658634</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3587261076">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3587261076">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2442658634</gameobj>
                           </item>
@@ -5978,11 +5978,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2017269538</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2167403931">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2167403931">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2017269538</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3161871980">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3161871980">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2017269538</gameobj>
                           </item>
@@ -6025,11 +6025,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2959521735</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3109656128">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3109656128">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2959521735</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="4104124177">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4104124177">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2959521735</gameobj>
                           </item>
@@ -6072,11 +6072,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">674283048</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="824417441">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="824417441">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">674283048</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1818885490">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1818885490">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">674283048</gameobj>
                           </item>
@@ -6119,11 +6119,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3410423781</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3560558174">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3560558174">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3410423781</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="260058927">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="260058927">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3410423781</gameobj>
                           </item>
@@ -6166,11 +6166,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1281289933</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1431424326">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1431424326">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1281289933</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2425892375">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2425892375">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1281289933</gameobj>
                           </item>
@@ -6213,11 +6213,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3353313166</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3503447559">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3503447559">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3353313166</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="202948312">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="202948312">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3353313166</gameobj>
                           </item>
@@ -6260,11 +6260,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">446623483</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="596757876">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="596757876">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">446623483</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1591225925">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1591225925">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">446623483</gameobj>
                           </item>
@@ -6307,11 +6307,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2517741082</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2667875475">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2667875475">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2517741082</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3662343524">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3662343524">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2517741082</gameobj>
                           </item>
@@ -6354,11 +6354,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1204243461</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1354377854">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1354377854">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1204243461</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2348845903">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2348845903">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1204243461</gameobj>
                           </item>
@@ -6401,11 +6401,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">666743490</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="816877883">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="816877883">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">666743490</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1811345932">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1811345932">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">666743490</gameobj>
                           </item>
@@ -6448,11 +6448,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">78149357</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="228283750">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="228283750">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">78149357</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1222751799">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1222751799">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">78149357</gameobj>
                           </item>
@@ -6495,11 +6495,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2046842525</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2196976918">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2196976918">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2046842525</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3191444967">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3191444967">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2046842525</gameobj>
                           </item>
@@ -6542,11 +6542,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3241471626</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3391606019">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3391606019">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3241471626</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="91106772">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="91106772">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3241471626</gameobj>
                           </item>
@@ -6589,11 +6589,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1038480097</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1188614490">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1188614490">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1038480097</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2183082539">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2183082539">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1038480097</gameobj>
                           </item>
@@ -6636,11 +6636,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1786765673</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1936900066">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1936900066">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1786765673</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2931368115">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2931368115">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1786765673</gameobj>
                           </item>
@@ -6683,11 +6683,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">837439503</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="987573896">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="987573896">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">837439503</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1982041945">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1982041945">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">837439503</gameobj>
                           </item>
@@ -6730,11 +6730,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3299353636</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3449488029">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3449488029">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3299353636</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="148988782">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="148988782">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3299353636</gameobj>
                           </item>
@@ -6777,11 +6777,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2110822783</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2260957176">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2260957176">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2110822783</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3255425225">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3255425225">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2110822783</gameobj>
                           </item>
@@ -6824,11 +6824,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">655043540</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="805177933">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="805177933">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">655043540</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1799645982">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1799645982">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">655043540</gameobj>
                           </item>
@@ -6871,11 +6871,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1028720615</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1178855008">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1178855008">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1028720615</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2173323057">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2173323057">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1028720615</gameobj>
                           </item>
@@ -6918,11 +6918,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2517956378</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2668090771">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2668090771">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2517956378</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3662558820">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3662558820">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2517956378</gameobj>
                           </item>
@@ -6965,11 +6965,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3667662836</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3817797229">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3817797229">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3667662836</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="517297982">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="517297982">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3667662836</gameobj>
                           </item>
@@ -7012,11 +7012,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">861895746</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1012030139">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1012030139">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">861895746</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2006498188">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2006498188">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">861895746</gameobj>
                           </item>
@@ -7059,11 +7059,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">366757055</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="516891448">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="516891448">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">366757055</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1511359497">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1511359497">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">366757055</gameobj>
                           </item>
@@ -7106,11 +7106,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3789152732</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3939287125">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3939287125">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3789152732</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="638787878">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="638787878">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3789152732</gameobj>
                           </item>
@@ -7153,11 +7153,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2657924465</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2808058858">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2808058858">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2657924465</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3802526907">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3802526907">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2657924465</gameobj>
                           </item>
@@ -7200,11 +7200,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1643285115</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1793419508">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1793419508">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1643285115</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2924109931">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2924109931">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1643285115</gameobj>
                           </item>
@@ -7247,11 +7247,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1685023847</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1835158240">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1835158240">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1685023847</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="2965848663">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2965848663">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1685023847</gameobj>
                           </item>
@@ -7294,11 +7294,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2802746353</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2952880746">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2952880746">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2802746353</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="4083571169">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="4083571169">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2802746353</gameobj>
                           </item>
@@ -7341,11 +7341,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4081335476</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4231469869">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4231469869">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4081335476</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Thruster" id="1067192996">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1067192996">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4081335476</gameobj>
                           </item>
@@ -7388,11 +7388,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">922742551</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1072876944">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1072876944">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">922742551</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2067344993">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2067344993">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">922742551</gameobj>
                           </item>
@@ -7435,11 +7435,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4156304348</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="11471445">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="11471445">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4156304348</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1005939494">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1005939494">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">4156304348</gameobj>
                           </item>
@@ -7482,11 +7482,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3865246128</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4015380521">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4015380521">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3865246128</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="714881274">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="714881274">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3865246128</gameobj>
                           </item>
@@ -7529,11 +7529,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3942102358</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4092236751">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4092236751">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3942102358</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="791737504">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="791737504">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3942102358</gameobj>
                           </item>
@@ -7576,11 +7576,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1654850587</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1804984980">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1804984980">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1654850587</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2799453029">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2799453029">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1654850587</gameobj>
                           </item>
@@ -7623,11 +7623,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2828239283</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2978373676">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2978373676">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2828239283</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3972841725">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3972841725">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2828239283</gameobj>
                           </item>
@@ -7670,11 +7670,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2437512605</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2587646998">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2587646998">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2437512605</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3582115047">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3582115047">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2437512605</gameobj>
                           </item>
@@ -7717,11 +7717,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1815202302</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1965336695">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1965336695">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1815202302</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="2959804744">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2959804744">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">1815202302</gameobj>
                           </item>
@@ -7764,11 +7764,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">370374045</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="520508438">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="520508438">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">370374045</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1514976487">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1514976487">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">370374045</gameobj>
                           </item>
@@ -7811,11 +7811,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">495685531</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="645819924">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="645819924">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">495685531</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1640287973">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1640287973">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">495685531</gameobj>
                           </item>
@@ -7858,11 +7858,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2791385408</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2941519801">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2941519801">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2791385408</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3935987850">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3935987850">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2791385408</gameobj>
                           </item>
@@ -7905,11 +7905,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">854667469</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1004801862">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1004801862">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">854667469</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="1999269911">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1999269911">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">854667469</gameobj>
                           </item>
@@ -7952,11 +7952,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3628647067</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3778781460">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3778781460">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3628647067</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="478282213">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="478282213">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3628647067</gameobj>
                           </item>
@@ -7999,11 +7999,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3638294458</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3788428851">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3788428851">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3638294458</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="487929604">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="487929604">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3638294458</gameobj>
                           </item>
@@ -8046,11 +8046,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2481924284</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2632058677">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2632058677">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2481924284</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="3626526726">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3626526726">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">2481924284</gameobj>
                           </item>
@@ -8093,11 +8093,11 @@
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3282946134</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3433080527">
+                          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3433080527">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3282946134</gameobj>
                           </item>
-                          <item dataType="Struct" type="FellSky.Ships.Hull" id="132581280">
+                          <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="132581280">
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3282946134</gameobj>
                           </item>
@@ -8141,7 +8141,7 @@
                       <active dataType="Bool">true</active>
                       <gameobj dataType="ObjectRef">2086690294</gameobj>
                     </item>
-                    <item dataType="Struct" type="FellSky.Ships.Ship" id="868667925">
+                    <item dataType="Struct" type="FellSky.Components.Ships.Ship" id="868667925">
                       <active dataType="Bool">true</active>
                       <gameobj dataType="ObjectRef">2086690294</gameobj>
                     </item>
@@ -8153,7 +8153,7 @@
                   <body>
                     <keys dataType="Array" type="System.Object[]" id="4169705236">
                       <item dataType="ObjectRef">4159762688</item>
-                      <item dataType="Type" id="3867885668" value="FellSky.Ships.Ship" />
+                      <item dataType="Type" id="3867885668" value="FellSky.Components.Ships.Ship" />
                       <item dataType="Type" id="4175164438" value="Duality.Components.Physics.RigidBody" />
                     </keys>
                     <values dataType="Array" type="System.Object[]" id="2212618550">
@@ -8195,7 +8195,7 @@
                           <_size dataType="Int">0</_size>
                         </childIndex>
                         <componentType dataType="ObjectRef">3867885668</componentType>
-                        <prop dataType="MemberInfo" id="4226990194" value="P:FellSky.Ships.Ship:BaseColor" />
+                        <prop dataType="MemberInfo" id="4226990194" value="P:FellSky.Components.Ships.Ship:BaseColor" />
                         <val dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">234</B>
@@ -8226,8 +8226,8 @@
           <keys dataType="Array" type="System.Object[]" id="3078478472">
             <item dataType="ObjectRef">4159762688</item>
             <item dataType="Type" id="4002451308" value="Duality.Components.Camera" />
-            <item dataType="Type" id="1839891510" value="FellSky.Engine.FollowBehavior" />
-            <item dataType="Type" id="940190264" value="FellSky.Engine.CameraZoom" />
+            <item dataType="Type" id="1839891510" value="FellSky.Components.FollowBehavior" />
+            <item dataType="Type" id="940190264" value="FellSky.Components.CameraZoom" />
           </keys>
           <values dataType="Array" type="System.Object[]" id="2664754142">
             <item dataType="ObjectRef">148339102</item>
@@ -8577,7 +8577,7 @@
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1770852632">
         <_items dataType="Array" type="Duality.Component[]" id="3302876716" length="4">
-          <item dataType="Struct" type="FellSky.Engine.PlayerShipController" id="3278555061">
+          <item dataType="Struct" type="FellSky.Components.Ship.PlayerShipController" id="3278555061">
             <_x003C_Boost_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Space" value="51" />
             <_x003C_ControlledShip_x003E_k__BackingField dataType="ObjectRef">868667925</_x003C_ControlledShip_x003E_k__BackingField>
             <_x003C_StrafeLeft_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Q" value="99" />
@@ -8596,7 +8596,7 @@
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="3963267802">
-            <item dataType="Type" id="4116122880" value="FellSky.Engine.PlayerShipController" />
+            <item dataType="Type" id="4116122880" value="FellSky.Components.Ship.PlayerShipController" />
           </keys>
           <values dataType="Array" type="System.Object[]" id="2425598650">
             <item dataType="ObjectRef">3278555061</item>
@@ -8646,7 +8646,7 @@
             <vel dataType="Struct" type="Duality.Vector3" />
             <velAbs dataType="Struct" type="Duality.Vector3" />
           </item>
-          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3988797099">
+          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3988797099">
             <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
             <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
               <A dataType="Byte">255</A>
@@ -8660,7 +8660,7 @@
               <X dataType="Float">1</X>
               <Y dataType="Float">1</Y>
             </_x003C_Scale_x003E_k__BackingField>
-            <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+            <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
               <contentPath dataType="String">Data\Space\SpaceObjects\sun.sprite.res</contentPath>
             </_x003C_Sprite_x003E_k__BackingField>
             <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">0</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8750,7 +8750,7 @@
                   <vel dataType="Struct" type="Duality.Vector3" />
                   <velAbs dataType="Struct" type="Duality.Vector3" />
                 </item>
-                <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="590954136">
+                <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="590954136">
                   <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                   <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                     <A dataType="Byte">255</A>
@@ -8764,7 +8764,7 @@
                     <X dataType="Float">1</X>
                     <Y dataType="Float">1</Y>
                   </_x003C_Scale_x003E_k__BackingField>
-                  <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                  <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                     <contentPath dataType="String">Data\Space\SpaceObjects\gasgiant.sprite.res</contentPath>
                   </_x003C_Sprite_x003E_k__BackingField>
                   <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">2</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8806,7 +8806,7 @@
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="995837504">
         <_items dataType="Array" type="Duality.Component[]" id="1732922941" length="4">
           <item dataType="ObjectRef">1453875129</item>
-          <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3538661886">
+          <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3538661886">
             <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
             <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
               <A dataType="Byte">255</A>
@@ -8820,7 +8820,7 @@
               <X dataType="Float">1</X>
               <Y dataType="Float">1</Y>
             </_x003C_Scale_x003E_k__BackingField>
-            <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+            <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
               <contentPath dataType="String">Data\Space\SpaceObjects\planetshadowmask.sprite.res</contentPath>
             </_x003C_Sprite_x003E_k__BackingField>
             <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">0</_x003C_VertexZOffset_x003E_k__BackingField>

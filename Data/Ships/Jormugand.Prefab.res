@@ -50,7 +50,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3295703620">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3295703620">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -64,7 +64,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn459.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">10</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -72,14 +72,14 @@
                 <gameobj dataType="ObjectRef">3145569227</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4290171669">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4290171669">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">122</B>
                   <G dataType="Byte">122</G>
                   <R dataType="Byte">122</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3145569227</gameobj>
@@ -92,8 +92,8 @@
             <body>
               <keys dataType="Array" type="System.Object[]" id="201732917">
                 <item dataType="Type" id="2301039606" value="Duality.Components.Transform" />
-                <item dataType="Type" id="2634355738" value="FellSky.Engine.AdvSpriteRenderer" />
-                <item dataType="Type" id="1145044246" value="FellSky.Ships.Hull" />
+                <item dataType="Type" id="2634355738" value="FellSky.Components.AdvSpriteRenderer" />
+                <item dataType="Type" id="1145044246" value="FellSky.Components.Ships.Hull" />
               </keys>
               <values dataType="Array" type="System.Object[]" id="2221211720">
                 <item dataType="ObjectRef">1210916863</item>
@@ -144,7 +144,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4166834765">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4166834765">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -158,7 +158,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn446.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.99</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -166,14 +166,14 @@
                 <gameobj dataType="ObjectRef">4016700372</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="866335518">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="866335518">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">97</B>
                   <G dataType="Byte">97</G>
                   <R dataType="Byte">97</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4016700372</gameobj>
@@ -238,7 +238,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="53737508">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="53737508">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -252,7 +252,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn459.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.98</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -260,14 +260,14 @@
                 <gameobj dataType="ObjectRef">4198570411</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1048205557">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1048205557">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">122</B>
                   <G dataType="Byte">122</G>
                   <R dataType="Byte">122</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4198570411</gameobj>
@@ -332,7 +332,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="504396800">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="504396800">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -346,7 +346,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn458.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.969999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -354,14 +354,14 @@
                 <gameobj dataType="ObjectRef">354262407</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1498864849">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1498864849">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">84</B>
                   <G dataType="Byte">84</G>
                   <R dataType="Byte">84</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">354262407</gameobj>
@@ -426,7 +426,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2924439559">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2924439559">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -440,7 +440,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn458.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.959999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -448,14 +448,14 @@
                 <gameobj dataType="ObjectRef">2774305166</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3918907608">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3918907608">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">84</B>
                   <G dataType="Byte">84</G>
                   <R dataType="Byte">84</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2774305166</gameobj>
@@ -520,7 +520,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2012590689">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2012590689">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -534,7 +534,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn414.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.949999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -542,14 +542,14 @@
                 <gameobj dataType="ObjectRef">1862456296</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3007058738">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3007058738">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">107</B>
                   <G dataType="Byte">107</G>
                   <R dataType="Byte">107</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1862456296</gameobj>
@@ -614,7 +614,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1168216160">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1168216160">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -628,7 +628,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn414.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.939999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -636,14 +636,14 @@
                 <gameobj dataType="ObjectRef">1018081767</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2162684209">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2162684209">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">107</B>
                   <G dataType="Byte">107</G>
                   <R dataType="Byte">107</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1018081767</gameobj>
@@ -708,7 +708,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4120870413">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4120870413">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -725,7 +725,7 @@
                   <X dataType="Float">1.188485</X>
                   <Y dataType="Float">1.112214</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.929998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -733,7 +733,7 @@
                 <gameobj dataType="ObjectRef">3970736020</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="956593540">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="956593540">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -767,7 +767,7 @@
               <keys dataType="Array" type="System.Object[]" id="3014387670">
                 <item dataType="ObjectRef">2301039606</item>
                 <item dataType="ObjectRef">2634355738</item>
-                <item dataType="Type" id="93536544" value="FellSky.Ships.Thruster" />
+                <item dataType="Type" id="93536544" value="FellSky.Components.Ships.Thruster" />
               </keys>
               <values dataType="Array" type="System.Object[]" id="3410985946">
                 <item dataType="ObjectRef">2036083656</item>
@@ -818,7 +818,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1723867525">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1723867525">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -835,7 +835,7 @@
                   <X dataType="Float">1.188485</X>
                   <Y dataType="Float">1.112214</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.919998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -843,7 +843,7 @@
                 <gameobj dataType="ObjectRef">1573733132</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2854557948">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2854557948">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -928,7 +928,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1071626801">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1071626801">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -945,7 +945,7 @@
                   <X dataType="Float">0.6576114</X>
                   <Y dataType="Float">0.4434206</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.909998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -953,7 +953,7 @@
                 <gameobj dataType="ObjectRef">921492408</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2202317224">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2202317224">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1038,7 +1038,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="628482629">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="628482629">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1055,7 +1055,7 @@
                   <X dataType="Float">0.4391036</X>
                   <Y dataType="Float">0.3734716</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.899998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1063,7 +1063,7 @@
                 <gameobj dataType="ObjectRef">478348236</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1759173052">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1759173052">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1148,7 +1148,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4152896957">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4152896957">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1165,7 +1165,7 @@
                   <X dataType="Float">0.4391036</X>
                   <Y dataType="Float">0.3734716</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.88999748</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1173,7 +1173,7 @@
                 <gameobj dataType="ObjectRef">4002762564</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="988620084">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="988620084">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1258,7 +1258,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="100542937">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="100542937">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1275,7 +1275,7 @@
                   <X dataType="Float">0.6576114</X>
                   <Y dataType="Float">0.4434206</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.879997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1283,7 +1283,7 @@
                 <gameobj dataType="ObjectRef">4245375840</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1231233360">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1231233360">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1368,7 +1368,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3370941048">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3370941048">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1382,7 +1382,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn232.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.869997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1390,14 +1390,14 @@
                 <gameobj dataType="ObjectRef">3220806655</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="70441801">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="70441801">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3220806655</gameobj>
@@ -1462,7 +1462,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4265040218">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4265040218">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1476,7 +1476,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn232.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.859997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1484,14 +1484,14 @@
                 <gameobj dataType="ObjectRef">4114905825</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="964540971">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="964540971">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4114905825</gameobj>
@@ -1556,7 +1556,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2065784268">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2065784268">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1570,7 +1570,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn479.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.849997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1578,14 +1578,14 @@
                 <gameobj dataType="ObjectRef">1915649875</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3060252317">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3060252317">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1915649875</gameobj>
@@ -1650,7 +1650,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2599800244">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2599800244">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1667,7 +1667,7 @@
                   <X dataType="Float">1.570198</X>
                   <Y dataType="Float">1.591721</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.839996</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1675,7 +1675,7 @@
                 <gameobj dataType="ObjectRef">2449665851</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3730490667">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3730490667">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1760,7 +1760,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2791842179">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2791842179">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1777,7 +1777,7 @@
                   <X dataType="Float">0.2357478</X>
                   <Y dataType="Float">0.2472391</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.829996</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1785,7 +1785,7 @@
                 <gameobj dataType="ObjectRef">2641707786</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3922532602">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3922532602">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1870,7 +1870,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="519928586">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="519928586">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1887,7 +1887,7 @@
                   <X dataType="Float">0.1192793</X>
                   <Y dataType="Float">0.1663665</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.819996</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -1895,7 +1895,7 @@
                 <gameobj dataType="ObjectRef">369794193</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1650619009">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1650619009">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -1980,7 +1980,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2626826872">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2626826872">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -1997,7 +1997,7 @@
                   <X dataType="Float">0.1192793</X>
                   <Y dataType="Float">0.1663665</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.809996</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2005,7 +2005,7 @@
                 <gameobj dataType="ObjectRef">2476692479</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3757517295">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3757517295">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -2090,7 +2090,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1106139794">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1106139794">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2107,7 +2107,7 @@
                   <X dataType="Float">0.1192793</X>
                   <Y dataType="Float">0.1663665</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.799995</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2115,7 +2115,7 @@
                 <gameobj dataType="ObjectRef">956005401</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2236830217">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2236830217">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -2200,7 +2200,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1952124525">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1952124525">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2217,7 +2217,7 @@
                   <X dataType="Float">0.1192793</X>
                   <Y dataType="Float">0.1663665</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.789995</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2225,7 +2225,7 @@
                 <gameobj dataType="ObjectRef">1801990132</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3082814948">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3082814948">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -2310,7 +2310,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="166012882">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="166012882">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2327,7 +2327,7 @@
                   <X dataType="Float">0.1192793</X>
                   <Y dataType="Float">0.1663665</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.779995</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2335,7 +2335,7 @@
                 <gameobj dataType="ObjectRef">15878489</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1296703305">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1296703305">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -2420,7 +2420,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1173890002">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1173890002">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2437,7 +2437,7 @@
                   <X dataType="Float">0.1192793</X>
                   <Y dataType="Float">0.1663665</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.769995</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2445,7 +2445,7 @@
                 <gameobj dataType="ObjectRef">1023755609</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2304580425">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2304580425">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -2530,7 +2530,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3897394192">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3897394192">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2547,7 +2547,7 @@
                   <X dataType="Float">0.2357478</X>
                   <Y dataType="Float">0.2472391</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.75999451</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2555,7 +2555,7 @@
                 <gameobj dataType="ObjectRef">3747259799</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="733117319">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="733117319">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -2640,7 +2640,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1114969768">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1114969768">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2654,7 +2654,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn495.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.749994</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2662,14 +2662,14 @@
                 <gameobj dataType="ObjectRef">964835375</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2109437817">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2109437817">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">158</B>
                   <G dataType="Byte">158</G>
                   <R dataType="Byte">158</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">964835375</gameobj>
@@ -2734,7 +2734,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2722468227">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2722468227">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2748,7 +2748,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn495.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.739994</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2756,14 +2756,14 @@
                 <gameobj dataType="ObjectRef">2572333834</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3716936276">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3716936276">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">158</B>
                   <G dataType="Byte">158</G>
                   <R dataType="Byte">158</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2572333834</gameobj>
@@ -2828,7 +2828,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3494082264">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3494082264">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2842,7 +2842,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn495.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.729994</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2850,14 +2850,14 @@
                 <gameobj dataType="ObjectRef">3343947871</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="193583017">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="193583017">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">158</B>
                   <G dataType="Byte">158</G>
                   <R dataType="Byte">158</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3343947871</gameobj>
@@ -2922,7 +2922,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1743285297">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1743285297">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -2936,7 +2936,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn495.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.719994</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -2944,14 +2944,14 @@
                 <gameobj dataType="ObjectRef">1593150904</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2737753346">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2737753346">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">158</B>
                   <G dataType="Byte">158</G>
                   <R dataType="Byte">158</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1593150904</gameobj>
@@ -3016,7 +3016,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3395239017">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3395239017">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3033,7 +3033,7 @@
                   <X dataType="Float">1.570198</X>
                   <Y dataType="Float">1.591721</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.709993</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3041,7 +3041,7 @@
                 <gameobj dataType="ObjectRef">3245104624</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="230962144">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="230962144">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -3126,7 +3126,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="145948968">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="145948968">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3140,7 +3140,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn050.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.699993</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3148,14 +3148,14 @@
                 <gameobj dataType="ObjectRef">4290781871</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1140417017">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1140417017">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">59</B>
                   <G dataType="Byte">59</G>
                   <R dataType="Byte">59</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4290781871</gameobj>
@@ -3220,7 +3220,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2587884128">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2587884128">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3234,7 +3234,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn050.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.689993</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3242,14 +3242,14 @@
                 <gameobj dataType="ObjectRef">2437749735</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3582352177">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3582352177">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">59</B>
                   <G dataType="Byte">59</G>
                   <R dataType="Byte">59</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2437749735</gameobj>
@@ -3314,7 +3314,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="316466829">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="316466829">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3328,7 +3328,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn337.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.679993</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3336,14 +3336,14 @@
                 <gameobj dataType="ObjectRef">166332436</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1310934878">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1310934878">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">166332436</gameobj>
@@ -3408,7 +3408,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1367011039">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1367011039">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3422,7 +3422,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn440.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.669992</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3430,14 +3430,14 @@
                 <gameobj dataType="ObjectRef">1216876646</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2361479088">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2361479088">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">51</B>
                   <G dataType="Byte">51</G>
                   <R dataType="Byte">51</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1216876646</gameobj>
@@ -3502,7 +3502,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2151487488">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2151487488">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3516,7 +3516,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn440.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.659992</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3524,14 +3524,14 @@
                 <gameobj dataType="ObjectRef">2001353095</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3145955537">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3145955537">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">51</B>
                   <G dataType="Byte">51</G>
                   <R dataType="Byte">51</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2001353095</gameobj>
@@ -3596,7 +3596,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3286221977">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3286221977">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3610,7 +3610,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn448.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.649992</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3618,14 +3618,14 @@
                 <gameobj dataType="ObjectRef">3136087584</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4280690026">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4280690026">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">122</B>
                   <G dataType="Byte">122</G>
                   <R dataType="Byte">122</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3136087584</gameobj>
@@ -3690,7 +3690,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1364036483">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1364036483">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3707,7 +3707,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.639992</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3715,7 +3715,7 @@
                 <gameobj dataType="ObjectRef">1213902090</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2494726906">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2494726906">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -3800,7 +3800,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2476793253">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2476793253">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3817,7 +3817,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.629992</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3825,7 +3825,7 @@
                 <gameobj dataType="ObjectRef">2326658860</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3607483676">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3607483676">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -3910,7 +3910,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1325999954">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1325999954">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -3924,7 +3924,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn440.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.619991</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -3932,14 +3932,14 @@
                 <gameobj dataType="ObjectRef">1175865561</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2320468003">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2320468003">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">84</B>
                   <G dataType="Byte">84</G>
                   <R dataType="Byte">84</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1175865561</gameobj>
@@ -4004,7 +4004,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1135152451">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1135152451">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4021,7 +4021,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.609991</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4029,7 +4029,7 @@
                 <gameobj dataType="ObjectRef">985018058</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2265842874">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2265842874">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -4114,7 +4114,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="868800687">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="868800687">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4131,7 +4131,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.599991</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4139,7 +4139,7 @@
                 <gameobj dataType="ObjectRef">718666294</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1999491110">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1999491110">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -4224,7 +4224,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1146263622">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1146263622">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4238,7 +4238,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn440.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.589991</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4246,14 +4246,14 @@
                 <gameobj dataType="ObjectRef">996129229</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2140731671">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2140731671">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">84</B>
                   <G dataType="Byte">84</G>
                   <R dataType="Byte">84</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">996129229</gameobj>
@@ -4318,7 +4318,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="731465683">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="731465683">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4335,7 +4335,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.57999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4343,7 +4343,7 @@
                 <gameobj dataType="ObjectRef">581331290</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1862156106">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1862156106">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -4428,7 +4428,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2091881018">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2091881018">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4445,7 +4445,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.56999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4453,7 +4453,7 @@
                 <gameobj dataType="ObjectRef">1941746625</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3222571441">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3222571441">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -4538,7 +4538,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="795636762">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="795636762">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4552,7 +4552,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn337.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.55999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4560,14 +4560,14 @@
                 <gameobj dataType="ObjectRef">645502369</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1790104811">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1790104811">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">645502369</gameobj>
@@ -4632,7 +4632,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1475984094">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1475984094">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4646,7 +4646,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn414.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.54999</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4654,14 +4654,14 @@
                 <gameobj dataType="ObjectRef">1325849701</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2470452143">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2470452143">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">107</B>
                   <G dataType="Byte">107</G>
                   <R dataType="Byte">107</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1325849701</gameobj>
@@ -4726,7 +4726,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="643745317">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="643745317">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4740,7 +4740,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn414.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.539989</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4748,14 +4748,14 @@
                 <gameobj dataType="ObjectRef">493610924</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1638213366">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1638213366">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">107</B>
                   <G dataType="Byte">107</G>
                   <R dataType="Byte">107</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">493610924</gameobj>
@@ -4820,7 +4820,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1912874602">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1912874602">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4834,7 +4834,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn448.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.529989</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4842,14 +4842,14 @@
                 <gameobj dataType="ObjectRef">1762740209</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2907342651">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2907342651">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">122</B>
                   <G dataType="Byte">122</G>
                   <R dataType="Byte">122</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1762740209</gameobj>
@@ -4914,7 +4914,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2968859937">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2968859937">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -4928,7 +4928,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn446.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.519989</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -4936,14 +4936,14 @@
                 <gameobj dataType="ObjectRef">2818725544</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3963327986">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3963327986">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">97</B>
                   <G dataType="Byte">97</G>
                   <R dataType="Byte">97</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2818725544</gameobj>
@@ -5008,7 +5008,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3781514521">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3781514521">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5022,7 +5022,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn427.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.509989</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5030,14 +5030,14 @@
                 <gameobj dataType="ObjectRef">3631380128</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="481015274">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="481015274">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">140</B>
                   <G dataType="Byte">140</G>
                   <R dataType="Byte">140</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3631380128</gameobj>
@@ -5102,7 +5102,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2350410060">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2350410060">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5116,7 +5116,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn427.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.499989</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5124,14 +5124,14 @@
                 <gameobj dataType="ObjectRef">2200275667</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3344878109">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3344878109">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">140</B>
                   <G dataType="Byte">140</G>
                   <R dataType="Byte">140</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2200275667</gameobj>
@@ -5196,7 +5196,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3797043408">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3797043408">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5210,7 +5210,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn349.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.489988</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5218,14 +5218,14 @@
                 <gameobj dataType="ObjectRef">3646909015</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="496544161">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="496544161">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">128</B>
                   <G dataType="Byte">128</G>
                   <R dataType="Byte">128</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3646909015</gameobj>
@@ -5290,7 +5290,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2611297824">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2611297824">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5304,7 +5304,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn441.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.479988</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5312,14 +5312,14 @@
                 <gameobj dataType="ObjectRef">2461163431</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3605765873">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3605765873">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2461163431</gameobj>
@@ -5384,7 +5384,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1756241367">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1756241367">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5398,7 +5398,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn441.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.469988</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5406,14 +5406,14 @@
                 <gameobj dataType="ObjectRef">1606106974</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2750709416">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2750709416">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1606106974</gameobj>
@@ -5478,7 +5478,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3511207809">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3511207809">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5492,7 +5492,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn425.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.459988</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5500,14 +5500,14 @@
                 <gameobj dataType="ObjectRef">3361073416</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="210708562">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="210708562">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">140</B>
                   <G dataType="Byte">140</G>
                   <R dataType="Byte">140</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3361073416</gameobj>
@@ -5572,7 +5572,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4261337158">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4261337158">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5586,7 +5586,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn150.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.449987</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5594,14 +5594,14 @@
                 <gameobj dataType="ObjectRef">4111202765</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="960837911">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="960837911">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">66</B>
                   <G dataType="Byte">66</G>
                   <R dataType="Byte">66</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4111202765</gameobj>
@@ -5666,7 +5666,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1000369792">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1000369792">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5680,7 +5680,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn150.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.439987</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5688,14 +5688,14 @@
                 <gameobj dataType="ObjectRef">850235399</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1994837841">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1994837841">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">66</B>
                   <G dataType="Byte">66</G>
                   <R dataType="Byte">66</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">850235399</gameobj>
@@ -5760,7 +5760,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3429152021">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3429152021">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5774,7 +5774,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn444.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.429987</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5782,14 +5782,14 @@
                 <gameobj dataType="ObjectRef">3279017628</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="128652774">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="128652774">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">156</B>
                   <G dataType="Byte">156</G>
                   <R dataType="Byte">156</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3279017628</gameobj>
@@ -5854,7 +5854,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="291532145">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="291532145">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5868,7 +5868,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn444.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.419987</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5876,14 +5876,14 @@
                 <gameobj dataType="ObjectRef">141397752</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1286000194">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1286000194">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">156</B>
                   <G dataType="Byte">156</G>
                   <R dataType="Byte">156</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">141397752</gameobj>
@@ -5948,7 +5948,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2443789460">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2443789460">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -5962,7 +5962,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn150.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.4099865</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -5970,14 +5970,14 @@
                 <gameobj dataType="ObjectRef">2293655067</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3438257509">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3438257509">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">66</B>
                   <G dataType="Byte">66</G>
                   <R dataType="Byte">66</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2293655067</gameobj>
@@ -6042,7 +6042,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="621131720">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="621131720">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6056,7 +6056,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn150.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.399986</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6064,14 +6064,14 @@
                 <gameobj dataType="ObjectRef">470997327</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1615599769">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1615599769">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">66</B>
                   <G dataType="Byte">66</G>
                   <R dataType="Byte">66</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">470997327</gameobj>
@@ -6136,7 +6136,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3384904058">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3384904058">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6150,7 +6150,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn415.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.389986</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6158,14 +6158,14 @@
                 <gameobj dataType="ObjectRef">3234769665</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="84404811">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="84404811">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">71</B>
                   <G dataType="Byte">71</G>
                   <R dataType="Byte">71</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3234769665</gameobj>
@@ -6230,7 +6230,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1460748402">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1460748402">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6244,7 +6244,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn480.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.379986</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6252,14 +6252,14 @@
                 <gameobj dataType="ObjectRef">1310614009</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2455216451">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2455216451">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1310614009</gameobj>
@@ -6324,7 +6324,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1617206199">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1617206199">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6338,7 +6338,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn464.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.369986</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6346,14 +6346,14 @@
                 <gameobj dataType="ObjectRef">1467071806</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2611674248">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2611674248">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">130</B>
                   <G dataType="Byte">130</G>
                   <R dataType="Byte">130</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1467071806</gameobj>
@@ -6418,7 +6418,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="623501842">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="623501842">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6432,7 +6432,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn349.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.359985</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6440,14 +6440,14 @@
                 <gameobj dataType="ObjectRef">473367449</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1617969891">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1617969891">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">128</B>
                   <G dataType="Byte">128</G>
                   <R dataType="Byte">128</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">473367449</gameobj>
@@ -6512,7 +6512,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2314776666">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2314776666">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6526,7 +6526,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn147.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.349985</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6534,14 +6534,14 @@
                 <gameobj dataType="ObjectRef">2164642273</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3309244715">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3309244715">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2164642273</gameobj>
@@ -6606,7 +6606,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2127761660">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2127761660">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6620,7 +6620,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn147.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.339985</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6628,14 +6628,14 @@
                 <gameobj dataType="ObjectRef">1977627267</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3122229709">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3122229709">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1977627267</gameobj>
@@ -6700,7 +6700,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2302952523">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2302952523">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6714,7 +6714,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn431.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.329985</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6722,14 +6722,14 @@
                 <gameobj dataType="ObjectRef">2152818130</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3297420572">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3297420572">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">87</B>
                   <G dataType="Byte">87</G>
                   <R dataType="Byte">87</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2152818130</gameobj>
@@ -6794,7 +6794,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1112201021">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1112201021">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6808,7 +6808,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn425.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.319984</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6816,14 +6816,14 @@
                 <gameobj dataType="ObjectRef">962066628</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2106669070">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2106669070">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">140</B>
                   <G dataType="Byte">140</G>
                   <R dataType="Byte">140</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">962066628</gameobj>
@@ -6888,7 +6888,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4218783310">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4218783310">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6902,7 +6902,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn430.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.309984</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -6910,14 +6910,14 @@
                 <gameobj dataType="ObjectRef">4068648917</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="918284063">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="918284063">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">87</B>
                   <G dataType="Byte">87</G>
                   <R dataType="Byte">87</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4068648917</gameobj>
@@ -6982,7 +6982,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1966991918">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1966991918">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -6996,7 +6996,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn464.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.299984</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7004,14 +7004,14 @@
                 <gameobj dataType="ObjectRef">1816857525</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2961459967">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2961459967">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">130</B>
                   <G dataType="Byte">130</G>
                   <R dataType="Byte">130</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1816857525</gameobj>
@@ -7076,7 +7076,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1225130037">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1225130037">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7090,7 +7090,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn451.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.289984</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7098,14 +7098,14 @@
                 <gameobj dataType="ObjectRef">1074995644</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2219598086">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2219598086">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">71</B>
                   <G dataType="Byte">71</G>
                   <R dataType="Byte">71</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1074995644</gameobj>
@@ -7170,7 +7170,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1990165978">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1990165978">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7184,7 +7184,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn068.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.27998352</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7192,14 +7192,14 @@
                 <gameobj dataType="ObjectRef">1840031585</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2984634027">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2984634027">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">138</B>
                   <G dataType="Byte">138</G>
                   <R dataType="Byte">138</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1840031585</gameobj>
@@ -7264,7 +7264,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="255670152">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="255670152">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7278,7 +7278,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn068.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.269983</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7286,14 +7286,14 @@
                 <gameobj dataType="ObjectRef">105535759</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1250138201">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1250138201">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">138</B>
                   <G dataType="Byte">138</G>
                   <R dataType="Byte">138</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">105535759</gameobj>
@@ -7358,7 +7358,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="486285215">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="486285215">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7372,7 +7372,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn331.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.259983</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7380,14 +7380,14 @@
                 <gameobj dataType="ObjectRef">336150822</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1480753264">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1480753264">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">176</B>
                   <G dataType="Byte">176</G>
                   <R dataType="Byte">176</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">336150822</gameobj>
@@ -7452,7 +7452,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1249149241">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1249149241">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7466,7 +7466,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn431.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.249983</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7474,14 +7474,14 @@
                 <gameobj dataType="ObjectRef">1099014848</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2243617290">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2243617290">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">87</B>
                   <G dataType="Byte">87</G>
                   <R dataType="Byte">87</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1099014848</gameobj>
@@ -7546,7 +7546,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3395105226">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3395105226">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7560,7 +7560,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn430.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.239983</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7568,14 +7568,14 @@
                 <gameobj dataType="ObjectRef">3244970833</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="94605979">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="94605979">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">87</B>
                   <G dataType="Byte">87</G>
                   <R dataType="Byte">87</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3244970833</gameobj>
@@ -7640,7 +7640,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3857815846">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3857815846">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7657,7 +7657,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.229982</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7665,7 +7665,7 @@
                 <gameobj dataType="ObjectRef">3707681453</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="693538973">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="693538973">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -7750,7 +7750,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2337836058">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2337836058">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7767,7 +7767,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.219982</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7775,7 +7775,7 @@
                 <gameobj dataType="ObjectRef">2187701665</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3468526481">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3468526481">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -7860,7 +7860,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2849244220">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2849244220">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7874,7 +7874,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn507.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.209982</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7882,14 +7882,14 @@
                 <gameobj dataType="ObjectRef">2699109827</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3843712269">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3843712269">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">97</B>
                   <G dataType="Byte">97</G>
                   <R dataType="Byte">97</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2699109827</gameobj>
@@ -7954,7 +7954,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1151345374">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1151345374">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -7968,7 +7968,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn418.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.199982</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -7976,14 +7976,14 @@
                 <gameobj dataType="ObjectRef">1001210981</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2145813423">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2145813423">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">130</B>
                   <G dataType="Byte">130</G>
                   <R dataType="Byte">130</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1001210981</gameobj>
@@ -8048,7 +8048,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="750493112">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="750493112">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8065,7 +8065,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.189981</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8073,7 +8073,7 @@
                 <gameobj dataType="ObjectRef">600358719</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1881183535">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1881183535">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -8158,7 +8158,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="917891014">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="917891014">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8175,7 +8175,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.179981</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8183,7 +8183,7 @@
                 <gameobj dataType="ObjectRef">767756621</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2048581437">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2048581437">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -8268,7 +8268,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2539136863">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2539136863">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8282,7 +8282,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn418.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.169981</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8290,14 +8290,14 @@
                 <gameobj dataType="ObjectRef">2389002470</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3533604912">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3533604912">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">130</B>
                   <G dataType="Byte">130</G>
                   <R dataType="Byte">130</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2389002470</gameobj>
@@ -8362,7 +8362,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="171397635">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="171397635">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8376,7 +8376,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn169.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.159981</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8384,14 +8384,14 @@
                 <gameobj dataType="ObjectRef">21263242</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1165865684">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1165865684">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">21263242</gameobj>
@@ -8456,7 +8456,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="273840756">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="273840756">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8470,7 +8470,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn444.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.149981</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8478,14 +8478,14 @@
                 <gameobj dataType="ObjectRef">123706363</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1268308805">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1268308805">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">123706363</gameobj>
@@ -8550,7 +8550,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1493615238">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1493615238">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8564,7 +8564,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn460.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.13998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8572,14 +8572,14 @@
                 <gameobj dataType="ObjectRef">1343480845</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2488083287">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2488083287">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">92</B>
                   <G dataType="Byte">92</G>
                   <R dataType="Byte">92</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1343480845</gameobj>
@@ -8644,7 +8644,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3560005125">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3560005125">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8658,7 +8658,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn460.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.12998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8666,14 +8666,14 @@
                 <gameobj dataType="ObjectRef">3409870732</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="259505878">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="259505878">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">92</B>
                   <G dataType="Byte">92</G>
                   <R dataType="Byte">92</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3409870732</gameobj>
@@ -8738,7 +8738,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3333455332">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3333455332">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8752,7 +8752,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn444.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.11998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8760,14 +8760,14 @@
                 <gameobj dataType="ObjectRef">3183320939</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="32956085">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="32956085">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3183320939</gameobj>
@@ -8832,7 +8832,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="367129721">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="367129721">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8846,7 +8846,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn394.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.10998</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8854,14 +8854,14 @@
                 <gameobj dataType="ObjectRef">216995328</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1361597770">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1361597770">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">150</B>
                   <G dataType="Byte">150</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">216995328</gameobj>
@@ -8926,7 +8926,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4112503360">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4112503360">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -8940,7 +8940,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn394.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.099979</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -8948,14 +8948,14 @@
                 <gameobj dataType="ObjectRef">3962368967</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="812004113">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="812004113">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">150</B>
                   <G dataType="Byte">150</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3962368967</gameobj>
@@ -9020,7 +9020,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3035501808">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3035501808">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9034,7 +9034,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn379.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.089979</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9042,14 +9042,14 @@
                 <gameobj dataType="ObjectRef">2885367415</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4029969857">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4029969857">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">59</B>
                   <G dataType="Byte">59</G>
                   <R dataType="Byte">59</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2885367415</gameobj>
@@ -9114,7 +9114,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="492174354">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="492174354">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9128,7 +9128,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn379.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.079979</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9136,14 +9136,14 @@
                 <gameobj dataType="ObjectRef">342039961</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1486642403">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1486642403">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">59</B>
                   <G dataType="Byte">59</G>
                   <R dataType="Byte">59</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">342039961</gameobj>
@@ -9208,7 +9208,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2844647394">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2844647394">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9222,7 +9222,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn415.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.069979</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9230,14 +9230,14 @@
                 <gameobj dataType="ObjectRef">2694513001</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3839115443">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3839115443">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">71</B>
                   <G dataType="Byte">71</G>
                   <R dataType="Byte">71</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2694513001</gameobj>
@@ -9302,7 +9302,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2531931342">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2531931342">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9316,7 +9316,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn331.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.05997849</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9324,14 +9324,14 @@
                 <gameobj dataType="ObjectRef">2381796949</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3526399391">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3526399391">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">176</B>
                   <G dataType="Byte">176</G>
                   <R dataType="Byte">176</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2381796949</gameobj>
@@ -9396,7 +9396,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3407428998">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3407428998">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9410,7 +9410,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn343.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.049978</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9418,14 +9418,14 @@
                 <gameobj dataType="ObjectRef">3257294605</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="106929751">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="106929751">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3257294605</gameobj>
@@ -9490,7 +9490,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="499103466">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="499103466">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9504,7 +9504,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn343.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.039978</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9512,14 +9512,14 @@
                 <gameobj dataType="ObjectRef">348969073</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1493571515">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1493571515">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">348969073</gameobj>
@@ -9584,7 +9584,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3597969817">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3597969817">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9598,7 +9598,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn343.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.029978</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9606,14 +9606,14 @@
                 <gameobj dataType="ObjectRef">3447835424</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="297470570">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="297470570">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3447835424</gameobj>
@@ -9678,7 +9678,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1101944968">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1101944968">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9692,7 +9692,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn170.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.019978</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9700,14 +9700,14 @@
                 <gameobj dataType="ObjectRef">951810575</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2096413017">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2096413017">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">166</B>
                   <G dataType="Byte">166</G>
                   <R dataType="Byte">166</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">951810575</gameobj>
@@ -9772,7 +9772,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3014733844">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3014733844">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9786,7 +9786,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn421.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">9.009977</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9794,14 +9794,14 @@
                 <gameobj dataType="ObjectRef">2864599451</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4009201893">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4009201893">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">150</B>
                   <G dataType="Byte">150</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2864599451</gameobj>
@@ -9866,7 +9866,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3236441640">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3236441640">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9880,7 +9880,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn316.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.999977</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9888,14 +9888,14 @@
                 <gameobj dataType="ObjectRef">3086307247</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4230909689">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4230909689">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">150</B>
                   <G dataType="Byte">150</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3086307247</gameobj>
@@ -9960,7 +9960,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1516564967">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1516564967">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -9974,7 +9974,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn316.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.989977</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -9982,14 +9982,14 @@
                 <gameobj dataType="ObjectRef">1366430574</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2511033016">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2511033016">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">150</B>
                   <G dataType="Byte">150</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1366430574</gameobj>
@@ -10054,7 +10054,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="167289663">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="167289663">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10068,7 +10068,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn421.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.979977</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10076,14 +10076,14 @@
                 <gameobj dataType="ObjectRef">17155270</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1161757712">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1161757712">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">150</B>
                   <G dataType="Byte">150</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">17155270</gameobj>
@@ -10148,7 +10148,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3573709040">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3573709040">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10162,7 +10162,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn449.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.969976</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10170,14 +10170,14 @@
                 <gameobj dataType="ObjectRef">3423574647</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="273209793">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="273209793">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">71</B>
                   <G dataType="Byte">71</G>
                   <R dataType="Byte">71</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3423574647</gameobj>
@@ -10242,7 +10242,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3856262664">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3856262664">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10256,7 +10256,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn449.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.959976</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10264,14 +10264,14 @@
                 <gameobj dataType="ObjectRef">3706128271</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="555763417">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="555763417">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">71</B>
                   <G dataType="Byte">71</G>
                   <R dataType="Byte">71</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3706128271</gameobj>
@@ -10336,7 +10336,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2094765783">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2094765783">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10350,7 +10350,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn438.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.949976</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10358,14 +10358,14 @@
                 <gameobj dataType="ObjectRef">1944631390</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3089233832">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3089233832">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">74</B>
                   <G dataType="Byte">74</G>
                   <R dataType="Byte">74</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1944631390</gameobj>
@@ -10430,7 +10430,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1901566747">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1901566747">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10444,7 +10444,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn438.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.939976</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10452,14 +10452,14 @@
                 <gameobj dataType="ObjectRef">1751432354</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2896034796">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2896034796">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">74</B>
                   <G dataType="Byte">74</G>
                   <R dataType="Byte">74</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1751432354</gameobj>
@@ -10524,7 +10524,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1581815932">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1581815932">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10538,7 +10538,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn343.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.92997551</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10546,14 +10546,14 @@
                 <gameobj dataType="ObjectRef">1431681539</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2576283981">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2576283981">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1431681539</gameobj>
@@ -10618,7 +10618,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="914818612">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="914818612">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10632,7 +10632,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn170.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.919975</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10640,14 +10640,14 @@
                 <gameobj dataType="ObjectRef">764684219</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1909286661">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1909286661">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">166</B>
                   <G dataType="Byte">166</G>
                   <R dataType="Byte">166</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">764684219</gameobj>
@@ -10712,7 +10712,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="473225781">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="473225781">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10726,7 +10726,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn418.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.909975</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10734,14 +10734,14 @@
                 <gameobj dataType="ObjectRef">323091388</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1467693830">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1467693830">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">74</B>
                   <G dataType="Byte">74</G>
                   <R dataType="Byte">74</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">323091388</gameobj>
@@ -10806,7 +10806,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2382494597">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2382494597">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10820,7 +10820,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn343.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.899975</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10828,14 +10828,14 @@
                 <gameobj dataType="ObjectRef">2232360204</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3376962646">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3376962646">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2232360204</gameobj>
@@ -10900,7 +10900,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3198053848">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3198053848">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -10914,7 +10914,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn197.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.889975</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -10922,14 +10922,14 @@
                 <gameobj dataType="ObjectRef">3047919455</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4192521897">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4192521897">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">134</B>
                   <G dataType="Byte">134</G>
                   <R dataType="Byte">173</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3047919455</gameobj>
@@ -10994,7 +10994,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2367369649">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2367369649">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11008,7 +11008,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn197.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.879974</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11016,14 +11016,14 @@
                 <gameobj dataType="ObjectRef">2217235256</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3361837698">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3361837698">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">134</B>
                   <G dataType="Byte">134</G>
                   <R dataType="Byte">173</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2217235256</gameobj>
@@ -11088,7 +11088,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2572901526">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2572901526">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11102,7 +11102,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn343.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.869974</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11110,14 +11110,14 @@
                 <gameobj dataType="ObjectRef">2422767133</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3567369575">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3567369575">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2422767133</gameobj>
@@ -11182,7 +11182,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1523987401">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1523987401">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11196,7 +11196,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn434.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.859974</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11204,14 +11204,14 @@
                 <gameobj dataType="ObjectRef">1373853008</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2518455450">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2518455450">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">199</B>
                   <G dataType="Byte">199</G>
                   <R dataType="Byte">199</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1373853008</gameobj>
@@ -11276,7 +11276,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="581213244">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="581213244">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11290,7 +11290,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn344.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.849974</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11298,14 +11298,14 @@
                 <gameobj dataType="ObjectRef">431078851</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1575681293">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1575681293">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">220</B>
                   <G dataType="Byte">220</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">431078851</gameobj>
@@ -11370,7 +11370,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2223908423">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2223908423">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11384,7 +11384,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn344.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.839973</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11392,14 +11392,14 @@
                 <gameobj dataType="ObjectRef">2073774030</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3218376472">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3218376472">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">220</B>
                   <G dataType="Byte">220</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2073774030</gameobj>
@@ -11464,7 +11464,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1618064679">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1618064679">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11478,7 +11478,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn121.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.829973</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11486,14 +11486,14 @@
                 <gameobj dataType="ObjectRef">1467930286</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2612532728">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2612532728">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">135</B>
                   <G dataType="Byte">135</G>
                   <R dataType="Byte">135</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1467930286</gameobj>
@@ -11558,7 +11558,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2195422447">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2195422447">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11572,7 +11572,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn121.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.819973</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11580,14 +11580,14 @@
                 <gameobj dataType="ObjectRef">2045288054</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3189890496">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3189890496">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">135</B>
                   <G dataType="Byte">135</G>
                   <R dataType="Byte">135</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2045288054</gameobj>
@@ -11652,7 +11652,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3760574082">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3760574082">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11666,7 +11666,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\HM_Radiator03.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.809973</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11674,14 +11674,14 @@
                 <gameobj dataType="ObjectRef">3610439689</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="460074835">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="460074835">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">135</B>
                   <G dataType="Byte">135</G>
                   <R dataType="Byte">135</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3610439689</gameobj>
@@ -11746,7 +11746,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3650524149">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3650524149">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11760,7 +11760,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn117.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.799973</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11768,14 +11768,14 @@
                 <gameobj dataType="ObjectRef">3500389756</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="350024902">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="350024902">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">135</B>
                   <G dataType="Byte">135</G>
                   <R dataType="Byte">135</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3500389756</gameobj>
@@ -11840,7 +11840,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1134942889">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1134942889">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11854,7 +11854,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn117.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.789972</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11862,14 +11862,14 @@
                 <gameobj dataType="ObjectRef">984808496</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2129410938">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2129410938">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">135</B>
                   <G dataType="Byte">135</G>
                   <R dataType="Byte">135</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">984808496</gameobj>
@@ -11934,7 +11934,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="4144431688">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="4144431688">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -11948,7 +11948,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\HM_Circle1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.779972</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -11956,14 +11956,14 @@
                 <gameobj dataType="ObjectRef">3994297295</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="843932441">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="843932441">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3994297295</gameobj>
@@ -12028,7 +12028,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="566933414">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="566933414">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12042,7 +12042,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn249.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.769972</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12050,14 +12050,14 @@
                 <gameobj dataType="ObjectRef">416799021</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1561401463">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1561401463">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">151</B>
                   <G dataType="Byte">151</G>
                   <R dataType="Byte">176</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">416799021</gameobj>
@@ -12122,7 +12122,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3829019325">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3829019325">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12136,7 +12136,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn434.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.759972</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12144,14 +12144,14 @@
                 <gameobj dataType="ObjectRef">3678884932</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="528520078">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="528520078">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">149</B>
                   <G dataType="Byte">149</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3678884932</gameobj>
@@ -12216,7 +12216,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2233308948">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2233308948">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12230,7 +12230,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn434.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.749971</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12238,14 +12238,14 @@
                 <gameobj dataType="ObjectRef">2083174555</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3227776997">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3227776997">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">149</B>
                   <G dataType="Byte">149</G>
                   <R dataType="Byte">150</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2083174555</gameobj>
@@ -12310,7 +12310,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="77163893">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="77163893">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12324,7 +12324,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn304.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.739971</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12332,14 +12332,14 @@
                 <gameobj dataType="ObjectRef">4221996796</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1071631942">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1071631942">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4221996796</gameobj>
@@ -12404,7 +12404,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="251714472">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="251714472">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12418,7 +12418,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn304.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.729971</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12426,14 +12426,14 @@
                 <gameobj dataType="ObjectRef">101580079</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1246182521">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1246182521">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">101580079</gameobj>
@@ -12498,7 +12498,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="330354839">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="330354839">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12512,7 +12512,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn252.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.719971</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12520,14 +12520,14 @@
                 <gameobj dataType="ObjectRef">180220446</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1324822888">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1324822888">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">180</B>
                   <G dataType="Byte">180</G>
                   <R dataType="Byte">252</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">180220446</gameobj>
@@ -12592,7 +12592,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1532261867">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1532261867">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12606,7 +12606,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn252.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.70997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12614,14 +12614,14 @@
                 <gameobj dataType="ObjectRef">1382127474</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2526729916">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2526729916">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">180</B>
                   <G dataType="Byte">180</G>
                   <R dataType="Byte">252</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1382127474</gameobj>
@@ -12686,7 +12686,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3578618192">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3578618192">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12700,7 +12700,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn104.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.69997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12708,14 +12708,14 @@
                 <gameobj dataType="ObjectRef">3428483799</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="278118945">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="278118945">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">173</B>
                   <G dataType="Byte">173</G>
                   <R dataType="Byte">173</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3428483799</gameobj>
@@ -12780,7 +12780,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3422286278">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3422286278">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12794,7 +12794,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn104.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.68997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12802,14 +12802,14 @@
                 <gameobj dataType="ObjectRef">3272151885</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="121787031">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="121787031">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">173</B>
                   <G dataType="Byte">173</G>
                   <R dataType="Byte">173</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3272151885</gameobj>
@@ -12874,7 +12874,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3052846658">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3052846658">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12888,7 +12888,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn257.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.67997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12896,14 +12896,14 @@
                 <gameobj dataType="ObjectRef">2902712265</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4047314707">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4047314707">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">118</B>
                   <G dataType="Byte">118</G>
                   <R dataType="Byte">122</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2902712265</gameobj>
@@ -12968,7 +12968,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3588083121">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3588083121">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -12982,7 +12982,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn257.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.66997</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -12990,14 +12990,14 @@
                 <gameobj dataType="ObjectRef">3437948728</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="287583874">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="287583874">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">118</B>
                   <G dataType="Byte">118</G>
                   <R dataType="Byte">122</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3437948728</gameobj>
@@ -13062,7 +13062,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2134204925">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2134204925">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13076,7 +13076,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn084.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.659969</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13084,14 +13084,14 @@
                 <gameobj dataType="ObjectRef">1984070532</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3128672974">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3128672974">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">95</B>
                   <G dataType="Byte">95</G>
                   <R dataType="Byte">97</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1984070532</gameobj>
@@ -13156,7 +13156,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3145700081">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3145700081">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13170,7 +13170,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn084.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.649969</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13178,14 +13178,14 @@
                 <gameobj dataType="ObjectRef">2995565688</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4140168130">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4140168130">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">95</B>
                   <G dataType="Byte">95</G>
                   <R dataType="Byte">97</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2995565688</gameobj>
@@ -13250,7 +13250,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="316619079">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="316619079">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13264,7 +13264,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn413.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.639969</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13272,14 +13272,14 @@
                 <gameobj dataType="ObjectRef">166484686</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1311087128">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1311087128">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">194</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">166484686</gameobj>
@@ -13344,7 +13344,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="44316505">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="44316505">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13358,7 +13358,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn413.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.629969</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13366,14 +13366,14 @@
                 <gameobj dataType="ObjectRef">4189149408</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1038784554">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1038784554">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">177</B>
                   <G dataType="Byte">177</G>
                   <R dataType="Byte">194</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">4189149408</gameobj>
@@ -13438,7 +13438,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3070053823">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3070053823">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13452,7 +13452,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn145.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.619968</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13460,14 +13460,14 @@
                 <gameobj dataType="ObjectRef">2919919430</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4064521872">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4064521872">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">79</B>
                   <G dataType="Byte">79</G>
                   <R dataType="Byte">79</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2919919430</gameobj>
@@ -13532,7 +13532,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1078526251">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1078526251">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13546,7 +13546,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn145.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.609968</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13554,14 +13554,14 @@
                 <gameobj dataType="ObjectRef">928391858</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2072994300">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2072994300">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">79</B>
                   <G dataType="Byte">79</G>
                   <R dataType="Byte">79</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">928391858</gameobj>
@@ -13626,7 +13626,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2066998040">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2066998040">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13640,7 +13640,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn506.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.599968</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13648,14 +13648,14 @@
                 <gameobj dataType="ObjectRef">1916863647</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3061466089">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3061466089">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1916863647</gameobj>
@@ -13720,7 +13720,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="438784155">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="438784155">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13734,7 +13734,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn466.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.589968</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13742,14 +13742,14 @@
                 <gameobj dataType="ObjectRef">288649762</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1433252204">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1433252204">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">215</B>
                   <G dataType="Byte">215</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">288649762</gameobj>
@@ -13814,7 +13814,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1738757755">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1738757755">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13828,7 +13828,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn466.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.5799675</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13836,14 +13836,14 @@
                 <gameobj dataType="ObjectRef">1588623362</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2733225804">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2733225804">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">215</B>
                   <G dataType="Byte">215</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1588623362</gameobj>
@@ -13908,7 +13908,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1512252427">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1512252427">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -13922,7 +13922,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn134.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.569967</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -13930,14 +13930,14 @@
                 <gameobj dataType="ObjectRef">1362118034</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2506720476">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2506720476">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">66</B>
                   <G dataType="Byte">66</G>
                   <R dataType="Byte">66</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1362118034</gameobj>
@@ -14002,7 +14002,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1123385693">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1123385693">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14016,7 +14016,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn134.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.559967</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14024,14 +14024,14 @@
                 <gameobj dataType="ObjectRef">973251300</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2117853742">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2117853742">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">66</B>
                   <G dataType="Byte">66</G>
                   <R dataType="Byte">66</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">973251300</gameobj>
@@ -14096,7 +14096,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1453663890">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1453663890">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14110,7 +14110,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn492.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.549967</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14118,14 +14118,14 @@
                 <gameobj dataType="ObjectRef">1303529497</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2448131939">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2448131939">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1303529497</gameobj>
@@ -14190,7 +14190,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="839246432">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="839246432">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14204,7 +14204,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn203.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.539967</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14212,14 +14212,14 @@
                 <gameobj dataType="ObjectRef">689112039</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1833714481">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1833714481">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">189</B>
                   <G dataType="Byte">189</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">689112039</gameobj>
@@ -14284,7 +14284,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2668140750">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2668140750">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14298,7 +14298,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn203.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.529966</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14306,14 +14306,14 @@
                 <gameobj dataType="ObjectRef">2518006357</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3662608799">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3662608799">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">189</B>
                   <G dataType="Byte">189</G>
                   <R dataType="Byte">217</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2518006357</gameobj>
@@ -14378,7 +14378,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1550843292">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1550843292">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14392,7 +14392,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\HM_Circle1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.519966</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14400,14 +14400,14 @@
                 <gameobj dataType="ObjectRef">1400708899</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2545311341">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2545311341">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1400708899</gameobj>
@@ -14472,7 +14472,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1728256607">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1728256607">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14486,7 +14486,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\HM_Circle1.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.509966</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14494,14 +14494,14 @@
                 <gameobj dataType="ObjectRef">1578122214</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2722724656">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2722724656">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1578122214</gameobj>
@@ -14566,7 +14566,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2556847255">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2556847255">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14580,7 +14580,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn251.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.499966</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14588,14 +14588,14 @@
                 <gameobj dataType="ObjectRef">2406712862</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3551315304">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3551315304">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">125</B>
                   <G dataType="Byte">125</G>
                   <R dataType="Byte">125</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2406712862</gameobj>
@@ -14660,7 +14660,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2100378984">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2100378984">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14677,7 +14677,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.489965</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14685,7 +14685,7 @@
                 <gameobj dataType="ObjectRef">1950244591</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="3231069407">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="3231069407">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -14770,7 +14770,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3421449057">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3421449057">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14787,7 +14787,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.479965</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14795,7 +14795,7 @@
                 <gameobj dataType="ObjectRef">3271314664</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="257172184">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="257172184">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -14880,7 +14880,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1757022817">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1757022817">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -14897,7 +14897,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.469965</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -14905,7 +14905,7 @@
                 <gameobj dataType="ObjectRef">1606888424</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="2887713240">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2887713240">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -14990,7 +14990,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="159925326">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="159925326">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15007,7 +15007,7 @@
                   <X dataType="Float">0.1371278</X>
                   <Y dataType="Float">0.1784142</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\fx\thruster2.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.459965</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15015,7 +15015,7 @@
                 <gameobj dataType="ObjectRef">9790933</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Thruster" id="1290615749">
+              <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="1290615749">
                 <_boostAmount dataType="Float">0</_boostAmount>
                 <_isThrusting dataType="Bool">false</_isThrusting>
                 <_ship />
@@ -15100,7 +15100,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3752730419">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3752730419">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15114,7 +15114,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn091.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.449965</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15122,14 +15122,14 @@
                 <gameobj dataType="ObjectRef">3602596026</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="452231172">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="452231172">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">189</B>
                   <G dataType="Byte">189</G>
                   <R dataType="Byte">189</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3602596026</gameobj>
@@ -15194,7 +15194,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="564054425">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="564054425">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15208,7 +15208,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn091.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.439964</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15216,14 +15216,14 @@
                 <gameobj dataType="ObjectRef">413920032</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1558522474">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1558522474">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">189</B>
                   <G dataType="Byte">189</G>
                   <R dataType="Byte">189</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">413920032</gameobj>
@@ -15288,7 +15288,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1764797293">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1764797293">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15302,7 +15302,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn155.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.429964</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15310,14 +15310,14 @@
                 <gameobj dataType="ObjectRef">1614662900</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2759265342">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2759265342">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">181</B>
                   <G dataType="Byte">181</G>
                   <R dataType="Byte">181</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1614662900</gameobj>
@@ -15382,7 +15382,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3705971518">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3705971518">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15396,7 +15396,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn213.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.419964</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15404,14 +15404,14 @@
                 <gameobj dataType="ObjectRef">3555837125</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="405472271">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="405472271">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">228</B>
                   <G dataType="Byte">228</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3555837125</gameobj>
@@ -15476,7 +15476,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3045138354">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3045138354">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15490,7 +15490,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn251.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.409964</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15498,14 +15498,14 @@
                 <gameobj dataType="ObjectRef">2895003961</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4039606403">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4039606403">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">125</B>
                   <G dataType="Byte">125</G>
                   <R dataType="Byte">125</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2895003961</gameobj>
@@ -15570,7 +15570,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3690242348">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3690242348">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15584,7 +15584,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn055.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.399963</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15592,14 +15592,14 @@
                 <gameobj dataType="ObjectRef">3540107955</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="389743101">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="389743101">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3540107955</gameobj>
@@ -15664,7 +15664,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2980544095">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2980544095">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15678,7 +15678,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn055.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.389963</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15686,14 +15686,14 @@
                 <gameobj dataType="ObjectRef">2830409702</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3975012144">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3975012144">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">255</B>
                   <G dataType="Byte">255</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2830409702</gameobj>
@@ -15758,7 +15758,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1668982546">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1668982546">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15772,7 +15772,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn213.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.379963</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15780,14 +15780,14 @@
                 <gameobj dataType="ObjectRef">1518848153</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2663450595">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2663450595">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">228</B>
                   <G dataType="Byte">228</G>
                   <R dataType="Byte">255</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">1518848153</gameobj>
@@ -15852,7 +15852,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1055504709">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1055504709">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15866,7 +15866,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn429.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.369963</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15874,14 +15874,14 @@
                 <gameobj dataType="ObjectRef">905370316</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="2049972758">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="2049972758">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">209</B>
                   <G dataType="Byte">209</G>
                   <R dataType="Byte">209</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">905370316</gameobj>
@@ -15946,7 +15946,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="2265377342">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="2265377342">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -15960,7 +15960,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn429.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.359962</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -15968,14 +15968,14 @@
                 <gameobj dataType="ObjectRef">2115242949</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="3259845391">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="3259845391">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">209</B>
                   <G dataType="Byte">209</G>
                   <R dataType="Byte">209</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2115242949</gameobj>
@@ -16040,7 +16040,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="292782026">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="292782026">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -16054,7 +16054,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn299.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.349962</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -16062,14 +16062,14 @@
                 <gameobj dataType="ObjectRef">142647633</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1287250075">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1287250075">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">92</B>
                   <G dataType="Byte">92</G>
                   <R dataType="Byte">92</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">142647633</gameobj>
@@ -16134,7 +16134,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="629373913">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="629373913">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -16148,7 +16148,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn299.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.339962</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -16156,14 +16156,14 @@
                 <gameobj dataType="ObjectRef">479239520</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1623841962">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1623841962">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">92</B>
                   <G dataType="Byte">92</G>
                   <R dataType="Byte">92</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Trim" value="2" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Trim" value="2" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">479239520</gameobj>
@@ -16228,7 +16228,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3574696195">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3574696195">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -16242,7 +16242,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn244.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.329962</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -16250,14 +16250,14 @@
                 <gameobj dataType="ObjectRef">3424561802</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="274196948">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="274196948">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">171</B>
                   <G dataType="Byte">171</G>
                   <R dataType="Byte">171</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3424561802</gameobj>
@@ -16322,7 +16322,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3747867207">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3747867207">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -16336,7 +16336,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn244.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.319962</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -16344,14 +16344,14 @@
                 <gameobj dataType="ObjectRef">3597732814</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="447367960">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="447367960">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">171</B>
                   <G dataType="Byte">171</G>
                   <R dataType="Byte">171</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="Base" value="1" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="Base" value="1" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">3597732814</gameobj>
@@ -16416,7 +16416,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="511889521">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="511889521">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -16430,7 +16430,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn067.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.309961</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -16438,14 +16438,14 @@
                 <gameobj dataType="ObjectRef">361755128</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="1506357570">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="1506357570">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">148</B>
                   <G dataType="Byte">148</G>
                   <R dataType="Byte">148</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">361755128</gameobj>
@@ -16510,7 +16510,7 @@
                 <vel dataType="Struct" type="Duality.Vector3" />
                 <velAbs dataType="Struct" type="Duality.Vector3" />
               </item>
-              <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="3086143608">
+              <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="3086143608">
                 <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
@@ -16524,7 +16524,7 @@
                   <X dataType="Float">1</X>
                   <Y dataType="Float">1</Y>
                 </_x003C_Scale_x003E_k__BackingField>
-                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+                <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
                   <contentPath dataType="String">Data\Ships\shipsprites\Kae_shn067.sprite.res</contentPath>
                 </_x003C_Sprite_x003E_k__BackingField>
                 <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">8.299961</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -16532,14 +16532,14 @@
                 <gameobj dataType="ObjectRef">2936009215</gameobj>
                 <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
               </item>
-              <item dataType="Struct" type="FellSky.Ships.Hull" id="4080611657">
+              <item dataType="Struct" type="FellSky.Components.Ships.Hull" id="4080611657">
                 <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
                   <A dataType="Byte">255</A>
                   <B dataType="Byte">148</B>
                   <G dataType="Byte">148</G>
                   <R dataType="Byte">148</R>
                 </_x003C_Color_x003E_k__BackingField>
-                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Ships.HullColorType" name="None" value="0" />
+                <_x003C_ColorType_x003E_k__BackingField dataType="Enum" type="FellSky.Components.Ships.HullColorType" name="None" value="0" />
                 <_x003C_SpriteId_x003E_k__BackingField />
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2936009215</gameobj>
@@ -22769,7 +22769,7 @@
             <_size dataType="Int">141</_size>
           </shapes>
         </item>
-        <item dataType="Struct" type="FellSky.Ships.Ship" id="1174970464">
+        <item dataType="Struct" type="FellSky.Components.Ships.Ship" id="1174970464">
           <_x003C_Acceleration_x003E_k__BackingField dataType="Struct" type="Duality.Vector2" />
           <_x003C_BaseColor_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
             <A dataType="Byte">255</A>
@@ -22824,7 +22824,7 @@
       <body>
         <keys dataType="Array" type="System.Object[]" id="2793261056">
           <item dataType="ObjectRef">2301039606</item>
-          <item dataType="Type" id="232089756" value="FellSky.Ships.Ship" />
+          <item dataType="Type" id="232089756" value="FellSky.Components.Ships.Ship" />
           <item dataType="Type" id="2934340118" value="Duality.Components.Physics.RigidBody" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="481602510">

@@ -1,4 +1,4 @@
-﻿<root dataType="Struct" type="FellSky.Engine.Sprite" id="129723834">
+﻿<root dataType="Struct" type="FellSky.Resources.Sprite" id="129723834">
   <_x003C_EditorCategory_x003E_k__BackingField dataType="String">Bioship</_x003C_EditorCategory_x003E_k__BackingField>
   <_x003C_Material_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
     <contentPath dataType="String">Data\Ships\shipsprites\shipsprites.Material.res</contentPath>

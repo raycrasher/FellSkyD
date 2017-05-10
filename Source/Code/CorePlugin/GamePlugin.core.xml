@@ -4,24 +4,24 @@
         <name>GamePlugin.core</name>
     </assembly>
     <members>
-        <member name="T:FellSky.FellSkyCorePlugin">
-            <summary>
-            Defines a Duality core plugin.
-            </summary>
-        </member>
-        <member name="P:FellSky.Ships.Ship.ThrustVector">
+        <member name="P:FellSky.Components.Ships.Ship.ThrustVector">
             <summary>
             The thrust vector for the ship, in worldspace.
             </summary>
         </member>
-        <member name="P:FellSky.Ships.Turret.TraverseArc">
+        <member name="P:FellSky.Components.Ships.Turret.TraverseArc">
             <summary>
             The traverse arc, in degrees
             </summary>
         </member>
-        <member name="P:FellSky.Ships.Turret.TraverseSpeed">
+        <member name="P:FellSky.Components.Ships.Turret.TraverseSpeed">
             <summary>
             The traverse speed, in degrees/second
+            </summary>
+        </member>
+        <member name="T:FellSky.FellSkyCorePlugin">
+            <summary>
+            Defines a Duality core plugin.
             </summary>
         </member>
     </members>

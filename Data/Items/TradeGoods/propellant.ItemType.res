@@ -1,4 +1,4 @@
-﻿<root dataType="Struct" type="FellSky.Economy.ItemType" id="129723834">
+﻿<root dataType="Struct" type="FellSky.Resources.ItemType" id="129723834">
   <_x003C_BaseValue_x003E_k__BackingField dataType="Struct" type="System.Decimal">
     <flags dataType="Int">0</flags>
     <hi dataType="Int">0</hi>

@@ -68,37 +68,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ai\ShipAi.cs" />
-    <Compile Include="Ai\Steering.cs" />
+    <Compile Include="Components\Ships\ShipAi.cs" />
+    <Compile Include="Common\Steering.cs" />
+    <Compile Include="Resources\AmmoType.cs" />
+    <Compile Include="Resources\ArmorType.cs" />
+    <Compile Include="Resources\DamageType.cs" />
+    <Compile Include="Resources\EngineType.cs" />
+    <Compile Include="Resources\ShipType.cs" />
+    <Compile Include="Resources\WeaponType.cs" />
     <Compile Include="CorePlugin.cs" />
-    <Compile Include="Economy\Inventory.cs" />
-    <Compile Include="Economy\ItemType.cs" />
-    <Compile Include="Engine\Background.cs" />
-    <Compile Include="Engine\CameraZoom.cs" />
-    <Compile Include="Engine\Enums.cs" />
-    <Compile Include="Engine\Health.cs" />
-    <Compile Include="Engine\Projectiles\Projectile.cs" />
+    <Compile Include="Components\Ships\Inventory.cs" />
+    <Compile Include="Resources\ItemType.cs" />
+    <Compile Include="Components\Background.cs" />
+    <Compile Include="Components\CameraZoom.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Components\Health.cs" />
+    <Compile Include="Components\Projectiles\Projectile.cs" />
     <Compile Include="Gui\HudController.cs" />
     <Compile Include="Gui\InventoryListController.cs" />
     <Compile Include="Gui\RefitWindowController.cs" />
-    <Compile Include="Engine\ParticleEffect.cs" />
-    <Compile Include="Engine\ParticleEmitter.cs" />
-    <Compile Include="Engine\Projectiles\Beam.cs" />
-    <Compile Include="Engine\Projectiles\Bullet.cs" />
-    <Compile Include="Engine\FollowBehavior.cs" />
-    <Compile Include="Engine\Projectiles\Missile.cs" />
-    <Compile Include="Engine\Projectiles\Rocket.cs" />
-    <Compile Include="Engine\Sprite.cs" />
-    <Compile Include="Engine\AdvSpriteRenderer.cs" />
-    <Compile Include="Ships\Ammo.cs" />
-    <Compile Include="Ships\Hardpoint.cs" />
-    <Compile Include="Ships\Hull.cs" />
-    <Compile Include="Ships\Module.cs" />
-    <Compile Include="Engine\PlayerShipController.cs" />
-    <Compile Include="Ships\Ship.cs" />
-    <Compile Include="Ships\ShipWeapon.cs" />
-    <Compile Include="Ships\Thruster.cs" />
-    <Compile Include="Ships\Turret.cs" />
+    <Compile Include="Common\ParticleEffect.cs" />
+    <Compile Include="Common\ParticleEmitter.cs" />
+    <Compile Include="Components\Projectiles\Beam.cs" />
+    <Compile Include="Components\Projectiles\Bullet.cs" />
+    <Compile Include="Components\FollowBehavior.cs" />
+    <Compile Include="Components\Projectiles\Missile.cs" />
+    <Compile Include="Components\Projectiles\Rocket.cs" />
+    <Compile Include="Resources\Sprite.cs" />
+    <Compile Include="Components\AdvSpriteRenderer.cs" />
+    <Compile Include="Common\AmmoProvider.cs" />
+    <Compile Include="Components\Ships\Hardpoint.cs" />
+    <Compile Include="Components\Ships\Hull.cs" />
+    <Compile Include="Components\Ships\PlayerShipController.cs" />
+    <Compile Include="Components\Ships\Ship.cs" />
+    <Compile Include="Components\Ships\ShipWeapon.cs" />
+    <Compile Include="Components\Ships\Thruster.cs" />
+    <Compile Include="Components\Ships\Turret.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -108,9 +113,7 @@
   <ItemGroup>
     <Content Include="Notes.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Space\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "$(SolutionDir)../../Plugins"

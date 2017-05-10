@@ -12,6 +12,7 @@ using FellSky.Engine;
 using Duality;
 using Duality.Editor;
 using Duality.Resources;
+using FellSky.Resources;
 
 namespace FellSky.Editor
 {

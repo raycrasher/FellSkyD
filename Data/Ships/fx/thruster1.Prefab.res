@@ -30,7 +30,7 @@
           <vel dataType="Struct" type="Duality.Vector3" />
           <velAbs dataType="Struct" type="Duality.Vector3" />
         </item>
-        <item dataType="Struct" type="FellSky.Engine.AdvSpriteRenderer" id="1617999464">
+        <item dataType="Struct" type="FellSky.Components.AdvSpriteRenderer" id="1617999464">
           <_x003C_AlignToPixelGrid_x003E_k__BackingField dataType="Bool">false</_x003C_AlignToPixelGrid_x003E_k__BackingField>
           <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
             <A dataType="Byte">255</A>
@@ -47,7 +47,7 @@
             <X dataType="Float">1</X>
             <Y dataType="Float">1</Y>
           </_x003C_Scale_x003E_k__BackingField>
-          <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Engine.Sprite]]">
+          <_x003C_Sprite_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[FellSky.Resources.Sprite]]">
             <contentPath dataType="String">Data\Ships\fx\thruster1.sprite.res</contentPath>
           </_x003C_Sprite_x003E_k__BackingField>
           <_x003C_VertexZOffset_x003E_k__BackingField dataType="Float">0.1</_x003C_VertexZOffset_x003E_k__BackingField>
@@ -55,7 +55,7 @@
           <gameobj dataType="ObjectRef">1467865071</gameobj>
           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
         </item>
-        <item dataType="Struct" type="FellSky.Ships.Thruster" id="2748689887">
+        <item dataType="Struct" type="FellSky.Components.Ships.Thruster" id="2748689887">
           <_boostAmount dataType="Float">0</_boostAmount>
           <_isThrusting dataType="Bool">false</_isThrusting>
           <_ship />
@@ -79,8 +79,8 @@
       <body>
         <keys dataType="Array" type="System.Object[]" id="115784254">
           <item dataType="Type" id="177728016" value="Duality.Components.Transform" />
-          <item dataType="Type" id="11434222" value="FellSky.Engine.AdvSpriteRenderer" />
-          <item dataType="Type" id="2582523116" value="FellSky.Ships.Thruster" />
+          <item dataType="Type" id="11434222" value="FellSky.Components.AdvSpriteRenderer" />
+          <item dataType="Type" id="2582523116" value="FellSky.Components.Ships.Thruster" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="2992478730">
           <item dataType="ObjectRef">3828180003</item>
