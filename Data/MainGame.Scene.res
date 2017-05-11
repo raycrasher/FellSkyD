@@ -8147,8 +8147,8 @@
                             <ignoreParent dataType="Bool">false</ignoreParent>
                             <parentTransform dataType="ObjectRef">152037930</parentTransform>
                             <pos dataType="Struct" type="Duality.Vector3">
-                              <X dataType="Float">236.995377</X>
-                              <Y dataType="Float">-32.58096</Y>
+                              <X dataType="Float">236.995392</X>
+                              <Y dataType="Float">-32.58097</Y>
                               <Z dataType="Float">0</Z>
                             </pos>
                             <posAbs dataType="Struct" type="Duality.Vector3">
@@ -8271,8 +8271,8 @@
                               <vel dataType="Struct" type="Duality.Vector3" />
                               <velAbs dataType="Struct" type="Duality.Vector3" />
                             </_x003C_Target_x003E_k__BackingField>
-                            <_x003C_TraverseArc_x003E_k__BackingField dataType="Float">360</_x003C_TraverseArc_x003E_k__BackingField>
-                            <_x003C_TraverseSpeed_x003E_k__BackingField dataType="Float">1</_x003C_TraverseSpeed_x003E_k__BackingField>
+                            <_x003C_TraverseArc_x003E_k__BackingField dataType="Float">270</_x003C_TraverseArc_x003E_k__BackingField>
+                            <_x003C_TraverseSpeed_x003E_k__BackingField dataType="Float">4</_x003C_TraverseSpeed_x003E_k__BackingField>
                             <active dataType="Bool">true</active>
                             <gameobj dataType="ObjectRef">3982959325</gameobj>
                           </item>
