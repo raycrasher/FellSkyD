@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Duality.Input;
 
-namespace FellSky.Gui
+namespace FellSky.Components.Gui
 {
     [Duality.Editor.EditorHintCategory("Gui")]
     public class HudController : Component, ICmpUpdatable, ICmpInitializable
