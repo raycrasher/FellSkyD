@@ -19,6 +19,13 @@
             The traverse speed, in degrees/second
             </summary>
         </member>
+        <member name="M:FellSky.Gui.GuiCore.StartDrag(Duality.GameObject,System.Boolean)">
+            <summary>
+            Start a dragging operation.
+            </summary>
+            <param name="gameObject">The gameobject to drag.</param>
+            <param name="returnToOriginalPos">Return the object to its original position after dragging.</param>
+        </member>
         <member name="T:FellSky.FellSkyCorePlugin">
             <summary>
             Defines a Duality core plugin.

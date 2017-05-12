@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FellSky.Gui
+namespace FellSky.Components.Gui
 {
+    [Duality.Editor.EditorHintCategory("Gui")]
     public class DropTarget : Component
     {
         public Action<GameObject> HandleDroppedObject = delegate { };

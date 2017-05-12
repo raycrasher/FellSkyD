@@ -74,9 +74,10 @@
     <Compile Include="Common\Steering.cs" />
     <Compile Include="Components\Space\Planet.cs" />
     <Compile Include="Components\Ships\Crew.cs" />
-    <Compile Include="Gui\DropTarget.cs" />
-    <Compile Include="Gui\GuiCore.cs" />
-    <Compile Include="Gui\TexturedFrame.cs" />
+    <Compile Include="Components\Gui\DropTarget.cs" />
+    <Compile Include="Components\Gui\GuiCore.cs" />
+    <Compile Include="Components\Gui\ScrollView.cs" />
+    <Compile Include="Components\Gui\TexturedFrame.cs" />
     <Compile Include="Resources\AmmoType.cs" />
     <Compile Include="Resources\ArmorType.cs" />
     <Compile Include="Resources\DamageType.cs" />
@@ -89,14 +90,14 @@
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Components\Ships\Inventory.cs" />
     <Compile Include="Resources\ItemType.cs" />
-    <Compile Include="Components\Background.cs" />
+    <Compile Include="Components\Space\Background.cs" />
     <Compile Include="Components\CameraZoom.cs" />
     <Compile Include="Enums.cs" />
-    <Compile Include="Components\Health.cs" />
+    <Compile Include="Components\Ships\Health.cs" />
     <Compile Include="Components\Projectiles\Projectile.cs" />
-    <Compile Include="Gui\HudController.cs" />
-    <Compile Include="Gui\InventoryListController.cs" />
-    <Compile Include="Gui\RefitWindowController.cs" />
+    <Compile Include="Components\Gui\HudController.cs" />
+    <Compile Include="Components\Gui\InventoryListController.cs" />
+    <Compile Include="Components\Gui\RefitWindowController.cs" />
     <Compile Include="Common\ParticleEffect.cs" />
     <Compile Include="Common\ParticleEmitter.cs" />
     <Compile Include="Components\Projectiles\Beam.cs" />
@@ -124,7 +125,6 @@
     <Content Include="Notes.txt" />
   </ItemGroup>
   <ItemGroup />
-    <Folder Include="Space\" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "$(SolutionDir)../../Plugins"

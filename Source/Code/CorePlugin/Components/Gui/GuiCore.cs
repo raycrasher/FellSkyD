@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 using Duality.Input;
 using Duality.Components;
 
-namespace FellSky.Gui
+namespace FellSky.Components.Gui
 {
+    [Duality.Editor.EditorHintCategory("Gui")]
     public class GuiCore : Component, ICmpUpdatable, ICmpInitializable
     {
         private GameObject _draggedObject;
