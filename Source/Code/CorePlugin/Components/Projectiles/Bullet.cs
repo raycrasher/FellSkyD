@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace FellSky.Components.Projectiles
 {
+    [Duality.Editor.EditorHintCategory("Projectile")]
     [RequiredComponent(typeof(RigidBody))]
     [RequiredComponent(typeof(Transform))]
     public class Bullet: Component, ICmpUpdatable, ICmpCollisionListener

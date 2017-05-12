@@ -9,6 +9,7 @@ using FellSky.Resources;
 
 namespace FellSky.Components.Projectiles
 {
+    [Duality.Editor.EditorHintCategory("Projectile")]
     public class Projectile: Component
     {
         public GameObject Owner { get; set; }

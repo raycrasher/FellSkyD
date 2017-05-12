@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FellSky.Components.Projectiles
 {
+    [Duality.Editor.EditorHintCategory("Projectile")]
     class Rocket
     {
     }
