@@ -71,6 +71,7 @@
     <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\Ships\ShipAi.cs" />
     <Compile Include="Common\Steering.cs" />
+    <Compile Include="Components\Space\Planet.cs" />
     <Compile Include="Components\Ships\Crew.cs" />
     <Compile Include="Gui\DropTarget.cs" />
     <Compile Include="Gui\GuiCore.cs" />
@@ -79,8 +80,10 @@
     <Compile Include="Resources\ArmorType.cs" />
     <Compile Include="Resources\DamageType.cs" />
     <Compile Include="Resources\EngineType.cs" />
+    <Compile Include="Resources\PlanetType.cs" />
     <Compile Include="Resources\ShipType.cs" />
     <Compile Include="Resources\SpeciesType.cs" />
+    <Compile Include="Resources\StellarObjectType.cs" />
     <Compile Include="Resources\WeaponType.cs" />
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Components\Ships\Inventory.cs" />
@@ -120,6 +123,7 @@
     <Content Include="Notes.txt" />
   </ItemGroup>
   <ItemGroup />
+    <Folder Include="Space\" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "$(SolutionDir)../../Plugins"
