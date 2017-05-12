@@ -71,6 +71,7 @@
     <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\Ships\ShipAi.cs" />
     <Compile Include="Common\Steering.cs" />
+    <Compile Include="Gui\TexturedFrame.cs" />
     <Compile Include="Resources\AmmoType.cs" />
     <Compile Include="Resources\ArmorType.cs" />
     <Compile Include="Resources\DamageType.cs" />
