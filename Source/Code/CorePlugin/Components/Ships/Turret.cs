@@ -35,39 +35,38 @@ namespace FellSky.Components.Ships
             var currentAngle = GameObj.Transform.Angle;
             if (IsOmnidirectional)
             {
-                var angle = NormalizeAngleNegPiToPi(FindAngleBetweenTwoVectors(offset, xform.Right.Xy));
+                var angle = NormalizeAngleNegPiToPi(FindAngleBetweenTwoVectors(xform.Right.Xy, offset));
                 var deltaAngle = MathF.Clamp(angle, -speed, speed);
                 GameObj.Transform.TurnBy(deltaAngle);
             }
             else
             {
-                var desiredRot = NormalizeAngleNegPiToPi(offset.Angle - xform.Angle - MathF.PiOver2);
-                var a = NormalizeAngleNegPiToPi(desiredRot);
-                var b = NormalizeAngleNegPiToPi(xform.RelativeAngle);
-                var c = NormalizeAngleNegPiToPi(desiredRot);
+                var localDesiredRot = NormalizeAngleNegPiToPi(xform.GetLocalVector(offset).Angle + xform.RelativeAngle - MathF.PiOver2) ;
+                var currentRot = NormalizeAngleNegPiToPi(xform.RelativeAngle);
+                var rotDelta = localDesiredRot - currentRot;
+                //currentRot = MathF.DegToRad(30);
 
-                float deltaAngle;
-                if (Math.Sign(b) == Math.Sign(c))
+                float deltaAngle = 0;
+                if (Math.Sign(localDesiredRot) == Math.Sign(currentRot)) 
                 {
-                    deltaAngle = MathF.Clamp(a, -speed, speed);
+                    deltaAngle = MathF.Clamp(rotDelta, -speed, speed);
                 }
                 else
                 {
-                    if (b + a > Math.PI || b + a < -Math.PI)
+                    if (MathF.Abs(currentRot + rotDelta) > MathF.Pi)
                     {
-                        deltaAngle = MathF.Clamp(-a, -speed, speed);
+                        deltaAngle = MathF.Clamp(-rotDelta, -speed, speed);
                     }
                     else
                     {
-                        deltaAngle = MathF.Clamp(a, -speed, speed);
-                    }
+                        deltaAngle = MathF.Clamp(rotDelta, -speed, speed);
+                    }                    
                 }
-                
+
                 var halfArc = MathF.DegToRad(TraverseArc)/2;
-                var rel =  b + deltaAngle;
+                var rel = currentRot + deltaAngle;
                 GameObj.Transform.RelativeAngle = MathF.Clamp(rel,-halfArc,halfArc); 
             }
         }
-        
     }
 }
