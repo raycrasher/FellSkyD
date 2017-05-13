@@ -7,7 +7,6 @@ using Duality.Editor;
 using Duality.Resources;
 using FellSky.Components;
 using FellSky.Components.Ships;
-using FellSky.Engine;
 using FellSky.Resources;
 using System;
 using System.Collections.Generic;

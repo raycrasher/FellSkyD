@@ -1,6 +1,5 @@
 ﻿using Duality.Drawing;
 using Duality.Editor;
-using FellSky.Engine;
 using FellSky.Resources;
 using System;
 using System.Collections.Generic;
