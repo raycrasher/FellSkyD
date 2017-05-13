@@ -19,7 +19,7 @@
             The traverse speed, in degrees/second
             </summary>
         </member>
-        <member name="M:FellSky.Gui.GuiCore.StartDrag(Duality.GameObject,System.Boolean)">
+        <member name="M:FellSky.Components.Gui.GuiCore.StartDrag(Duality.GameObject,System.Boolean)">
             <summary>
             Start a dragging operation.
             </summary>

@@ -109,18 +109,27 @@ namespace FellSky.Components.Ships
 
             FireAgain:
 
+            if (_currentBarrel >= Muzzles.Length)
+            {
+                _timer = 0f;
+                Status = WeaponStatus.Cycling;
+                _currentBarrel = 0;
+                return;
+            }
+
             Transform muzzle;
             if (Muzzles != null)            
                 muzzle = Muzzles[_currentBarrel];            
             else
                 muzzle = GameObj.Transform;
 
-            var projectile = Projectile.Res.Instantiate();
-            var projComponent = projectile.AddComponent<Projectile>();
+            var projectile = Projectile.Res.Instantiate(muzzle.Pos, muzzle.Angle);
+            var projComponent = projectile.GetComponent<Projectile>();
             projComponent.Owner = Owner;
             projComponent.Muzzle = muzzle;
             projComponent.Weapon = GameObj;
             projComponent.AmmoType = AmmoType;
+            projComponent.OnFire();
 
             Scene.Current.AddObject(projectile);
             AmmoInMagazine--;
@@ -133,20 +142,10 @@ namespace FellSky.Components.Ships
                 return;
             }
             
-            if (_currentBarrel >= Muzzles.Length)
-            {
-                _timer = 0f;
-                Status = WeaponStatus.Cycling;
-                _currentBarrel = 0;
-            }
-            else
-            {
-                _timer = 0;
-                Status = WeaponStatus.BurstCycling;
-                if (LinkedFire)
-                    goto FireAgain;
-            }
-            
+            _timer = 0;
+            Status = WeaponStatus.BurstCycling;
+            if (LinkedFire)
+                goto FireAgain;           
         }
     }
 }
