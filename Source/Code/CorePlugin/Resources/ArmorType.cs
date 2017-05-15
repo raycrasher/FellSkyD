@@ -16,5 +16,10 @@ namespace FellSky.Resources
         public Dictionary<ContentRef<DamageType>, float> DamageMult { get; set; } = new Dictionary<ContentRef<DamageType>, float>();
         public ContentRef<Sprite> Icon { get; set; }
         public float MassPerUnit { get; set; } = 1;
+
+        public float MitigateDamage(DamageType type, float damage)
+        {
+            return DamageMult[type] * damage;
+        }
     }
 }

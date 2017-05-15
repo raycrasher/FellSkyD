@@ -5,29 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Duality.Drawing;
+using Duality.Components;
 
-namespace FellSky.Components
+namespace FellSky.Components.Space
 {
-    public class Background : Component, ICmpRenderer
+    public class Background : Renderer
     {
-        
+        public override float BoundRadius => 300;
 
-        public float BoundRadius
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public void Draw(IDrawDevice device)
+        public override void Draw(IDrawDevice device)
         {
             
-        }
-
-        public bool IsVisible(IDrawDevice device)
-        {
-            throw new NotImplementedException();
         }
     }
 }

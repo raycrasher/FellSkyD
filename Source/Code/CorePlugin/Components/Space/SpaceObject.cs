@@ -5,11 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FellSky.Resources
+namespace FellSky.Components.Space
 {
-    [Duality.Editor.EditorHintCategory("Space")]
-    public class PlanetType: SpaceObjectType
+    public abstract class SpaceObject: Component
     {
-        
     }
 }

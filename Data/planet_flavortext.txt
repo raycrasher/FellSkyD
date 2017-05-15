@@ -1,0 +1,2 @@
+rocky, moon: {name} is tidal-locked to {parent}, otherwise it is quite unremarkable.
+icy, moon: {name} has cryovolcanic activity driven by tidal heating from its orbit around {parent}. Jets of water and liquid methane spew up hundreds of kilometers from the surface, only to fall back as a shower of snowflakes.

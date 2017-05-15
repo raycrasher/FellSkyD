@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 
 namespace FellSky.Resources
 {
-    [RequiredComponent(typeof(Transform))]
-    public class StellarObjectType: Resource
+    
+    public abstract class SpaceObjectType: Resource
     {
         public ContentRef<Sprite> Sprite { get; set; }
-
+        public float MinScale { get; set; }
+        public float MaxScale { get; set; }
     }
 }
+
+

@@ -1,4 +1,5 @@
 ﻿using Duality;
+using FellSky.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,32 +9,16 @@ using System.Threading.Tasks;
 
 namespace FellSky.Components.Ships
 {
-    public enum WarheadType
-    {
-        Fragmentation, Blast, Kinetic, Beam, Plasma, Radiation, EM, Gravitic, Psychic, Magnetic, Chemical, Nanotech
-    }
-    public enum DamageType
-    {
-        Hull, Armor, Shield, Ion, Radiation
-    }
-
     public class Health: Component
     {
         public float MaxHealth { get; set; } = 100;
         public float CurrentHealth { get; set; } = 100;
 
-        public float ArmorDamageReduction { get; set; } = 0;
-        public float Armor { get; set; } = 0;
+        public ContentRef<ArmorType> ArmorType { get; set; }
 
-        public (float, DamageType) DoDamage(WarheadType type, float damage)
+        public float DoDamage(DamageType type, float damage)
         {
-            switch (type)
-            {
-                case WarheadType.Fragmentation:
-                    break;
-            }
-            CurrentHealth = MathF.Clamp(CurrentHealth - damage, 0, MaxHealth);
-            return (damage, DamageType.Hull);
+            return ArmorType.Res?.MitigateDamage(type, damage) ?? damage;
         }
     }
 }
