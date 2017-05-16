@@ -92,7 +92,7 @@ namespace FellSky.Components.Ships
 
         #endregion
 
-        public void OnInit(InitContext context)
+        void ICmpInitializable.OnInit(InitContext context)
         {
             if(context == InitContext.Activate)
             {
@@ -108,11 +108,11 @@ namespace FellSky.Components.Ships
                 hull.GameObj.GetComponent<AdvSpriteRenderer>().Color = hull.Color * color;
         }
 
-        public void OnShutdown(ShutdownContext context)
+        void ICmpInitializable.OnShutdown(ShutdownContext context)
         {
         }
 
-        public void OnUpdate()
+        void ICmpUpdatable.OnUpdate()
         {
             if (RespondsToControl)
                 DoControls();
@@ -149,17 +149,17 @@ namespace FellSky.Components.Ships
             }
         }
 
-        public void OnCollisionBegin(Component sender, CollisionEventArgs args)
+        void ICmpCollisionListener.OnCollisionBegin(Component sender, CollisionEventArgs args)
         {
 
         }
 
-        public void OnCollisionEnd(Component sender, CollisionEventArgs args)
+        void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args)
         {
             
         }
 
-        public void OnCollisionSolve(Component sender, CollisionEventArgs args)
+        void ICmpCollisionListener.OnCollisionSolve(Component sender, CollisionEventArgs args)
         {
             var ship = args.CollideWith.GetComponent<Ship>();
             if (ship != null)

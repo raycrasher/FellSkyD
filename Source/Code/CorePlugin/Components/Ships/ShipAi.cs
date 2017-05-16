@@ -13,13 +13,9 @@ namespace FellSky.Components.Ships
     
     
     [RequiredComponent(typeof(Ship))]
-    public class ShipAi : Component, ICmpUpdatable, ICmpInitializable
+    public class ShipAi : Component, ICmpUpdatable
     {        
         private float _elapsedTime;
-        [DontSerialize]
-        private RigidBody _body;
-        [DontSerialize]
-        private Ship _ship;
 
         public GameObject Target { get; set; }
         public Goals CurrentGoal { get; set; }
@@ -34,27 +30,28 @@ namespace FellSky.Components.Ships
 
         
         
-        public void OnUpdate()
+        void ICmpUpdatable.OnUpdate()
         {
-            
+            var ship = GameObj.GetComponent<Ship>();
+            var body = GameObj.GetComponent<RigidBody>();
             var targetPos = Target.Transform.Pos.Xy;
             _elapsedTime += Time.TimeMult;
 
             var thrustVector = Steering.Pursuit(GameObj.Transform, Target.Transform);
-            _ship.ThrustVector = thrustVector;
+            ship.ThrustVector = thrustVector;
             
             if(thrustVector.LengthSquared > 0)
             {
-                var angle = Utilities.FindAngleBetweenTwoVectors(_ship.CurrentDirection, thrustVector);
+                var angle = Utilities.FindAngleBetweenTwoVectors(ship.CurrentDirection, thrustVector);
                 var limit = MathF.DegToRad(5);
                 if (angle > limit)
-                    _ship.TurnDirection = Rotation.CCW;
+                    ship.TurnDirection = Rotation.CCW;
                 else if(angle < -limit)
-                    _ship.TurnDirection = Rotation.CW;
+                    ship.TurnDirection = Rotation.CW;
                 else
                 {
                     if (Math.Abs(angle) < limit) // damp rotation if we are close to desired facing
-                        _body.AngularVelocity *= 0.9f;
+                        body.AngularVelocity *= 0.9f;
                 }
             }
 
@@ -70,23 +67,6 @@ namespace FellSky.Components.Ships
                 
             }*/
         }
-
-        public void OnInit(InitContext context)
-        {
-            if (context == InitContext.Activate && GameObj!=null)
-            {
-                _ship = GameObj.GetComponent<Ship>();
-                _body = GameObj.GetComponent<RigidBody>();
-                
-            }
-        }
-
-        public void OnShutdown(ShutdownContext context)
-        {
-            
-        }
-
-
     }
     
 }

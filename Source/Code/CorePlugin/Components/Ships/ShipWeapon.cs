@@ -41,7 +41,7 @@ namespace FellSky.Components.Ships
         public string DisabledReason { get; set; }
         public int MagazineSize { get; set; } = 100;
 
-        public void OnUpdate()
+        void ICmpUpdatable.OnUpdate()
         {
             switch (Status)
             {
@@ -98,7 +98,7 @@ namespace FellSky.Components.Ships
             }
         }
 
-        private void Fire()
+        public void Fire()
         {
             if(Projectile==null)
             {

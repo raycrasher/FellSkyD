@@ -24,7 +24,7 @@ namespace FellSky.Components.Ships
 
         public Ship ControlledShip { get; set; }
 
-        public void OnUpdate()
+        void ICmpUpdatable.OnUpdate()
         {
             if (ControlledShip == null)
                 return;
@@ -61,7 +61,7 @@ namespace FellSky.Components.Ships
                 ControlledShip.TurnDirection = Rotation.None;
         }
 
-        public void OnInit(InitContext context)
+        void ICmpInitializable.OnInit(InitContext context)
         {
             if(context == InitContext.Activate)
             {
@@ -94,7 +94,7 @@ namespace FellSky.Components.Ships
             }
         }
 
-        public void OnShutdown(ShutdownContext context)
+        void ICmpInitializable.OnShutdown(ShutdownContext context)
         {
             DualityApp.Mouse.ButtonDown -= OnMouseButtonDown;
             DualityApp.Mouse.ButtonUp -= OnMouseButtonUp;

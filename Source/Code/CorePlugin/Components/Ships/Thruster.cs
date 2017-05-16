@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace FellSky.Components.Ships
 {
     [Duality.Editor.EditorHintCategory("Ship")]
-    public class Thruster : Component, ICmpUpdatable, ICmpInitializable
+    public class Thruster : Component, ICmpUpdatable
     {
         public Vector2 ScaleIdle { get; set; }
         public Vector2 ScaleThrust { get; set; }
@@ -20,38 +20,25 @@ namespace FellSky.Components.Ships
 
         private float _thrustAmount = 0, _boostAmount = 0;
 
-        private AdvSpriteRenderer _sprite;
-        private Ship _ship;
         private bool _isThrusting;
+        
 
-        public void OnInit(InitContext context)
+        void ICmpUpdatable.OnUpdate()
         {
-            if(context == InitContext.Activate)
-            {
-                _sprite = GameObj.GetComponent<AdvSpriteRenderer>();
-                _ship = GameObj.Parent?.GetComponent<Ship>();
-            }
-        }
-
-        public void OnShutdown(ShutdownContext context)
-        {
-            
-        }
-
-        public void OnUpdate()
-        {
+            var ship = GameObj.Parent?.GetComponent<Ship>();
+            var sprite = GameObj.GetComponent<AdvSpriteRenderer>();
             const float tolerance = 0.7f;
 
-            if (_sprite == null || _ship == null)
+            if (sprite == null || ship == null)
                 return;
             var xform = GameObj.Transform;
-            var shipXform = _ship.GameObj.Transform;
+            var shipXform = ship.GameObj.Transform;
 
-            if (_ship.TurnDirection != Rotation.None)
+            if (ship.TurnDirection != Rotation.None)
             {
                 var offset = xform.Pos - shipXform.Pos;
                 Vector2 p;
-                switch (_ship.TurnDirection)
+                switch (ship.TurnDirection)
                 {
                     case Rotation.CW:
                         p = new Vector2(-offset.Y, offset.X) / offset.Length * -1;
@@ -67,10 +54,10 @@ namespace FellSky.Components.Ships
             }
             else _isThrusting = false;
 
-            if (_ship.ThrustVector.LengthSquared > 0)
+            if (ship.ThrustVector.LengthSquared > 0)
             {
                 //var angle = MathF.NormalizeAngle(Vector2.AngleBetween(_ship.ThrustVector, xform.GetWorldVector(Vector2.UnitX)));  //Utilities.FindAngleBetweenTwoVectors(_ship.ThrustVector, xform.GetWorldVector(Vector2.UnitX)) % MathF.Pi;
-                var dot = Vector2.Dot(_ship.ThrustVector.Normalized, -xform.Right.Xy);
+                var dot = Vector2.Dot(ship.ThrustVector.Normalized, -xform.Right.Xy);
                 if (dot > 0.7f)
                     _isThrusting = true;
                 else if(dot <- 0.2f)
@@ -85,7 +72,7 @@ namespace FellSky.Components.Ships
             else
                 _thrustAmount = MathF.Clamp(_thrustAmount - (1 / RampDownTime) * deltaTime, 0, 1);
 
-            if (_ship.IsBoosting)
+            if (ship.IsBoosting)
                 _boostAmount = MathF.Clamp(_boostAmount + 1 / RampUpTime * deltaTime, 0, 1);
             else
                 _boostAmount = MathF.Clamp(_boostAmount - 1 / RampDownTime * deltaTime, 0, 1);
@@ -95,7 +82,7 @@ namespace FellSky.Components.Ships
             var time = MathF.DegToRad((GetHashCode() + Time.GameTimer.Milliseconds));
             flicker = 1 + (MathF.Sin(time * 1.5f % MathF.Pi) * FlickerFactor);
             var thrust = Vector2.Lerp(ScaleThrust, ScaleBoost, _boostAmount);
-            _sprite.Scale = Vector2.Lerp(ScaleIdle, thrust, _thrustAmount) * flicker;
+            sprite.Scale = Vector2.Lerp(ScaleIdle, thrust, _thrustAmount) * flicker;
         }
     }
 }

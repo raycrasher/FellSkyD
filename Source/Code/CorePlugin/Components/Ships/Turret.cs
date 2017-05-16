@@ -27,7 +27,7 @@ namespace FellSky.Components.Ships
         public bool IsOmnidirectional => TraverseArc >= 360;
         public bool IsFixed => TraverseArc <= 0;
 
-        public void OnUpdate()
+        void ICmpUpdatable.OnUpdate()
         {
             var xform = GameObj.Transform;
             var speed = Time.TimeMult * MathF.DegToRad(TraverseSpeed);
