@@ -8,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace FellSky.Components.Ships
 {
-    public class PlayerShipController: Component, ICmpUpdatable
+    public class PlayerShipController: Component, ICmpUpdatable, ICmpInitializable
     {
+        private ShipWeapon[] _weapons;
+
         public Key ThrustUp { get; set; } = Key.W;
         public Key ThrustDown { get; set; } = Key.S;
         public Key TurnCCW { get; set; } = Key.A;
@@ -32,7 +34,6 @@ namespace FellSky.Components.Ships
 
         private void ControlWapons()
         {
-            
         }
 
         private void ControlThrust()
@@ -58,6 +59,45 @@ namespace FellSky.Components.Ships
                 ControlledShip.TurnDirection = Rotation.CW;
             else
                 ControlledShip.TurnDirection = Rotation.None;
+        }
+
+        public void OnInit(InitContext context)
+        {
+            if(context == InitContext.Activate)
+            {
+                _weapons = ControlledShip.GameObj.GetComponentsDeep<ShipWeapon>().ToArray();
+                DualityApp.Mouse.ButtonDown += OnMouseButtonDown;
+                DualityApp.Mouse.ButtonUp += OnMouseButtonUp;
+
+            }
+        }
+
+        private void OnMouseButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (_weapons != null && _weapons.Length > 0)
+            {
+                foreach (var wpn in _weapons)
+                {
+                    wpn.IsFiring = true;
+                }
+            }
+        }
+
+        private void OnMouseButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            if (_weapons != null && _weapons.Length > 0)
+            {
+                foreach (var wpn in _weapons)
+                {
+                    wpn.IsFiring = false;
+                }
+            }
+        }
+
+        public void OnShutdown(ShutdownContext context)
+        {
+            DualityApp.Mouse.ButtonDown -= OnMouseButtonDown;
+            DualityApp.Mouse.ButtonUp -= OnMouseButtonUp;
         }
     }
 }

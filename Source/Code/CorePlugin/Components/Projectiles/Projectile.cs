@@ -10,11 +10,13 @@ using FellSky.Resources;
 namespace FellSky.Components.Projectiles
 {
     [Duality.Editor.EditorHintCategory("Projectile")]
-    public class Projectile: Component
+    public abstract class Projectile: Component
     {
         public GameObject Owner { get; set; }
         public Transform Muzzle { get; set; }
         public GameObject Weapon { get; set; }
         public ContentRef<AmmoType> AmmoType { get; set; }
+
+        public abstract void OnFire();
     }
 }

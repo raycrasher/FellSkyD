@@ -2,8 +2,6 @@
 using Duality.Components.Physics;
 using Duality.Drawing;
 using FellSky.Components;
-using FellSky.Components.Space;
-using FellSky.Engine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -60,7 +58,6 @@ namespace FellSky.Components.Ships
         // transient stats
         public float CurrentHealth { get; set; }
         public float StoredHeat { get; set; }
-        public WarpPoint ActiveWarpPoint { get; set; }
 
         public float StoredPower { get; set; }
 
@@ -95,29 +92,7 @@ namespace FellSky.Components.Ships
 
         #endregion
 
-        #region Public functions
-
-        public void StartWarp()
-        {
-            if (ActiveWarpPoint == null)
-                return;
-
-            // in system warp
-            if(ActiveWarpPoint.StarSystem == GameObj.ParentScene.FindComponent<StarSystem>())
-            {
-                //TODO: play warp animation here
-                GameObj.Transform.Pos = ActiveWarpPoint.GameObj.Transform.Pos;
-            }
-            else
-            {
-
-            }
-        }
-
-        #endregion
-
-
-        void ICmpInitializable.OnInit(InitContext context)
+        public void OnInit(InitContext context)
         {
             if(context == InitContext.Activate)
             {
@@ -133,11 +108,11 @@ namespace FellSky.Components.Ships
                 hull.GameObj.GetComponent<AdvSpriteRenderer>().Color = hull.Color * color;
         }
 
-        void ICmpInitializable.OnShutdown(ShutdownContext context)
+        public void OnShutdown(ShutdownContext context)
         {
         }
 
-        void ICmpUpdatable.OnUpdate()
+        public void OnUpdate()
         {
             if (RespondsToControl)
                 DoControls();
@@ -174,20 +149,17 @@ namespace FellSky.Components.Ships
             }
         }
 
-        void ICmpCollisionListener.OnCollisionBegin(Component sender, CollisionEventArgs args)
+        public void OnCollisionBegin(Component sender, CollisionEventArgs args)
         {
-            ActiveWarpPoint = args.CollideWith.GetComponent<WarpPoint>();
+
         }
 
-        void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args)
+        public void OnCollisionEnd(Component sender, CollisionEventArgs args)
         {
-            if(ActiveWarpPoint != null && args.CollideWith.GetComponent<WarpPoint>() == ActiveWarpPoint)
-            {
-                ActiveWarpPoint = null;
-            }
+            
         }
 
-        void ICmpCollisionListener.OnCollisionSolve(Component sender, CollisionEventArgs args)
+        public void OnCollisionSolve(Component sender, CollisionEventArgs args)
         {
             var ship = args.CollideWith.GetComponent<Ship>();
             if (ship != null)

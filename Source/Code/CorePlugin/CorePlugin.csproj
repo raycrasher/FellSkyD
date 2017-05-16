@@ -71,6 +71,8 @@
     <Compile Include="Components\AdvAnimatedSpriteRenderer.cs" />
     <Compile Include="Components\Codex.cs" />
     <Compile Include="Components\MouseFollow.cs" />
+    <Compile Include="Components\ParticleEmitter.cs" />
+    <Compile Include="Components\Projectiles\BeamRenderer.cs" />
     <Compile Include="Components\Ships\ShipAi.cs" />
     <Compile Include="Common\Steering.cs" />
     <Compile Include="Components\Space\Galaxy.cs" />
@@ -87,6 +89,7 @@
     <Compile Include="Resources\ArmorType.cs" />
     <Compile Include="Resources\DamageType.cs" />
     <Compile Include="Resources\EngineType.cs" />
+    <Compile Include="Resources\ParticleSystem.cs" />
     <Compile Include="Resources\PlanetType.cs" />
     <Compile Include="Resources\ShipType.cs" />
     <Compile Include="Resources\SpeciesType.cs" />
@@ -104,8 +107,6 @@
     <Compile Include="Components\Gui\HudController.cs" />
     <Compile Include="Components\Gui\InventoryListController.cs" />
     <Compile Include="Components\Gui\RefitWindowController.cs" />
-    <Compile Include="Common\ParticleEffect.cs" />
-    <Compile Include="Common\ParticleEmitter.cs" />
     <Compile Include="Components\Projectiles\Beam.cs" />
     <Compile Include="Components\Projectiles\Bullet.cs" />
     <Compile Include="Components\FollowBehavior.cs" />

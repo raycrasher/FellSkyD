@@ -1,17 +1,17 @@
 ﻿using Duality;
-using Duality.Components;
 using Duality.Drawing;
 using Duality.Editor;
+using FellSky.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FellSky.Engine
+namespace FellSky.Resources
 {
-    [RequiredComponent(typeof(Transform))]
-    public class ParticleEmitter
+    [Duality.Editor.EditorHintCategory("Graphics")]
+    public class ParticleSystem: Resource
     {
         private Range burstDelay = 100.0f;
         private Range burstParticleNum = 1;
@@ -108,7 +108,7 @@ namespace FellSky.Engine
             set { this.depthMult = value; }
         }
 
-        public void Update(ParticleEffect effect)
+        public void Update(ParticleEmitter effect)
         {
             this.burstTimer -= Time.MsPFMult * Time.TimeMult;
             while (this.burstTimer <= 0.0f && (this.burstCount < this.maxBurstCount || this.maxBurstCount < 0))
@@ -143,5 +143,4 @@ namespace FellSky.Engine
             particle.AgeFactor = 0.0f;
         }
     }
-
 }

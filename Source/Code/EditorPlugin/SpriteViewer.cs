@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
-using FellSky.Engine;
 using Duality;
 using Duality.Editor;
 using Duality.Resources;

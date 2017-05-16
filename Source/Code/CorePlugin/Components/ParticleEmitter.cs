@@ -1,18 +1,31 @@
-﻿using Duality;
-using Duality.Components;
-using Duality.Drawing;
-using Duality.Editor;
-using Duality.Resources;
+﻿using Duality.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Duality.Drawing;
+using Duality;
+using Duality.Resources;
+using Duality.Editor;
+using FellSky.Resources;
 
-namespace FellSky.Engine
+namespace FellSky.Components
 {
+    public struct Particle
+    {
+        public Vector3 Position;
+        public Vector3 Velocity;
+        public float Angle;
+        public float AngleVelocity;
+        public float TimeToLive;
+        public float AgeFactor;
+        public int SpriteIndex;
+        public ColorRgba Color;
+    }
+
     [RequiredComponent(typeof(Transform))]
-    public class ParticleEffect : Renderer, ICmpUpdatable, ICmpInitializable
+    public class ParticleEmitter : Renderer, ICmpUpdatable, ICmpInitializable, ICmpEditorUpdatable
     {
         private ContentRef<Material> material = null;
         private Vector2 particleSize = new Vector2(16, 16);
@@ -21,7 +34,7 @@ namespace FellSky.Engine
         private float angularDrag = 0.3f;
         private float fadeInAt = 0.0f;
         private float fadeOutAt = 0.75f;
-        private List<ParticleEmitter> emitters = new List<ParticleEmitter>();
+        private List<ContentRef<ParticleSystem>> _systems = new List<ContentRef<ParticleSystem>>();
 
         [DontSerialize]
         private float boundRadius = 0.0f;
@@ -33,75 +46,75 @@ namespace FellSky.Engine
 
         public ContentRef<Material> ParticleMaterial
         {
-            get { return this.material; }
-            set { this.material = value; }
+            get { return material; }
+            set { material = value; }
         }
         public Vector2 ParticleSize
         {
-            get { return this.particleSize; }
-            set { this.particleSize = value; }
+            get { return particleSize; }
+            set { particleSize = value; }
         }
         public Vector3 ConstantForce
         {
-            get { return this.constantForce; }
-            set { this.constantForce = value; }
+            get { return constantForce; }
+            set { constantForce = value; }
         }
         [EditorHintRange(0.0f, 1.0f)]
         public float LinearDrag
         {
-            get { return this.linearDrag; }
-            set { this.linearDrag = value; }
+            get { return linearDrag; }
+            set { linearDrag = value; }
         }
         [EditorHintRange(0.0f, 1.0f)]
         public float AngularDrag
         {
-            get { return this.angularDrag; }
-            set { this.angularDrag = value; }
+            get { return angularDrag; }
+            set { angularDrag = value; }
         }
         [EditorHintRange(0.0f, 1.0f)]
         public float FadeInAt
         {
-            get { return this.fadeInAt; }
-            set { this.fadeInAt = value; }
+            get { return fadeInAt; }
+            set { fadeInAt = value; }
         }
         [EditorHintRange(0.0f, 1.0f)]
         public float FadeOutAt
         {
-            get { return this.fadeOutAt; }
-            set { this.fadeOutAt = value; }
+            get { return fadeOutAt; }
+            set { fadeOutAt = value; }
         }
-        public List<ParticleEmitter> Emitters
+        public List<ContentRef<ParticleSystem>> Systems
         {
-            get { return this.emitters; }
-            set { this.emitters = value ?? new List<ParticleEmitter>(); }
+            get { return _systems; }
+            set { _systems = value ?? new List<ContentRef<ParticleSystem>>(); }
         }
         public override float BoundRadius
         {
-            get { return this.boundRadius * this.GameObj.Transform.Scale; }
+            get { return boundRadius * GameObj.Transform.Scale; }
         }
 
 
-        public void AddParticles(ParticleEmitter emitter, int count)
+        public void AddParticles(ParticleSystem emitter, int count)
         {
             // Lookup what sprite sheet we're using to get the number of available frames
-            Texture tex = this.RetrieveTexture();
+            Texture tex = RetrieveTexture();
             if (tex == null) return;
             Pixmap img = tex.BasePixmap.Res;
             if (img == null) return;
 
             // Gather data for emitting particles
-            Vector3 effectPos = this.GameObj.Transform.Pos;
-            float effectAngle = this.GameObj.Transform.Angle;
-            float effectScale = this.GameObj.Transform.Scale;
+            Vector3 effectPos = GameObj.Transform.Pos;
+            float effectAngle = GameObj.Transform.Angle;
+            float effectScale = GameObj.Transform.Scale;
 
             // Reserve memory for storing the new particles we're spawning
-            if (this.particles == null) this.particles = new RawList<Particle>(count);
-            int oldCount = this.particles.Count;
-            this.particles.Count = this.particles.Count + count;
+            if (particles == null) particles = new RawList<Particle>(count);
+            int oldCount = particles.Count;
+            particles.Count = particles.Count + count;
 
             // Initialize all those new particles
-            Particle[] particleData = this.particles.Data;
-            for (int i = oldCount; i < this.particles.Count; i++)
+            Particle[] particleData = particles.Data;
+            for (int i = oldCount; i < particles.Count; i++)
             {
                 // Initialize the current particle.
                 emitter.InitParticle(ref particleData[i]);
@@ -110,7 +123,7 @@ namespace FellSky.Engine
 
         private void RemoveParticle(int index)
         {
-            this.particles.RemoveAt(index);
+            particles.RemoveAt(index);
         }
         private Texture RetrieveTexture()
         {
@@ -122,40 +135,40 @@ namespace FellSky.Engine
 
         private void UpdateEmitters()
         {
-            for (int i = this.emitters.Count - 1; i >= 0; i--)
+            for (int i = _systems.Count - 1; i >= 0; i--)
             {
-                if (this.emitters[i] == null) continue;
-                this.emitters[i].Update(this);
+                if (_systems[i] == null) continue;
+                _systems[i].Res?.Update(this);
             }
         }
 
         public override void Draw(IDrawDevice device)
         {
-            if (this.particles == null) return;
+            if (particles == null) return;
 
-            Texture tex = this.RetrieveTexture();
+            Texture tex = RetrieveTexture();
             if (tex == null) return;
 
-            Vector2 particleHalfSize = this.particleSize * 0.5f;
-            float objAngle = this.GameObj.Transform.Angle;
-            float objScale = this.GameObj.Transform.Scale;
-            Vector3 objPos = this.GameObj.Transform.Pos;
+            Vector2 particleHalfSize = particleSize * 0.5f;
+            float objAngle = GameObj.Transform.Angle;
+            float objScale = GameObj.Transform.Scale;
+            Vector3 objPos = GameObj.Transform.Pos;
 
             Vector2 objXDot, objYDot;
             MathF.GetTransformDotVec(objAngle, objScale, out objXDot, out objYDot);
 
-            if (this.vertexBuffer == null) this.vertexBuffer = new RawList<VertexC1P3T2>(this.particles.Count * 4);
-            this.vertexBuffer.Count = this.vertexBuffer.Count = this.particles.Count * 4;
+            if (vertexBuffer == null) vertexBuffer = new RawList<VertexC1P3T2>(particles.Count * 4);
+            vertexBuffer.Count = vertexBuffer.Count = particles.Count * 4;
 
-            VertexC1P3T2[] vertexData = this.vertexBuffer.Data;
-            Particle[] particleData = this.particles.Data;
-            int particleCount = this.particles.Count;
+            VertexC1P3T2[] vertexData = vertexBuffer.Data;
+            Particle[] particleData = particles.Data;
+            int particleCount = particles.Count;
             for (int i = 0; i < particleCount; i++)
             {
                 ColorRgba color = particleData[i].Color;
                 float alpha = (float)color.A / 255.0f;
-                if (this.fadeOutAt < 1.0f) alpha *= MathF.Clamp((1.0f - particleData[i].AgeFactor) / this.fadeOutAt, 0.0f, 1.0f);
-                if (this.fadeInAt > 0.0f) alpha *= MathF.Clamp(particleData[i].AgeFactor / this.fadeInAt, 0.0f, 1.0f);
+                if (fadeOutAt < 1.0f) alpha *= MathF.Clamp((1.0f - particleData[i].AgeFactor) / fadeOutAt, 0.0f, 1.0f);
+                if (fadeInAt > 0.0f) alpha *= MathF.Clamp(particleData[i].AgeFactor / fadeInAt, 0.0f, 1.0f);
                 color.A = (byte)(alpha * 255.0f);
 
                 Rect uvRect;
@@ -213,61 +226,53 @@ namespace FellSky.Engine
                 vertexData[vertexBaseIndex + 3].Color = color;
             }
 
-            device.AddVertices(this.material, VertexMode.Quads, vertexData, this.vertexBuffer.Count);
+            device.AddVertices(material, VertexMode.Quads, vertexData, vertexBuffer.Count);
         }
-        void ICmpUpdatable.OnUpdate()
+        void OnUpdate()
         {
             // Update all existing particles
             Vector3 boundMax = Vector3.Zero;
-            if (this.particles != null)
+            if (particles != null)
             {
                 float timeMult = Time.TimeMult;
                 float timePassed = Time.MsPFMult * timeMult;
 
-                Particle[] particleData = this.particles.Data;
-                int particleCount = this.particles.Count;
+                Particle[] particleData = particles.Data;
+                int particleCount = particles.Count;
                 for (int i = particleCount - 1; i >= 0; i--)
                 {
                     particleData[i].Position += particleData[i].Velocity * timeMult;
                     particleData[i].Angle += particleData[i].AngleVelocity * timeMult;
-                    particleData[i].Velocity += this.constantForce * 0.01f * timeMult;
-                    particleData[i].Velocity *= MathF.Pow(1.0f - (this.linearDrag * 0.1f), timeMult);
-                    particleData[i].AngleVelocity *= MathF.Pow(1.0f - (this.angularDrag * 0.1f), timeMult);
+                    particleData[i].Velocity += constantForce * 0.01f * timeMult;
+                    particleData[i].Velocity *= MathF.Pow(1.0f - (linearDrag * 0.1f), timeMult);
+                    particleData[i].AngleVelocity *= MathF.Pow(1.0f - (angularDrag * 0.1f), timeMult);
                     particleData[i].AgeFactor += timePassed / particleData[i].TimeToLive;
                     if (particleData[i].AgeFactor > 1.0f)
-                        this.RemoveParticle(i);
+                        RemoveParticle(i);
 
                     boundMax.X = MathF.Max(boundMax.X, MathF.Abs(particleData[i].Position.X));
                     boundMax.Y = MathF.Max(boundMax.Y, MathF.Abs(particleData[i].Position.Y));
                     boundMax.Z = MathF.Max(boundMax.Z, MathF.Abs(particleData[i].Position.Z));
                 }
             }
-            this.boundRadius = boundMax.Length;
-            this.boundRadius += this.particleSize.Length;
+            boundRadius = boundMax.Length;
+            boundRadius += particleSize.Length;
 
             // Update particle emission
-            this.UpdateEmitters();
+            UpdateEmitters();
         }
         void ICmpInitializable.OnInit(Component.InitContext context)
         {
             if (context == InitContext.Activate)
             {
                 // When activating, directly update particle emitters once, so there is already something to see.
-                this.UpdateEmitters();
+                UpdateEmitters();
             }
         }
         void ICmpInitializable.OnShutdown(Component.ShutdownContext context) { }
-    }
 
-    public struct Particle
-    {
-        public Vector3 Position;
-        public Vector3 Velocity;
-        public float Angle;
-        public float AngleVelocity;
-        public float TimeToLive;
-        public float AgeFactor;
-        public int SpriteIndex;
-        public ColorRgba Color;
+        void ICmpUpdatable.OnUpdate() => OnUpdate();
+
+        void ICmpEditorUpdatable.OnUpdate() => OnUpdate();
     }
 }
