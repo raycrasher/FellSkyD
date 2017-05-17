@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 using Duality.Drawing;
 using Duality;
 using FellSky.Resources;
+using FellSky.Components.Projectiles;
 
 namespace FellSky.Components
 {
     [Duality.Editor.EditorHintCategory("Graphics")]
-    public class AdvAnimatedSpriteRenderer : AdvSpriteRenderer
+    public class AnimatedSprite : Component, ICmpUpdatable, ICmpEditorUpdatable
     {         
         public enum LoopMode
         {
@@ -25,7 +26,6 @@ namespace FellSky.Components
         }
 
         public Frame[] Frames { get; set; }
-        public override float BoundRadius => throw new NotImplementedException();
 
         public LoopMode Mode { get; set; }
         public int CurrentFrame {
@@ -37,7 +37,7 @@ namespace FellSky.Components
         private bool _pingPongDir; //false = back, true = forward
         private int _currentFrame;
 
-        public override void Draw(IDrawDevice device)
+        public void OnUpdate()
         {
             if (Frames == null || Frames.Length <= 0)
                 return;
@@ -47,7 +47,7 @@ namespace FellSky.Components
                 case LoopMode.Fixed:
                     return;
                 case LoopMode.Loop:
-                    if(_timer >= Frames[CurrentFrame].Delay)
+                    if (_timer >= Frames[CurrentFrame].Delay)
                     {
                         _timer = _timer - Frames[CurrentFrame].Delay;
                         CurrentFrame++;
@@ -100,7 +100,12 @@ namespace FellSky.Components
                     break;
             }
 
-            Sprite = Frames[CurrentFrame].Sprite;
+            var renderer = GameObj.GetComponent<AdvSpriteRenderer>();
+            if (renderer != null)
+                renderer.Sprite = Frames[CurrentFrame].Sprite;
+            var beam = GameObj.GetComponent<BeamRenderer>();
+            if(beam!=null)
+                beam.BeamSprite = Frames[CurrentFrame].Sprite;
         }
     }
 }

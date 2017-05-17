@@ -15,5 +15,6 @@ namespace FellSky.Components.Space
     public class Planet: Component
     {
         public ContentRef<PlanetType> PlanetType { get; set; }
+        public float Mass { get; set; }
     }
 }

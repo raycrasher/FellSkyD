@@ -55,10 +55,6 @@
     <Reference Include="DualityPrimitives">
       <HintPath>..\..\..\DualityPrimitives.dll</HintPath>
     </Reference>
-    <Reference Include="FarseerDuality, Version=4.1.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\FarseerDuality.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -85,6 +81,7 @@
     <Compile Include="Components\Gui\GuiCore.cs" />
     <Compile Include="Components\Gui\ScrollView.cs" />
     <Compile Include="Components\Gui\TexturedFrame.cs" />
+    <Compile Include="Components\Universe\Faction.cs" />
     <Compile Include="Resources\AmmoType.cs" />
     <Compile Include="Resources\ArmorType.cs" />
     <Compile Include="Resources\DamageType.cs" />

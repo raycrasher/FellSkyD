@@ -5,21 +5,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Duality.Drawing;
+using Duality.Resources;
 using Duality;
 using FellSky.Resources;
 
 namespace FellSky.Components.Projectiles
 {
-    [Duality.Editor.EditorHintCategory("Graphics")]
     public class BeamRenderer : Renderer
     {
-        public override float BoundRadius => 100;
+        [DontSerialize]
+        private Canvas _canvas;
 
+        public override float BoundRadius => 300;
         public Transform Source { get; set; }
-        public ContentRef<Sprite>[] Sprites { get; set; }
+        public float Width { get; set; }
+        public float Length { get; set; }
+        public ContentRef<Sprite> BeamSprite { get; set; }
 
         public override void Draw(IDrawDevice device)
         {
+            _canvas = _canvas ?? new Canvas(device);
             
         }
     }
