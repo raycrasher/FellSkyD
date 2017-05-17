@@ -80,6 +80,8 @@ namespace FellSky.Editor
                 btn.Width = 64;
                 btn.Height = 64;
                 
+                
+                
                 int x = btn.Width / 2 - (int)rect.W / 2;
                 int y = btn.Height / 2 - (int)rect.H / 2;
 

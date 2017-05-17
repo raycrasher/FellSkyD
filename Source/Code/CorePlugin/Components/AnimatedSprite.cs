@@ -22,7 +22,8 @@ namespace FellSky.Components
         public class Frame
         {
             public ContentRef<Sprite> Sprite { get; set; }
-            public float Delay { get; set; } = 200;
+            public float Delay { get; set; } = 5;
+            public Vector2 Offset { get; set; }
         }
 
         public Frame[] Frames { get; set; }
@@ -30,7 +31,7 @@ namespace FellSky.Components
         public LoopMode Mode { get; set; }
         public int CurrentFrame {
             get => _currentFrame;
-            set => _currentFrame = MathF.Clamp(0, 0, Frames?.Length ?? 0);
+            set => _currentFrame = value;
         }
 
         private float _timer = 0;
@@ -41,16 +42,24 @@ namespace FellSky.Components
         {
             if (Frames == null || Frames.Length <= 0)
                 return;
-
+            if (CurrentFrame > Frames.Length - 1)
+                CurrentFrame = 0;
+            var delay = Frames[CurrentFrame]?.Delay ?? 5;
             switch (Mode)
             {
                 case LoopMode.Fixed:
-                    return;
+                    if (CurrentFrame >= Frames.Length)
+                        CurrentFrame = Frames.Length-1;
+                    break;
                 case LoopMode.Loop:
-                    if (_timer >= Frames[CurrentFrame].Delay)
+                    //Log.Editor.Write("{0}, {1}", _timer, CurrentFrame);
+                    if (_timer >= delay)
                     {
-                        _timer = _timer - Frames[CurrentFrame].Delay;
+                        
+                        _timer = _timer - delay;
                         CurrentFrame++;
+                        if (CurrentFrame >= Frames.Length)
+                            CurrentFrame = 0;
                         break;
                     }
                     _timer += Time.TimeMult;
@@ -58,9 +67,9 @@ namespace FellSky.Components
                 case LoopMode.Once:
                     if (CurrentFrame < Frames.Length - 1)
                     {
-                        if (_timer >= Frames[CurrentFrame].Delay)
+                        if (_timer >= delay)
                         {
-                            _timer = _timer - Frames[CurrentFrame].Delay;
+                            _timer = _timer - delay;
                             CurrentFrame++;
                             break;
                         }
@@ -69,13 +78,13 @@ namespace FellSky.Components
                     break;
                 case LoopMode.PingPong:
 
-                    if (_timer >= Frames[CurrentFrame].Delay)
+                    if (_timer >= delay)
                     {
                         if (_pingPongDir)
                         {
-                            if (CurrentFrame + 1 > Frames.Length)
+                            if (CurrentFrame + 1 >= Frames.Length)
                             {
-                                _timer = _timer - Frames[CurrentFrame].Delay;
+                                _timer = _timer - delay;
                                 _pingPongDir = false;
                                 CurrentFrame--;
                                 break;
@@ -85,13 +94,12 @@ namespace FellSky.Components
                         {
                             if (CurrentFrame - 1 < 0)
                             {
-                                _timer = _timer - Frames[CurrentFrame].Delay;
+                                _timer = _timer - delay;
                                 _pingPongDir = true;
                                 CurrentFrame++;
                                 break;
                             }
                         }
-                        CurrentFrame++;
                     }
                     else
                     {
@@ -102,10 +110,13 @@ namespace FellSky.Components
 
             var renderer = GameObj.GetComponent<AdvSpriteRenderer>();
             if (renderer != null)
-                renderer.Sprite = Frames[CurrentFrame].Sprite;
+            {
+                renderer.Sprite = Frames[CurrentFrame]?.Sprite ?? default(ContentRef<Sprite>);
+                renderer.Pivot = Frames[CurrentFrame]?.Offset ?? Vector2.Zero;
+            }
             var beam = GameObj.GetComponent<BeamRenderer>();
             if(beam!=null)
-                beam.BeamSprite = Frames[CurrentFrame].Sprite;
+                beam.BeamSprite = Frames[CurrentFrame]?.Sprite ?? default(ContentRef<Sprite>);
         }
     }
 }

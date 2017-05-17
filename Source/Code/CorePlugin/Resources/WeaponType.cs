@@ -11,5 +11,7 @@ namespace FellSky.Resources
     public class WeaponType: ItemType
     {
         public ContentRef<Prefab> Prefab { get; set; }
+        public ContentRef<HardpointType> Hardpoint { get; set; }
+        
     }
 }

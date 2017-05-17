@@ -64,7 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\AdvAnimatedSpriteRenderer.cs" />
+    <Compile Include="Components\AnimatedSprite.cs" />
     <Compile Include="Components\Codex.cs" />
     <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\ParticleEmitter.cs" />
@@ -86,6 +86,7 @@
     <Compile Include="Resources\ArmorType.cs" />
     <Compile Include="Resources\DamageType.cs" />
     <Compile Include="Resources\EngineType.cs" />
+    <Compile Include="Resources\HardpointType.cs" />
     <Compile Include="Resources\ParticleSystem.cs" />
     <Compile Include="Resources\PlanetType.cs" />
     <Compile Include="Resources\ShipType.cs" />
