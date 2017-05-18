@@ -87,6 +87,7 @@
     <Compile Include="Resources\DamageType.cs" />
     <Compile Include="Resources\EngineType.cs" />
     <Compile Include="Resources\HardpointType.cs" />
+    <Compile Include="Resources\NebulaType.cs" />
     <Compile Include="Resources\ParticleSystem.cs" />
     <Compile Include="Resources\PlanetType.cs" />
     <Compile Include="Resources\ShipType.cs" />
@@ -97,7 +98,7 @@
     <Compile Include="CorePlugin.cs" />
     <Compile Include="Components\Ships\Inventory.cs" />
     <Compile Include="Resources\ItemType.cs" />
-    <Compile Include="Components\Space\Background.cs" />
+    <Compile Include="Components\Space\Nebula.cs" />
     <Compile Include="Components\CameraZoom.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Components\Ships\Health.cs" />

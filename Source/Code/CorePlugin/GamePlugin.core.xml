@@ -19,6 +19,17 @@
             The traverse speed, in degrees/second
             </summary>
         </member>
+        <member name="M:FellSky.Components.Space.NebulaBackground.GeneratePointStarTexture(System.Random,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>
+            Generates the point star texture.
+            </summary>
+            <param name="rng">The random number generator.</param>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            <param name="density">Density of the starfield [0-1]. A good value is 0.05.</param>
+            <param name="brightness">Brightness [0-1]. A good value is 0.125.</param>
+            <returns></returns>
+        </member>
         <member name="M:FellSky.Components.Gui.GuiCore.StartDrag(Duality.GameObject,System.Boolean)">
             <summary>
             Start a dragging operation.
