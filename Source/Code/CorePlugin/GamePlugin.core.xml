@@ -19,7 +19,7 @@
             The traverse speed, in degrees/second
             </summary>
         </member>
-        <member name="M:FellSky.Components.Space.NebulaBackground.GeneratePointStarTexture(System.Random,System.Int32,System.Int32,System.Single,System.Single)">
+        <member name="M:FellSky.Components.Space.Nebula.GeneratePointStarTexture(System.Random,System.Int32,System.Int32,System.Single,System.Single)">
             <summary>
             Generates the point star texture.
             </summary>

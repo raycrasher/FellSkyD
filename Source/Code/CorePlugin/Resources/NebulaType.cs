@@ -15,5 +15,6 @@ namespace FellSky.Resources
         public float Scale { get; set; } = 1;
         public float Density { get; set; } = 0.05f;
         public float Falloff { get; set; } = 4;
+        public ContentRef<Duality.Resources.DrawTechnique> DrawTechnique { get; set; }
     }
 }

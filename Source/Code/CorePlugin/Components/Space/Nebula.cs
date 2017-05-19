@@ -18,8 +18,15 @@ namespace FellSky.Components.Space
         public ContentRef<DrawTechnique> Shader { get; set; }
 
         public bool IsDirty { get; set; }
-      
+
+        public void Generate()
+        {
+            GenerateBackground(new Random(), Width, Height);
+        }
+
         public ContentRef<NebulaType>[] Nebulae { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
 
         [DontSerialize]
         private Material _material;

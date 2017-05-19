@@ -73,6 +73,7 @@
     <Compile Include="AtlasLoader.cs" />
     <Compile Include="EditorPlugin.cs" />
     <Compile Include="NebulaConverter.cs" />
+    <Compile Include="NebulaRedraw.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShipLoader.cs" />
     <Compile Include="SpriteConverter.cs" />
