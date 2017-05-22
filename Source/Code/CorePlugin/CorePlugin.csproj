@@ -64,13 +64,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\PerkMethodAttribute.cs" />
     <Compile Include="Components\AnimatedSprite.cs" />
     <Compile Include="Components\Codex.cs" />
+    <Compile Include="Components\Missions\SweepMissionController.cs" />
     <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\ParticleEmitter.cs" />
     <Compile Include="Components\Projectiles\BeamRenderer.cs" />
+    <Compile Include="Components\Ships\Perks\Perk.cs" />
+    <Compile Include="Components\Ships\Pilot.cs" />
     <Compile Include="Components\Ships\ShipAi.cs" />
     <Compile Include="Common\Steering.cs" />
+    <Compile Include="Components\Ships\ShipStat.cs" />
     <Compile Include="Components\Space\Galaxy.cs" />
     <Compile Include="Components\Space\SpaceObject.cs" />
     <Compile Include="Components\Space\StarSystem.cs" />
@@ -89,7 +94,9 @@
     <Compile Include="Resources\HardpointType.cs" />
     <Compile Include="Resources\NebulaType.cs" />
     <Compile Include="Resources\ParticleSystem.cs" />
+    <Compile Include="Resources\PerkDef.cs" />
     <Compile Include="Resources\PlanetType.cs" />
+    <Compile Include="Resources\ShipGroup.cs" />
     <Compile Include="Resources\ShipType.cs" />
     <Compile Include="Resources\SpeciesType.cs" />
     <Compile Include="Resources\StarSystemType.cs" />

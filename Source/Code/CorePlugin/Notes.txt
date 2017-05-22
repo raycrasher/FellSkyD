@@ -1,6 +1,33 @@
-﻿Fictional materials:
+﻿Map types:
 
-	Mithril
-	Adamantine
-	Orichalcum
-	Almerite :)
+Sweep:				Kill all enemies. Minibosses only.
+Eliminate:			Minimum number of enemies, 1 big boss
+Escort mothership:	Mothership moves from one place to another.
+Ambush!				Close range FTL warp-in of +1 tier enemies. Focus: Close combat
+
+
+Perk list:
+	
+	Roboteching:		+100% missile maneuverability for the first second of burn.
+
+	Attack Pattern Alpha:	
+	Boring but Practical:	
+
+Abilities:
+	Name				Upgrd	Desc
+
+	Bullet Hell:		[3+1]	Gain 2x ballistics fire rate for 5/8/10 seconds. 
+									Quest upgrade: Gain 2.5x fire rate.
+									Quest upgrade: Decrease cooldown by 50%
+
+	Beam Spam:			[3+1]	Gain 2x pulse beam fire rate and 2x continuous beam damage for 5/8/10 seconds. 
+									Quest upgrade: Gain 2.5x rof/dmg bonus.
+									Quest upgrade: Decrease cooldown by 50%
+
+	Missile Massacre:	[3+1]	Release a missile swarm using all regular missile launchers, regardless of current ammo. +100% missile speed and maneuverability. Each level grants +1/+2/+3 uses. Quest upgrade: Missiles apply a random status effect on hit for 1 second.
+	
+	Combat Jump:		[3+1]	Teleports to the indicated position (targeting cursor). Distance increases by +100 per level. Quest upgrade: After blinking, all bullets within 3x ship radius are either destroyed or deflected.
+	Ramming speed:		[3+1]	Initiates 4 second burn for 2x forward force. Ship cannot turn. Collision damage to other objects is increased 2x/2.5x/3x. Collision damage to self is decreased by half. Quest upgrade: Gain 30% of maneuverability, and incoming weapon damage is decreased by 20%.
+	
+
+
