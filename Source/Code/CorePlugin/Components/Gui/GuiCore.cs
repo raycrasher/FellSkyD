@@ -6,11 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Duality.Input;
 using Duality.Components;
+using Duality.Drawing;
 
 namespace FellSky.Components.Gui
 {
     [Duality.Editor.EditorHintCategory("Gui")]
-    public class GuiCore : Component, ICmpUpdatable, ICmpInitializable
+    public class GuiCore : Renderer, ICmpUpdatable, ICmpInitializable
     {
         private GameObject _draggedObject;
         private Vector3 _dragOffset;
@@ -18,6 +19,8 @@ namespace FellSky.Components.Gui
         private Vector3 _dragOriginalPos;
 
         public Camera GuiCamera { get; set; }
+
+        public override float BoundRadius => 300;
 
         public void OnInit(InitContext context)
         {
@@ -29,9 +32,12 @@ namespace FellSky.Components.Gui
         }
 
         public void OnShutdown(ShutdownContext context)
-        {            
-            DualityApp.Mouse.ButtonDown -= OnButtonDown;
-            DualityApp.Mouse.ButtonUp -= OnButtonUp;
+        {
+            if (context == ShutdownContext.Deactivate)
+            {
+                DualityApp.Mouse.ButtonDown -= OnButtonDown;
+                DualityApp.Mouse.ButtonUp -= OnButtonUp;
+            }
         }
 
         private void OnButtonDown(object sender, MouseButtonEventArgs e)
@@ -95,6 +101,16 @@ namespace FellSky.Components.Gui
                 if (_dragReturnToOriginalPos)
                     _dragOriginalPos = _draggedObject.Transform.Pos;
             }            
+        }
+
+        public override void Draw(IDrawDevice device)
+        {
+            if (device is DrawDevice drawDevice) {
+                foreach (var child in GameObj.GetComponentsInChildren<GuiComponent>())
+                {
+                    child.Render(drawDevice);
+                }
+            }
         }
     }
 }

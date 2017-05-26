@@ -1393,8 +1393,11 @@
         <member name="T:Duality.Components.Physics.GearJointInfo">
             <summary>
             Connects two bodies using a gear. The gear type is determined by the joints that are attached to
-            each body. Supported joint types are (Fixed)Prismatic- and (Fixed)Revolutejoints. Those joints
+            each body. Supported joint types are Prismatic- and RevoluteJoints. Those joints
             are required to be either fixed or attached to a static body.
+            
+            This joint type has been flagged obsolete for its unstable behavior. 
+            Consider using custom specialized physics logic instead.
             </summary>
         </member>
         <member name="P:Duality.Components.Physics.GearJointInfo.Ratio">
@@ -1523,7 +1526,10 @@
         <member name="T:Duality.Components.Physics.SliderJointInfo">
             <summary>
             Constrains two RigidBodies to keep their distance to each other in a certain range.
-            You can view this as a massless, rigid rod.
+            You can view this as a massless, rigid rod. 
+            
+            This joint type has been flagged obsolete for its unstable behavior. 
+            Consider using prismatic, distance or line joints instead.
             </summary>
         </member>
         <member name="P:Duality.Components.Physics.SliderJointInfo.LocalAnchorA">
@@ -1708,7 +1714,7 @@
         </member>
         <member name="P:Duality.Components.Physics.RevoluteJointInfo.MotorSpeed">
             <summary>
-            [GET / SET] The desired motor speed in degree per frame.
+            [GET / SET] The desired motor speed in radians per frame.
             </summary>
         </member>
         <member name="P:Duality.Components.Physics.RevoluteJointInfo.JointSpeed">
@@ -1851,6 +1857,17 @@
         <member name="P:Duality.Components.Physics.RigidBody.IgnoreGravity">
             <summary>
             [GET / SET] Whether the body ignores gravity.
+            </summary>
+        </member>
+        <member name="P:Duality.Components.Physics.RigidBody.AllowParent">
+            <summary>
+            [GET / SET] By default, <see cref="T:Duality.Components.Physics.RigidBody"/> objects will ignore parent-child <see cref="T:Duality.Components.Transform"/>
+            relations, which is achieved by forcing <see cref="P:Duality.Components.Transform.IgnoreParent"/> to true at runtime. 
+            When enabling <see cref="P:Duality.Components.Physics.RigidBody.AllowParent"/>, this constraint is removed. 
+            
+            Note that you should only use this option if you can rule out that physics simulation and parent 
+            transform changes occur within the same time frame, as they will otherwise interfere with each 
+            other and cause undefined behavior.
             </summary>
         </member>
         <member name="P:Duality.Components.Physics.RigidBody.ContinousCollision">
@@ -2065,6 +2082,18 @@
             <param name="worldCoord"></param>
             <returns></returns>
         </member>
+        <member name="M:Duality.Components.Physics.RigidBody.PickShapes(Duality.Vector2,System.Collections.Generic.List{Duality.Components.Physics.ShapeInfo})">
+            <summary>
+            Performs a physical picking operation and returns the <see cref="T:Duality.Components.Physics.ShapeInfo">shapes</see> that
+            intersect the specified world coordinate.
+            </summary>
+            <param name="worldCoord"></param>
+            <param name="pickedShapes">
+            A list that will be filled with all shapes that were found. 
+            The list will not be cleared before adding items.
+            </param>
+            <returns>Returns whether any new shape was found.</returns>
+        </member>
         <member name="M:Duality.Components.Physics.RigidBody.PickShapes(Duality.Vector2,Duality.Vector2)">
             <summary>
             Performs a physical picking operation and returns the <see cref="T:Duality.Components.Physics.ShapeInfo">shapes</see> that
@@ -2073,6 +2102,19 @@
             <param name="worldCoord"></param>
             <param name="size"></param>
             <returns></returns>
+        </member>
+        <member name="M:Duality.Components.Physics.RigidBody.PickShapes(Duality.Vector2,Duality.Vector2,System.Collections.Generic.List{Duality.Components.Physics.ShapeInfo})">
+            <summary>
+            Performs a physical picking operation and returns the <see cref="T:Duality.Components.Physics.ShapeInfo">shapes</see> that
+            intersect the specified world coordinate area.
+            </summary>
+            <param name="worldCoord"></param>
+            <param name="size"></param>
+            <param name="pickedShapes">
+            A list that will be filled with all shapes that were found. 
+            The list will not be cleared before adding items.
+            </param>
+            <returns>Returns whether any new shape was found.</returns>
         </member>
         <member name="M:Duality.Components.Physics.RigidBody.SynchronizeBodyShape">
             <summary>
@@ -2114,6 +2156,22 @@
             </param>
             <param name="hits">Returns a list of all occurred hits, ordered by their Fraction value.</param>
         </member>
+        <member name="M:Duality.Components.Physics.RigidBody.RayCast(Duality.Vector2,Duality.Vector2,Duality.Components.Physics.RayCastCallback,Duality.RawList{Duality.Components.Physics.RayCastData})">
+            <summary>
+            Performs a 2d physical raycast in world coordinates.
+            </summary>
+            <param name="start">The starting point in world coordinates.</param>
+            <param name="end">The desired end point in world coordinates.</param>
+            <param name="callback">
+            The callback that is invoked for each hit on the raycast. Note that the order in which each hit occurs isn't deterministic
+            and may appear random. Return -1 to ignore the curret shape, 0 to terminate the raycast, data.Fraction to clip the ray for current hit, or 1 to continue.
+            </param>
+            <param name="hits">
+            A list that will be filled with all hits that were registered, ordered by their Fraction value. 
+            The list will not be cleared before adding items.
+            </param>
+            <returns>Returns whether any new hit was registered.</returns>
+        </member>
         <member name="M:Duality.Components.Physics.RigidBody.RayCast(Duality.Vector2,Duality.Vector2,Duality.Components.Physics.RayCastCallback,Duality.Components.Physics.RayCastData@)">
             <summary>
             Performs a 2d physical raycast in world coordinates.
@@ -2143,6 +2201,18 @@
             <param name="worldCoord"></param>
             <returns></returns>
         </member>
+        <member name="M:Duality.Components.Physics.RigidBody.PickShapesGlobal(Duality.Vector2,System.Collections.Generic.List{Duality.Components.Physics.ShapeInfo})">
+            <summary>
+            Performs a global physical picking operation and returns the <see cref="T:Duality.Components.Physics.ShapeInfo">shapes</see> that
+            intersect the specified world coordinate.
+            </summary>
+            <param name="worldCoord"></param>
+            <param name="pickedShapes">
+            A list that will be filled with all shapes that were found. 
+            The list will not be cleared before adding items.
+            </param>
+            <returns>Returns whether any new shape was found.</returns>
+        </member>
         <member name="M:Duality.Components.Physics.RigidBody.PickShapesGlobal(Duality.Vector2,Duality.Vector2)">
             <summary>
             Performs a global physical picking operation and returns the <see cref="T:Duality.Components.Physics.ShapeInfo">shapes</see> that
@@ -2152,6 +2222,19 @@
             <param name="size"></param>
             <returns></returns>
         </member>
+        <member name="M:Duality.Components.Physics.RigidBody.PickShapesGlobal(Duality.Vector2,Duality.Vector2,System.Collections.Generic.List{Duality.Components.Physics.ShapeInfo})">
+            <summary>
+            Performs a global physical picking operation and returns the <see cref="T:Duality.Components.Physics.ShapeInfo">shapes</see> that
+            intersect the specified world coordinate area.
+            </summary>
+            <param name="worldCoord"></param>
+            <param name="size"></param>
+            <param name="pickedShapes">
+            A list that will be filled with all shapes that were found. 
+            The list will not be cleared before adding items.
+            </param>
+            <returns>Returns whether any new shape was found.</returns>
+        </member>
         <member name="M:Duality.Components.Physics.RigidBody.QueryRectGlobal(Duality.Vector2,Duality.Vector2)">
             <summary>
             Performs a global physical AABB query and returns the <see cref="T:Duality.Components.Physics.RigidBody">bodies</see> that
@@ -2160,6 +2243,19 @@
             <param name="worldCoord"></param>
             <param name="size"></param>
             <returns></returns>
+        </member>
+        <member name="M:Duality.Components.Physics.RigidBody.QueryRectGlobal(Duality.Vector2,Duality.Vector2,System.Collections.Generic.List{Duality.Components.Physics.RigidBody})">
+            <summary>
+            Performs a global physical AABB query and returns the <see cref="T:Duality.Components.Physics.RigidBody">bodies</see> that
+            might be roughly contained or intersected by the specified region.
+            </summary>
+            <param name="worldCoord"></param>
+            <param name="size"></param>
+            <param name="queriedBodies">
+            A list that will be filled with all bodies that were found. 
+            The list will not be cleared before adding items.
+            </param>
+            <returns>Returns whether any new body was found.</returns>
         </member>
         <member name="M:Duality.Components.Physics.RigidBody.AwakeAll">
             <summary>
@@ -2184,6 +2280,12 @@
         <member name="P:Duality.Components.Physics.ShapeInfo.IsSensor">
             <summary>
             [GET / SET] Whether or not the shape acts as sensor i.e. is not part of a rigid body.
+            </summary>
+        </member>
+        <member name="P:Duality.Components.Physics.ShapeInfo.UserTag">
+            <summary>
+            [GET / SET] A user-specified tag that can be used to identify this shape
+            in collision handling code.
             </summary>
         </member>
         <member name="P:Duality.Components.Physics.ShapeInfo.Friction">

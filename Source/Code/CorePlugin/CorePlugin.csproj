@@ -65,8 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\PerkMethodAttribute.cs" />
+    <Compile Include="Common\Coroutines.cs" />
     <Compile Include="Components\AnimatedSprite.cs" />
     <Compile Include="Components\Codex.cs" />
+    <Compile Include="Components\Combat\Barrier.cs" />
+    <Compile Include="Components\Gui\CheckBox.cs" />
+    <Compile Include="Components\Gui\GuiComponent.cs" />
     <Compile Include="Components\Missions\SweepMissionController.cs" />
     <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\ParticleEmitter.cs" />

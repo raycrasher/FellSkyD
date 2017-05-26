@@ -1,6 +1,6 @@
 ﻿<root dataType="Struct" type="Duality.DualityAppData" id="129723834">
-  <appName dataType="String">Fell Sky</appName>
-  <authorName dataType="String">Ian David Garcia</authorName>
+  <appName dataType="String">Duality Application</appName>
+  <authorName dataType="String">Unknown</authorName>
   <customData />
   <localUserData dataType="Bool">true</localUserData>
   <multisampleBackBuffer dataType="Bool">true</multisampleBackBuffer>
@@ -9,10 +9,8 @@
   <skipBackends />
   <soundDopplerFactor dataType="Float">1</soundDopplerFactor>
   <speedOfSound dataType="Float">360</speedOfSound>
-  <startScene dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Scene]]">
-    <contentPath dataType="String">Data\MainGame.Scene.res</contentPath>
-  </startScene>
-  <version dataType="UInt">310</version>
+  <startScene dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Scene]]" />
+  <version dataType="UInt">0</version>
   <websiteUrl dataType="String">http://www.adamslair.net</websiteUrl>
 </root>
 <!-- XmlFormatterBase Document Separator -->

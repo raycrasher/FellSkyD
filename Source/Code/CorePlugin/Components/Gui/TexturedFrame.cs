@@ -11,6 +11,7 @@ using Duality.Components.Renderers;
 
 namespace FellSky.Components.Gui
 {
+    [RequiredComponent(typeof(Transform))]
     [Duality.Editor.EditorHintCategory("Gui")]
     public class TexturedFrame : Renderer
     {
@@ -40,20 +41,12 @@ namespace FellSky.Components.Gui
             }
         }
 
-        public float VertexZOffset {
-            get => _vertexZOffset;
-            set
-            {
-                _vertexZOffset = value;
-            }
-        }
+        public float VertexZOffset { get; set; }
 
-        public ColorRgba Color { get; set; } = ColorRgba.White;
+        public ColorRgba Color { get; set; }
 
-        private Rect _innerUvSquare = new Rect(0.05f, 0.05f, 0.9f, 0.9f);
+        private Rect _innerUvSquare = new Rect(5, 5, 118, 118);
 
-        private float _vertexZOffset;
-        private ColorRgba _color;
         private ContentRef<Material> _background;
         private Rect _targetRect = new Rect(128,128);
 
@@ -65,7 +58,6 @@ namespace FellSky.Components.Gui
         private Vector2[,] _uvs = new Vector2[4, 4];
         [DontSerialize]
         private bool _isUVDirty = true;
-        private bool _isColorDirty = true;
 
         public override void Draw(IDrawDevice device)
         {
@@ -105,25 +97,25 @@ namespace FellSky.Components.Gui
             MathF.TransformDotVec(ref marginLT, ref xDot, ref yDot);
             MathF.TransformDotVec(ref marginBR, ref xDot, ref yDot);
 
-            _positions[0, 0] = new Vector3(cornerLT.X, cornerLT.Y, _vertexZOffset) + posTemp;
-            _positions[1, 0] = new Vector3(marginLT.X, cornerLT.Y, _vertexZOffset) + posTemp;
-            _positions[2, 0] = new Vector3(marginBR.X, cornerLT.Y, _vertexZOffset) + posTemp;
-            _positions[3, 0] = new Vector3(cornerBR.X, cornerLT.Y, _vertexZOffset) + posTemp;
+            _positions[0, 0] = new Vector3(cornerLT.X, cornerLT.Y, VertexZOffset) + posTemp;
+            _positions[1, 0] = new Vector3(marginLT.X, cornerLT.Y, VertexZOffset) + posTemp;
+            _positions[2, 0] = new Vector3(marginBR.X, cornerLT.Y, VertexZOffset) + posTemp;
+            _positions[3, 0] = new Vector3(cornerBR.X, cornerLT.Y, VertexZOffset) + posTemp;
 
-            _positions[0, 1] = new Vector3(cornerLT.X, marginLT.Y, _vertexZOffset) + posTemp;
-            _positions[1, 1] = new Vector3(marginLT.X, marginLT.Y, _vertexZOffset) + posTemp;
-            _positions[2, 1] = new Vector3(marginBR.X, marginLT.Y, _vertexZOffset) + posTemp;
-            _positions[3, 1] = new Vector3(cornerBR.X, marginLT.Y, _vertexZOffset) + posTemp;
+            _positions[0, 1] = new Vector3(cornerLT.X, marginLT.Y, VertexZOffset) + posTemp;
+            _positions[1, 1] = new Vector3(marginLT.X, marginLT.Y, VertexZOffset) + posTemp;
+            _positions[2, 1] = new Vector3(marginBR.X, marginLT.Y, VertexZOffset) + posTemp;
+            _positions[3, 1] = new Vector3(cornerBR.X, marginLT.Y, VertexZOffset) + posTemp;
 
-            _positions[0, 2] = new Vector3(cornerLT.X, marginBR.Y, _vertexZOffset) + posTemp;
-            _positions[1, 2] = new Vector3(marginLT.X, marginBR.Y, _vertexZOffset) + posTemp;
-            _positions[2, 2] = new Vector3(marginBR.X, marginBR.Y, _vertexZOffset) + posTemp;
-            _positions[3, 2] = new Vector3(cornerBR.X, marginBR.Y, _vertexZOffset) + posTemp;
+            _positions[0, 2] = new Vector3(cornerLT.X, marginBR.Y, VertexZOffset) + posTemp;
+            _positions[1, 2] = new Vector3(marginLT.X, marginBR.Y, VertexZOffset) + posTemp;
+            _positions[2, 2] = new Vector3(marginBR.X, marginBR.Y, VertexZOffset) + posTemp;
+            _positions[3, 2] = new Vector3(cornerBR.X, marginBR.Y, VertexZOffset) + posTemp;
 
-            _positions[0, 3] = new Vector3(cornerLT.X, cornerBR.Y, _vertexZOffset) + posTemp;
-            _positions[1, 3] = new Vector3(marginLT.X, cornerBR.Y, _vertexZOffset) + posTemp;
-            _positions[2, 3] = new Vector3(marginBR.X, cornerBR.Y, _vertexZOffset) + posTemp;
-            _positions[3, 3] = new Vector3(cornerBR.X, cornerBR.Y, _vertexZOffset) + posTemp;
+            _positions[0, 3] = new Vector3(cornerLT.X, cornerBR.Y, VertexZOffset) + posTemp;
+            _positions[1, 3] = new Vector3(marginLT.X, cornerBR.Y, VertexZOffset) + posTemp;
+            _positions[2, 3] = new Vector3(marginBR.X, cornerBR.Y, VertexZOffset) + posTemp;
+            _positions[3, 3] = new Vector3(cornerBR.X, cornerBR.Y, VertexZOffset) + posTemp;
 
             int index = 0;
             for (int y = 0; y < 3; y++)
@@ -132,25 +124,25 @@ namespace FellSky.Components.Gui
                 {
                     _vertices[index++] = new VertexC1P3T2
                     {
-                        Color = _color,
+                        Color = Color,
                         Pos = _positions[x, y],
                         TexCoord = _uvs[x, y]
                     };
                     _vertices[index++] = new VertexC1P3T2
                     {
-                        Color = _color,
+                        Color = Color,
                         Pos = _positions[x, y+1],
                         TexCoord = _uvs[x, y+1]
                     };
                     _vertices[index++] = new VertexC1P3T2
                     {
-                        Color = _color,
+                        Color = Color,
                         Pos = _positions[x+1, y+1],
                         TexCoord = _uvs[x+1, y+1]
                     };
                     _vertices[index++] = new VertexC1P3T2
                     {
-                        Color = _color,
+                        Color = Color,
                         Pos = _positions[x+1, y],
                         TexCoord = _uvs[x+1, y]
                     };
@@ -166,25 +158,25 @@ namespace FellSky.Components.Gui
             var uvRatio = tex.UVRatio;
             var uvTexSize = tex.Size;
 
-            var uvCornerLT = Vector2.Zero;
-            var uvMarginLT = uvRatio * _innerUvSquare.TopLeft / uvTexSize;
+            var uvCornerTL = Vector2.Zero;
+            var uvMarginTL = uvRatio * _innerUvSquare.TopLeft / uvTexSize;
             var uvMarginBR = uvRatio * _innerUvSquare.BottomRight / uvTexSize;
             var uvCornerBR = uvRatio;
 
-            _uvs[0, 0] = new Vector2(uvCornerLT.X, uvCornerLT.Y);
-            _uvs[1, 0] = new Vector2(uvMarginLT.X, uvCornerLT.Y);
-            _uvs[2, 0] = new Vector2(uvMarginBR.X, uvCornerLT.Y);
-            _uvs[3, 0] = new Vector2(uvCornerBR.X, uvCornerLT.Y);
-            _uvs[0, 1] = new Vector2(uvCornerLT.X, uvMarginLT.Y);
-            _uvs[1, 1] = new Vector2(uvMarginLT.X, uvMarginLT.Y);
-            _uvs[2, 1] = new Vector2(uvMarginBR.X, uvMarginLT.Y);
-            _uvs[3, 1] = new Vector2(uvCornerBR.X, uvMarginLT.Y);
-            _uvs[0, 2] = new Vector2(uvCornerLT.X, uvMarginBR.Y);
-            _uvs[1, 2] = new Vector2(uvMarginLT.X, uvMarginBR.Y);
+            _uvs[0, 0] = new Vector2(uvCornerTL.X, uvCornerTL.Y);
+            _uvs[1, 0] = new Vector2(uvMarginTL.X, uvCornerTL.Y);
+            _uvs[2, 0] = new Vector2(uvMarginBR.X, uvCornerTL.Y);
+            _uvs[3, 0] = new Vector2(uvCornerBR.X, uvCornerTL.Y);
+            _uvs[0, 1] = new Vector2(uvCornerTL.X, uvMarginTL.Y);
+            _uvs[1, 1] = new Vector2(uvMarginTL.X, uvMarginTL.Y);
+            _uvs[2, 1] = new Vector2(uvMarginBR.X, uvMarginTL.Y);
+            _uvs[3, 1] = new Vector2(uvCornerBR.X, uvMarginTL.Y);
+            _uvs[0, 2] = new Vector2(uvCornerTL.X, uvMarginBR.Y);
+            _uvs[1, 2] = new Vector2(uvMarginTL.X, uvMarginBR.Y);
             _uvs[2, 2] = new Vector2(uvMarginBR.X, uvMarginBR.Y);
             _uvs[3, 2] = new Vector2(uvCornerBR.X, uvMarginBR.Y);
-            _uvs[0, 3] = new Vector2(uvCornerLT.X, uvCornerBR.Y);
-            _uvs[1, 3] = new Vector2(uvMarginLT.X, uvCornerBR.Y);
+            _uvs[0, 3] = new Vector2(uvCornerTL.X, uvCornerBR.Y);
+            _uvs[1, 3] = new Vector2(uvMarginTL.X, uvCornerBR.Y);
             _uvs[2, 3] = new Vector2(uvMarginBR.X, uvCornerBR.Y);
             _uvs[3, 3] = new Vector2(uvCornerBR.X, uvCornerBR.Y);
         }

@@ -985,7 +985,7 @@
     </item>
   </glyphs>
   <height dataType="Int">33</height>
-  <kerning dataType="Bool">true</kerning>
+  <kerning dataType="Bool">false</kerning>
   <lineHeightFactor dataType="Float">1</lineHeightFactor>
   <maxGlyphWidth dataType="Int">20</maxGlyphWidth>
   <metrics dataType="Struct" type="Duality.Resources.FontMetrics" id="876525375">

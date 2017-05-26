@@ -19,8 +19,44 @@ namespace FellSky.Components.Missions
         public WaveTrigger Trigger { get; set; }
         public float Delay { get; set; }
     }
-    public class SweepMissionController: Component
+    public class SweepMissionController: Component, ICmpUpdatable, ICmpInitializable
     {        
         public List<ShipGroup> Waves { get; set; }
+
+        private Coroutine _coroutine;
+
+
+
+        void ICmpUpdatable.OnUpdate()
+        {
+            _coroutine?.Run(TimeSpan.FromSeconds(Time.TimeMult * Time.SPFMult));
+        }
+
+        void ICmpInitializable.OnInit(InitContext context)
+        {
+            if(context == InitContext.Activate)
+            {
+                _coroutine = new Coroutine(Run());
+            }
+        }
+
+        private IEnumerable<ICoroutineYieldValue> Run()
+        {
+            if (Waves == null)
+                yield break;
+            
+            foreach (var wave in Waves)
+            {
+                foreach(var ship in wave.Ships.Shuffle())
+                {
+                    ship.Res.Prefab.Res.Instantiate();
+                }
+            }            
+        }
+
+        void ICmpInitializable.OnShutdown(ShutdownContext context)
+        {
+            
+        }
     }
 }
