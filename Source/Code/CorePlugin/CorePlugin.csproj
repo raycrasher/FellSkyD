@@ -56,8 +56,25 @@
       <HintPath>..\..\..\DualityPrimitives.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SnowyPeak.Duality.Frozen.core, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Plugins\SnowyPeak.Duality.Frozen.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SnowyPeak.Duality.Frozen.FX.core, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Plugins\SnowyPeak.Duality.Frozen.FX.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SnowyPeak.Duality.Frozen.Procedural.core, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Plugins\SnowyPeak.Duality.Frozen.Procedural.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SnowyPeak.Duality.Frozen.UI.core, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Plugins\SnowyPeak.Duality.Frozen.UI.core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
@@ -69,8 +86,7 @@
     <Compile Include="Components\AnimatedSprite.cs" />
     <Compile Include="Components\Codex.cs" />
     <Compile Include="Components\Combat\Barrier.cs" />
-    <Compile Include="Components\Gui\CheckBox.cs" />
-    <Compile Include="Components\Gui\GuiComponent.cs" />
+    <Compile Include="Components\Gui\Draggable.cs" />
     <Compile Include="Components\Missions\SweepMissionController.cs" />
     <Compile Include="Components\MouseFollow.cs" />
     <Compile Include="Components\ParticleEmitter.cs" />
@@ -87,8 +103,7 @@
     <Compile Include="Components\Space\Planet.cs" />
     <Compile Include="Components\Ships\Crew.cs" />
     <Compile Include="Components\Gui\DropTarget.cs" />
-    <Compile Include="Components\Gui\GuiCore.cs" />
-    <Compile Include="Components\Gui\ScrollView.cs" />
+    <Compile Include="Components\Gui\DragHandler.cs" />
     <Compile Include="Components\Gui\TexturedFrame.cs" />
     <Compile Include="Components\Universe\Faction.cs" />
     <Compile Include="Resources\AmmoType.cs" />
@@ -141,7 +156,12 @@
   <ItemGroup>
     <Content Include="Notes.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Duality.Gwen\Duality.Gwen.csproj">
+      <Project>{f8089707-015f-4077-8501-a5ccdcddcb5a}</Project>
+      <Name>Duality.Gwen</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "$(SolutionDir)../../Plugins"

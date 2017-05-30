@@ -14,3 +14,6 @@ Source/Code/packages
 WorkingFolder
 EditorUserData.xml
 DesignTimeData.dat
+Temp/
+Source/Code/Duality.Gwen/bin
+Source/Code/Duality.Gwen/obj

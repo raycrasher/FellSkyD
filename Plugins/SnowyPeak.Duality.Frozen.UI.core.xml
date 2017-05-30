@@ -1,0 +1,1513 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SnowyPeak.Duality.Frozen.UI.core</name>
+    </assembly>
+    <members>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.CommanderExtensions">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.CommanderExtensions.ChangeWidgetStatus(SnowyPeak.Duality.Plugin.Frozen.Core.Components.Commander,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.WidgetStatus)">
+            <summary>
+            Adds a ChangeWidgetStatus Command
+            </summary>
+            /// <param name="inCommander"></param>
+            <param name="inStatus">Target Status</param>
+            <returns>The ChangeWidgetStatus Command</returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ChangeWidgetStatus">
+            <summary>
+            Command used to alter a Widget's Status.
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ChangeWidgetStatus.Execute(System.Single,Duality.GameObject)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+             <param name="inGameObject"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ChangeWidgetStatus.Initialize(Duality.GameObject)">
+             <summary>
+            
+             </summary>
+             <param name="inGameObject"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ColorizeSkinnedWidget">
+            <summary>
+            TimedCommand used to alter over time the colorization of a Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ColorizeSkinnedWidget.Execute(System.Single,Duality.GameObject)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+             <param name="inGameObject"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ColorizeSkinnedWidget.Initialize(Duality.GameObject)">
+            <summary>
+            Initialization
+            </summary>
+            <param name="inGameObject"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Commands.ColorizeSkinnedWidget.GetCommandLength">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.FrozenUIPlugin">
+            <summary>
+            Defines a Duality core plugin.
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.FrozenUIPlugin.InitPlugin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.DefaultScripts.CloseDialog">
+            <summary>
+            Command used to close a Dialog window
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.DefaultScripts.CloseDialog.Execute(Duality.GameObject,System.Object)">
+             <summary>
+            
+             </summary>
+             <param name="inSource"></param>
+             <param name="inParameter"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.DefaultScripts.CloseWindow">
+            <summary>
+            Command used to close a Window
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.DefaultScripts.CloseWindow.Execute(Duality.GameObject,System.Object)">
+             <summary>
+            
+             </summary>
+             <param name="inSource"></param>
+             <param name="inParameter"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.DefaultScripts.Quit">
+            <summary>
+            Command used to quit the game
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.DefaultScripts.Quit.Execute(Duality.GameObject,System.Object)">
+             <summary>
+            
+             </summary>
+             <param name="inSource"></param>
+             <param name="inParameter"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Skin">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Skin.Material">
+            <summary>
+            [GET / SET] The Material used by this Skin
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Skin.WidgetAppearances">
+            <summary>
+            [GET / SET] The list of appearances available for the Skin
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Skin.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Skin.PrepareVertices(SnowyPeak.Duality.Plugin.Frozen.Core.MultiSpacePoint[]@,Duality.Rect,System.Single,System.String,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.WidgetStatus)">
+            <summary>
+            Prepares the Widget vertices based on the desired appearance
+            </summary>
+            <param name="vertices"></param>
+            <param name="widgetArea"></param>
+            <param name="scale"></param>
+            <param name="appearanceName"></param>
+            <param name="status"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Skin.Draw(Duality.Drawing.IDrawDevice,Duality.Drawing.VertexC1P3T2[])">
+            <summary>
+            Draws the vertices
+            </summary>
+            <param name="device"></param>
+            <param name="vertices"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Script">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Script.Execute(Duality.GameObject)">
+             <summary>
+            
+             </summary>
+             <param name="inSource"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Script.Execute(Duality.GameObject,System.Object)">
+             <summary>
+            
+             </summary>
+             <param name="inSource"></param>
+             <param name="inParameter"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Script.ToScriptContentRef">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance.Border">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance.Normal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance.Hover">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance.Active">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance.Disabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Resources.Appearance.GetAtlasForStatus(SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.WidgetStatus)">
+            <summary>
+            
+            </summary>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.ActiveArea">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button">
+            <summary>
+            A Button Widget
+            </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button._leftButtonDown">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.LeftClickArgument">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.OnLeftClick">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.OnRightClick">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.RepeatLeftClickEvery">
+            <summary>
+            [GET / SET] If set to a value different than 0, the OnLeftClick event will be fired every
+            RepeatLeftClickEvery seconds
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.RightClickArgument">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.Text">
+            <summary>
+            [GET / SET] the Text of the Button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.MouseEnter">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.MouseLeave">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.MouseUp(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Button.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton">
+            <summary>
+            A CheckButton Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.GlyphSize">
+            <summary>
+            [GET / SET] The size of the Glyph
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.CustomGlyphAppearance">
+            <summary>
+            [GET / SET] The custom appearance for the Glyph
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.CheckedArgument">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.IsChecked">
+            <summary>
+            [GET / SET] if the Button is Checked
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.OnChecked">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.OnUnchecked">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.Text">
+            <summary>
+            [GET / SET] the Text of the Button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.GlyphLocation">
+            <summary>
+            [GET / SET] the Location of the Check Glyph
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.UncheckedArgument">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.MouseEnter">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.MouseLeave">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.MouseUp(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.OnStatusChange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CheckButton.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid">
+            <summary>
+            A SkinnedCommandGrid is a Widget that behaves like the command list of Final Fantasy battle screens.
+            It can only be controlled by keyboard and needs to be specifically assigned Focus on the WidgetController.
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.ButtonSize">
+            <summary>
+            [GET / SET] The Scrollbar button size
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.CursorSize">
+            <summary>
+            [GET / SET] The Scrollbar cursor size
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.CustomButtonMinusAppearance">
+            <summary>
+            [GET / SET] The custom left button appearance
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.CustomButtonPlusAppearance">
+            <summary>
+            [GET / SET] The custom right button appearance
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.CustomCursorAppearance">
+            <summary>
+            [GET / SET] The custom cursor appearance
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.CustomHighlightAppearance">
+            <summary>
+            [GET / SET] The custom highlight Appearance
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.CustomScrollBarAppearance">
+            <summary>
+            [GET / SET] The custom scrollbar appearance
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.ItemPadding">
+            <summary>
+            [GET / SET] the padding to apply to each item [x, y, z, w] => [left, top, right, bottom]
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.Items">
+            <summary>
+            [GET / SET] the list of items that will be added to the Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.KeyMoveDown">
+            <summary>
+            [GET / SET] the key to press to move the selected item one place down
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.KeyMoveLeft">
+            <summary>
+            [GET / SET] the key to press to move the selected item one place left
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.KeyMoveRight">
+            <summary>
+            [GET / SET] the key to press to move the selected item one place right
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.KeyMoveUp">
+            <summary>
+            [GET / SET] the key to press to move the selected item one place up
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.LeftClickArgument">
+            <summary>
+            [GET / SET]
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.OnLeftClick">
+            <summary>
+            [GET / SET]
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.OnRightClick">
+            <summary>
+            [GET / SET]
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.RightClickArgument">
+            <summary>
+            [GET / SET]
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.SelectedIndex">
+            <summary>
+            [GET / SET] the index of the Selected item
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.SelectedItem">
+            <summary>
+            [GET / SET] the Selected item
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.KeyDown(Duality.Input.KeyboardKeyEventArgs,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.ModifierKeys)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+             <param name="k"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.CommandGrid.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton">
+            <summary>
+            A DropdownButton (combobox) Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.DropDownHeight">
+            <summary>
+            [GET / SET] the height of the dropdown Panel when open
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.Items">
+            <summary>
+            [GET / SET] the list of items that will be added to the Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.ScrollSpeed">
+            <summary>
+            [GET / SET] the speed, in pixels/second of scrolling
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.OnStatusChange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.DropDownButton.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox">
+            <summary>
+            A ListBox Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox.Items">
+            <summary>
+            [GET / SET] the list of items that will be added to the Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox.SelectedIndex">
+            <summary>
+            [GET / SET] the index of the Selected item
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox.SelectedItem">
+            <summary>
+            [GET / SET] the Selected item
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ListBox.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget._fText">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget._isScrollbarRequired">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget._scrollComponent">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget._visibleHeight">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget._visibleWidth">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.ScrollSpeed">
+            <summary>
+            [GET / SET] the speed, in pixels/second of scrolling
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.DrawCustom(Duality.Drawing.IDrawDevice)">
+             <summary>
+            
+             </summary>
+             <param name="inDevice"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.OnStatusChange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.MultiLineWidget.UpdateWidget(System.Boolean)">
+             <summary>
+            
+             </summary>
+             <param name="inLimitTextWidth"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Panel">
+            <summary>
+            A Panel Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Panel.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar">
+            <summary>
+            A Progressbar Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.CustomProgressBarAppearance">
+            <summary>
+            [GET / SET] the Skin used for the ProgressBar
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.Text">
+            <summary>
+            [GET / SET] the Text of the ProgressBar
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.Value">
+            <summary>
+            [GET / SET] The value of the progressbar, from 0 to 100
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ProgressBar.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.RadioButton">
+            <summary>
+            A RadioButton Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.RadioButton.RadioGroup">
+            <summary>
+            The RadioGroup this button is part of
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.RadioButton.MouseUp(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar">
+            <summary>
+            A Scrollbar Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.ButtonSize">
+            <summary>
+            [GET / SET] The size of the buttons
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.CursorSize">
+            <summary>
+            [GET / SET] The size of the cursor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.CustomButtonMinusAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the decrease button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.CustomButtonPlusAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the increase button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.CustomCursorAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the cursor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.Maximum">
+            <summary>
+            [GET / SET] the Maximum value
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.Minimum">
+            <summary>
+            [GET / SET] the Minimum value
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.OnValueChanged">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.ScrollSpeed">
+            <summary>
+            [GET / SET] the speed, in pixels/second of scrolling
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.Value">
+            <summary>
+            [GET / SET] the current Value
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.ValueChangedArgument">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.ValueDelta">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.OnStatusChange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.ScrollBar.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBlock">
+            <summary>
+            A scrollable TextBlock
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBlock.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBlock.Text">
+            <summary>
+            [GET / SET] the Text of the TextBlock
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBlock.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox">
+            <summary>
+            A TextBox Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.KeyRepeatSpeed">
+            <summary>
+            [GET / SET] The speed of key repeat, if key is presset
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.Text">
+            <summary>
+            [GET / SET] the Text of the TextBox
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.TextColor">
+            <summary>
+            [GET / SET] the Color of the Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.TextFont">
+            <summary>
+            [GET / SET] the Font of the Text
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.KeyDown(Duality.Input.KeyboardKeyEventArgs,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.ModifierKeys)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+             <param name="k"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.KeyUp(Duality.Input.KeyboardKeyEventArgs,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.ModifierKeys)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+             <param name="k"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.TextBox.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WindowStatus">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window">
+            <summary>
+            A Window Widget
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.ButtonSize">
+            <summary>
+            [GET / SET] The size of the buttons
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CanClose">
+            <summary>
+            [GET / SET] if the Close button should be visible
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CanMaximize">
+            <summary>
+            [GET / SET] if the Maximize button should be visible
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CanMinimize">
+            <summary>
+            [GET / SET] if the Minimize button should be visible
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CustomButtonCloseAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the close button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CustomButtonMaximizeAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the maximize button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CustomButtonMinimizeAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the minimize button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.CustomButtonRestoreAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the restore button
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.IsDraggable">
+            <summary>
+            [GET / SET] if the Window can be dragged around
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.MaximizedSize">
+            <summary>
+            [GET / SET] the size of the Window when Maximized
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.Title">
+            <summary>
+            [GET / SET] The Text of the Title
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.TitleColor">
+            <summary>
+            [GET / SET] the Color of the Title Text
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.TitleFont">
+            <summary>
+            The Font of the Title Text
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.MouseEnter">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.MouseLeave">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.MouseMove(Duality.Input.MouseMoveEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.MouseUp(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.Maximize">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.Minimize">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.Restore">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.OnInit(Duality.Component.InitContext)">
+             <summary>
+            
+             </summary>
+             <param name="inContext"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.OnResize">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.OnStatusChange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Window.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._isMouseOver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._tint">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.#ctor">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.DirtyFlags">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.WidgetStatus">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.ActiveArea">
+            <summary>
+            [GET / SET] The ActiveArea of the Widget that can react to mouse input such as
+            Hover, Click, etc..
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.ClippingRect">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.CustomWidgetAppearance">
+            <summary>
+            [GET / SET] The custom appearance of the Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.Duality#ICmpRenderer#BoundRadius">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.IsInOverlay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.IsWidgetActive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.NextWidget">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.PreviousWidget">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.Rect">
+            <summary>
+            [GET / SET] The area taken by the Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.Skin">
+            <summary>
+            [GET / SET] The Skin of the Widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.Status">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.Tint">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.VisibilityGroup">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.DELTA_Z">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._activeAreaOnScreen">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._areaOnScreen">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._dirtyFlags">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._isInOverlay">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._points">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._resized">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._tempActiveAreaOnScreen">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget._vertices">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.Close">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.GetCustomAreaOnScreen(Duality.Components.Camera)">
+             <summary>
+            
+             </summary>
+             <param name="inCamera"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.KeyDown(Duality.Input.KeyboardKeyEventArgs,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.ModifierKeys)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+             <param name="k"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.KeyUp(Duality.Input.KeyboardKeyEventArgs,SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.ModifierKeys)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+             <param name="k"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.MouseDown(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.MouseEnter">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.MouseLeave">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.MouseMove(Duality.Input.MouseMoveEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.MouseUp(Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.MouseWheel(Duality.Input.MouseWheelEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.DrawCanvas(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.DrawCustom(Duality.Drawing.IDrawDevice)">
+            <summary>
+            Allows to add custom drawing to the Draw Phase
+            </summary>
+            <param name="device"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.DrawVertices(Duality.Drawing.IDrawDevice)">
+             <summary>
+            
+             </summary>
+             <param name="device"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.GetAppearanceName">
+            <summary>
+            Returns the apperance name for the Widget - either the Object name or, if set, CustomWidgetAppearance
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.OnInit(Duality.Component.InitContext)">
+             <summary>
+            
+             </summary>
+             <param name="inContext"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.OnStatusChange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.OnUpdate(System.Single)">
+             <summary>
+            
+             </summary>
+             <param name="inSecondsPast"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget.PrepareVertices(Duality.Drawing.IDrawDevice)">
+            <summary>
+            Prepares the vertices for drawing
+            </summary>
+            <param name="inDevice"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController">
+            <summary>
+            This Component can be assigned to a Camera in order to detect and manage Input events such as Mouse and
+            Keyboard events and redirect said events to a BaseInputReceiver.
+            It allows to specify a default BaseInputReceiver which can receive all enabled events regardless of its
+            current status, and also to manage InputVisualReceivers in a way that allows the implementation of a basic GUI.
+            </summary>
+            <seealso cref="T:SnowyPeak.Duality.Plugin.Frozen.Core.Components.BaseInputReceiver"/>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController._currentDialog">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController._currentMousePosition">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController._draggedElement">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController._lastMousePosition">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController._modifierKeys">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.ModifierKeys">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.FocusedElement">
+            <summary>
+            [GET] The currently Focused InputVisualReceiver
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.HoveredElement">
+            <summary>
+            [GET] The currently Hovered InputVisualReceiver
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.KeyboardEnabled">
+            <summary>
+            [GET / SET] If the Controller should register for Keyboard events
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.LeftMouseKey">
+            <summary>
+            [GET / SET] The Keyboard key that will be treated as a Left Mouse click
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.LeftMouseKeyModifier">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.MiddleMouseKey">
+            <summary>
+            [GET / SET] The Keyboard key that will be treated as a Middle Mouse click
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.MiddleMouseKeyModifier">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.MouseEnabled">
+            <summary>
+            [GET / SET] If the Controller should register for Mouse events
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.NextWidgetKey">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.NextWidgetKeyModifier">
+            <summary>
+            [GET / SET] The Keyboard key that will be used to focus on the next widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.PreviousWidgetKey">
+            <summary>
+            [GET / SET] The Keyboard key that will be used to focus on the previous widget
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.PreviousWidgetKeyModifier">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.RightMouseKey">
+            <summary>
+            [GET / SET] The Keyboard key that will be treated as a Right Mouse click
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.RightMouseKeyModifier">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.FocusOn(SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget)">
+             <summary>
+            
+             </summary>
+             <param name="inWidget"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.SetDialogWindow(SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.Widget)">
+             <summary>
+            
+             </summary>
+             <param name="inWindow"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.Keyboard_KeyDown(System.Object,Duality.Input.KeyboardKeyEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.Keyboard_KeyUp(System.Object,Duality.Input.KeyboardKeyEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.Mouse_ButtonDown(System.Object,Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.Mouse_ButtonUp(System.Object,Duality.Input.MouseButtonEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.Mouse_Move(System.Object,Duality.Input.MouseMoveEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.UI.Widgets.WidgetController.Mouse_WheelChanged(System.Object,Duality.Input.MouseWheelEventArgs)">
+             <summary>
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+    </members>
+</doc>

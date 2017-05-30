@@ -11,7 +11,7 @@ using Duality.Drawing;
 namespace FellSky.Components.Gui
 {
     [Duality.Editor.EditorHintCategory("Gui")]
-    public class GuiCore : Renderer, ICmpUpdatable, ICmpInitializable
+    public class DragHandler : Component, ICmpUpdatable, ICmpInitializable
     {
         private GameObject _draggedObject;
         private Vector3 _dragOffset;
@@ -19,8 +19,6 @@ namespace FellSky.Components.Gui
         private Vector3 _dragOriginalPos;
 
         public Camera GuiCamera { get; set; }
-
-        public override float BoundRadius => 300;
 
         public void OnInit(InitContext context)
         {
@@ -43,6 +41,26 @@ namespace FellSky.Components.Gui
         private void OnButtonDown(object sender, MouseButtonEventArgs e)
         {
             if (GuiCamera == null) return;
+
+            var mousePos = DualityApp.Mouse.Pos;
+            var xform = _draggedObject?.Transform;
+            if (xform != null)
+            {
+                xform.Pos = GuiCamera.GetSpaceCoord(mousePos) + _dragOffset;
+            }
+
+            var renderer = GuiCamera.PickRendererAt((int)mousePos.X, (int)mousePos.Y);
+
+            if(renderer != null)
+            {
+                var obj = ((Component)renderer).GameObj;
+                var drag = obj.GetComponent<Draggable>();
+                if (drag != null)
+                {
+                    StartDrag(obj);
+                }
+            }
+
         }
 
         private void OnButtonUp(object sender, MouseButtonEventArgs e)
@@ -101,16 +119,6 @@ namespace FellSky.Components.Gui
                 if (_dragReturnToOriginalPos)
                     _dragOriginalPos = _draggedObject.Transform.Pos;
             }            
-        }
-
-        public override void Draw(IDrawDevice device)
-        {
-            if (device is DrawDevice drawDevice) {
-                foreach (var child in GameObj.GetComponentsInChildren<GuiComponent>())
-                {
-                    child.Render(drawDevice);
-                }
-            }
         }
     }
 }

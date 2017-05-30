@@ -67,6 +67,8 @@ namespace FellSky.Components.Gui
 
             PrepareVertices(device);
             device.AddVertices(Background, VertexMode.Quads, _vertices);
+            
+
         }
 
         private void PrepareVertices(IDrawDevice device)

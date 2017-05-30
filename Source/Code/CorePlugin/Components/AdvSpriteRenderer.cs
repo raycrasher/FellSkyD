@@ -30,7 +30,7 @@ namespace FellSky.Components
         [DontSerialize]
         //private VertexC1P3T4A1[] vertices = new VertexC1P3T4A1[4];
         private VertexC1P3T2[] vertices = new VertexC1P3T2[4];
-
+        
         public override float BoundRadius => GetTargetRect().BoundingRadius;
 
         private Rect GetTargetRect()

@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SnowyPeak.Duality.Frozen.FX.core</name>
+    </assembly>
+    <members>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCube">
+            <summary>
+            Implementation of a "cubic" FXArea
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCube.Size">
+            <summary>
+            [GET / SET] the size of the Area
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCube.ZRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCube._DrawInEditor(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCube._GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXSphere">
+            <summary>
+            Implementation of a spheric FXArea
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXSphere.Radius">
+            <summary>
+            [GET / SET] The radius of the Area
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXSphere.ZRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXSphere._DrawInEditor(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXSphere._GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXArea">
+            <summary>
+            Abstract Component used by FX classes to determine the area where the effect can appear
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXArea.ZRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXArea.DrawInEditor(Duality.Drawing.Canvas,Duality.Drawing.ColorRgba)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+             <param name="inColor"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXArea.GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXArea._DrawInEditor(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXArea._GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCircle">
+            <summary>
+            Implementation of a circular FXArea
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCircle.Radius">
+            <summary>
+            [GET / SET] The radius of the Area
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCircle._DrawInEditor(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXCircle._GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXPoint">
+            <summary>
+            Implementation of a puntiform FXArea
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXPoint._DrawInEditor(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXPoint._GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXRectangle">
+            <summary>
+            Implementation of a Rectangular FXArea
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXRectangle.Size">
+            <summary>
+            [GET / SET] the size of the Area
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXRectangle._DrawInEditor(Duality.Drawing.Canvas)">
+             <summary>
+            
+             </summary>
+             <param name="inCanvas"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.FXRectangle._GetPoint">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning">
+            <summary>
+            A Lightning effect emitter. Requires 2 FXAreas to work
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.BoltLifeTime">
+            <summary>
+            [GET / SET] The lifetime, in seconds, of a single Bolt on screen
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.Color">
+            <summary>
+            [GET / SET] The color of the Bolts emitted by this instance
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.EmitEvery">
+            <summary>
+            [GET / SET] The span, in seconds, between the emission of 2 Bolts
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.FXSource">
+            <summary>
+            [GET / SET] The Source Area of the Bolts
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.FXTarget">
+            <summary>
+            [GET / SET] The Target Area of the Bolts
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.DetailLevel">
+            <summary>
+            [GET / SET] The DetailLevel of the lightning bolts. Lower values means more points in the lightning bolts.
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.Sway">
+            <summary>
+            [GET / SET] The maximum amount of Sway (distance from the line connecting the starting and ending point)
+            each Bolt can move from the median line
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.Thickness">
+            <summary>
+            [GET / SET] Thickness, in pixels, at focus distance of the Camera, of the Bolt
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.Lightning.VisibilityGroup">
+            <summary>
+            [GET / SET] The VisibilityGroup of the Component
+            </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleRepulsor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleRepulsor._DrawInEditor(Duality.Drawing.Canvas)">
+            <summary>
+            
+            </summary>
+            <param name="inCanvas"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAttractor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAttractor._DrawInEditor(Duality.Drawing.Canvas)">
+            <summary>
+            
+            </summary>
+            <param name="inCanvas"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator.Strength">
+            <summary>
+            [GET/SET] The Strength of the effect applied to the particles - Altering the Direction only requires higher values
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator.Radius">
+            <summary>
+            [GET/SET] The maximum radius where particles are affected. Particles outside this radius are not affected.
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator.AlterParticleDirection">
+            <summary>
+            [GET/SET] If the particles' Direction should be altered or just their position.
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator.AffectedEmitter">
+            <summary>
+            [GET/SET] The Emitter which particles will be affected by this entity.
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator._DrawInEditor(Duality.Drawing.Canvas)">
+            <summary>
+            Method used to draw the entity inside the editor
+            </summary>
+            <param name="inCanvas"></param>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter">
+            <summary>
+            A Particle Emitter
+            </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._colorRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._emitterDirection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._emitterRotationSpeed">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._initialDirectionRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._initialRotationRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._initialScaleRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._movementSpeedRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._particlesNumberRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._rotationSpeedRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._scaleSpeedRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter._timeToLiveRange">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.#ctor">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.BoundRadius">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.ColorEnd">
+            <summary>
+            [GET / SET] the Color tint of the particles at the end of their lifetime
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.ColorStart">
+            <summary>
+            [GET / SET] the Color tint of the particles at the beginning of their lifetime
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.DrawParticlesOffScreen">
+            <summary>
+            [GET / SET] if off-screen particles should be drawn; Can improve performance to keep it off, but could
+            also cause particles to disappear prematurely if too big.
+            Only the particle's Center Coordinate is compared to the screen viewport.
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.EmitterDirection">
+            <summary>
+            [GET / SET] the starting relative direction of the emitter
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.EmitterRotationSpeed">
+            <summary>
+            [GET / SET] the rotation speed (in degrees/second) of the emitter
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.FXArea">
+            <summary>
+            [GET / SET] the FXArea generating particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.InitialDirection">
+            <summary>
+            [GET / SET] the initial direction range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.InitialRotation">
+            <summary>
+            [GET / SET] the initial rotation range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.InitialScale">
+            <summary>
+            [GET / SET] the initial scale range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.AlignParticlesWithDirection">
+            <summary>
+            [GET / SET] if particles' angle should be aligned with the traveling direction.
+            If set, InitialRotation will be ignored
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.IsEnabled">
+            <summary>
+            [GET / SET] if new particles are generated
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.IsVisible">
+            <summary>
+            [GET / SET] if particles are drawn
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.Material">
+            <summary>
+            [GET / SET] the material used for the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.MovementSpeed">
+            <summary>
+            [GET / SET] the movement speed range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.NewParticlesPerSecond">
+            <summary>
+            [GET / SET] how many particles can be generated at most each second
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.ParticlesAmount">
+            <summary>
+            [GET / SET] the minimum / maximum of particles that should be alive at a given moment
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.RotationSpeed">
+            <summary>
+            [GET / SET] the rotation speed range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.ScaleSpeed">
+            <summary>
+            [GET / SET] the scale-change speed range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.TimeToLive">
+            <summary>
+            [GET / SET] the time to live range of the particles
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.VisibilityGroup">
+            <summary>
+            [GET / SET] the VisibilityGroup
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.RandomGeometryStrength">
+            <summary>
+            [GET / SET] the range of randomness a particle's geometry is generated with.
+            0 = no randomness, 1 = completely random
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.HasAliveParticles">
+            <summary>
+            [GET] if there are particles still alive
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.Burst">
+            <summary>
+            Sends a Burst of particles (emit all particles up to the maximum number in the next frame)
+            </summary>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.ReInitialize(System.Boolean)">
+            <summary>
+            Reinitializes the emitter, eventually clearing the active particles.
+            Note: If the maximum number of active particles exceeds the vertex array's capacity, 
+            they will be reinitialized anyway-
+            </summary>
+            <param name="reinitializeParticles"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.AlterParticles(SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleAlterator,System.Single)">
+            <summary>
+            This method is called by Particle Alterators (Attractor/Repulsor) in order to affect the particles's 
+            position or direction, depending on the configuration.
+            </summary>
+            <param name="inAlterator"></param>
+            <param name="inSecondsPast"></param>
+        </member>
+        <member name="M:SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter.KillAll">
+            <summary>
+            Kills all particles currently active.
+            </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.FrozenFXPlugin">
+            <summary>
+            Defines a Duality core plugin.
+            </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.LightningBolt">
+            <summary>
+            Class modeling a single Lightning Bolt emitted by a Lightning emitter
+            </summary>
+        </member>
+        <member name="P:SnowyPeak.Duality.Plugin.Frozen.FX.LightningBolt.BatchInfos">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:SnowyPeak.Duality.Plugin.Frozen.FX.Particle">
+            <summary>
+            Class modeling a single Particle emitted by a Particle emitter
+            </summary>
+        </member>
+    </members>
+</doc>

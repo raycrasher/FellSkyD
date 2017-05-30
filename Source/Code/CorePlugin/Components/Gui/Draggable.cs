@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FellSky.Components.Ships.Perks
+namespace FellSky.Components.Gui
 {
-    public abstract class Perk: Component
+    [Duality.Editor.EditorHintCategory("Gui")]
+    public class Draggable: Component
     {
     }
 }
